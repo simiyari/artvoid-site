@@ -6,6 +6,7 @@
 /* ─── پالت مونوکروم Artvoid — نقش‌محور: در حالت تیره paper ↔ ink معکوس می‌شوند ───
    مقادیر هر دو حالت در docs/DESIGN.md ثبت است. */
 :root {
+  color-scheme: light;
   --ink: #0a0a0a;
   --ink-soft: #262626;
   --gray-strong: #525252;
@@ -17,6 +18,7 @@
 }
 
 [data-theme="dark"] {
+  color-scheme: dark;
   --ink: #fafafa;
   --ink-soft: #d4d4d4;
   --gray-strong: #a3a3a3;
@@ -100,6 +102,19 @@
   :focus-visible {
     outline: 2px solid var(--ink);
     outline-offset: 2px;
+  }
+
+  /* فیلدهای فرم: فوکوس فقط با تغییر رنگ border — بدون outline دوتایی */
+  input:focus-visible,
+  textarea:focus-visible,
+  select:focus-visible {
+    outline: none;
+  }
+
+  /* گزینه‌های select بومی — هماهنگ با تم */
+  select option {
+    background-color: var(--surface);
+    color: var(--ink);
   }
 
   @media (prefers-reduced-motion: no-preference) {

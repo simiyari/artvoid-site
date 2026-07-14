@@ -6,10 +6,11 @@ export default function Footer() {
     <footer className="border-t border-gray-soft">
       <Container className="flex flex-col gap-4 py-12 md:flex-row md:items-center md:justify-between">
         <div className="flex items-center gap-3">
+          {/* ترتیب برند: اول لوگومارک، بعد لوگوتایپ ARTVOID با Inter (تصمیم سپهر) */}
           <img src="/brand/mark-dark.svg" alt="" width={22} height={22} className="dark:hidden" />
           <img src="/brand/mark-light.svg" alt="" width={22} height={22} className="hidden dark:block" />
-          <span lang="en" dir="ltr" className="font-display text-body font-bold text-ink">
-            {site.brand}
+          <span lang="en" dir="ltr" className="font-latin text-body font-bold tracking-widest text-ink">
+            {site.logotype}
           </span>
           <span className="text-small text-gray-strong">{site.tagline}</span>
         </div>

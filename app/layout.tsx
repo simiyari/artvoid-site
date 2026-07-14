@@ -1,9 +1,14 @@
 import type { Metadata } from "next";
+import Footer from "@/components/sections/Footer";
+import Navbar from "@/components/sections/Navbar";
 import { inter, switzer, yekan } from "./fonts";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "آرت‌وید | استودیو طراحی و توسعه دیجیتال",
+  title: {
+    default: "آرت‌وید | استودیو طراحی و توسعه دیجیتال",
+    template: "%s | آرت‌وید",
+  },
   description:
     "Artvoid — طراحی سایت اختصاصی، نرم‌افزار سفارشی و محصولات SaaS. مینیمال، سریع، دقیق.",
 };
@@ -21,9 +26,11 @@ export default function RootLayout({
       suppressHydrationWarning
       className={`${yekan.variable} ${inter.variable} ${switzer.variable}`}
     >
-      <body>
+      <body className="flex min-h-dvh flex-col">
         <script dangerouslySetInnerHTML={{ __html: themeInit }} />
-        {children}
+        <Navbar />
+        <div className="flex-1">{children}</div>
+        <Footer />
       </body>
     </html>
   );

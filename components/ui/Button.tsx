@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { ButtonHTMLAttributes } from "react";
 import { cn } from "@/lib/cn";
 
-type ButtonVariant = "primary" | "ghost";
+type ButtonVariant = "primary" | "ghost" | "inverse";
 type ButtonSize = "sm" | "md" | "lg";
 
 const base =
@@ -11,6 +11,8 @@ const base =
 const variants: Record<ButtonVariant, string> = {
   primary: "bg-ink text-paper hover:bg-ink-soft",
   ghost: "border border-gray-soft text-ink hover:border-gray-strong",
+  /** برای بلوک‌های معکوس (پس‌زمینه ink) */
+  inverse: "bg-paper text-ink hover:bg-mist",
 };
 
 const sizes: Record<ButtonSize, string> = {

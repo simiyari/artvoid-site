@@ -8,8 +8,6 @@ import Reveal from "@/components/ui/Reveal";
 import Section from "@/components/ui/Section";
 import Select from "@/components/ui/Select";
 import Textarea from "@/components/ui/Textarea";
-import Footer from "@/components/sections/Footer";
-import Navbar from "@/components/sections/Navbar";
 import { devUi } from "@/content/dev-ui";
 
 export const metadata: Metadata = {
@@ -43,9 +41,7 @@ export default function DevUiPage() {
   const t = devUi;
 
   return (
-    <>
-      <Navbar />
-      <main>
+    <main>
         <Section className="pb-0 md:pb-0">
           <Container>
             <h1 className="text-h1 text-ink">{t.title}</h1>
@@ -198,8 +194,6 @@ export default function DevUiPage() {
             </div>
           </Container>
         </Section>
-      </main>
-      <Footer />
-    </>
+    </main>
   );
 }

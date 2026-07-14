@@ -4,7 +4,20 @@ import { cn } from "@/lib/cn";
 import { site } from "@/content/site";
 import { MoonIcon, SunIcon } from "./icons";
 
-export default function ThemeToggle({ className }: { className?: string }) {
+const sizes = {
+  /** هم‌قد دکمه sm — کنار دکمه‌های کوچک همین را به کار ببر */
+  sm: "size-9",
+  /** هم‌قد دکمه md و حداقل لمسی موبایل */
+  md: "size-11",
+} as const;
+
+export default function ThemeToggle({
+  className,
+  size = "md",
+}: {
+  className?: string;
+  size?: keyof typeof sizes;
+}) {
   const toggle = () => {
     const root = document.documentElement;
     const next = root.getAttribute("data-theme") === "dark" ? "light" : "dark";
@@ -22,7 +35,8 @@ export default function ThemeToggle({ className }: { className?: string }) {
       onClick={toggle}
       aria-label={site.themeToggleLabel}
       className={cn(
-        "inline-flex size-11 items-center justify-center rounded-sm border border-gray-soft text-ink-soft transition-colors duration-200 hover:border-gray-strong hover:text-ink",
+        "inline-flex items-center justify-center rounded-sm border border-gray-soft text-ink-soft transition-colors duration-200 hover:border-gray-strong hover:text-ink",
+        sizes[size],
         className,
       )}
     >

@@ -1,6 +1,8 @@
 // متن‌ها و لینک‌های سراسری سایت — هاردکد در JSX ممنوع (قانون CLAUDE.md)
 export const site = {
   brand: "Artvoid",
+  /** لوگوتایپ رسمی — حروف بزرگ با فونت Inter، همیشه بعد از لوگومارک */
+  logotype: "ARTVOID",
   tagline: "استودیو طراحی و توسعه دیجیتال",
   nav: [
     { label: "خانه", href: "/" },

@@ -23,11 +23,9 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-40 border-b border-gray-soft bg-paper transition-colors duration-200">
       <Container className="flex h-16 items-center justify-between gap-4">
-        <Link href="/" className="flex items-center gap-3">
-          <BrandMark />
-          <span lang="en" dir="ltr" className="font-display text-h3 font-bold text-ink">
-            {site.brand}
-          </span>
+        {/* نوبار: فقط لوگومارک (تصمیم سپهر — بدون لوگوتایپ) */}
+        <Link href="/" aria-label={site.brand} className="flex items-center">
+          <BrandMark size={32} />
         </Link>
 
         <nav aria-label={site.navAriaMain} className="hidden items-center gap-8 md:flex">
@@ -43,7 +41,8 @@ export default function Navbar() {
         </nav>
 
         <div className="hidden items-center gap-3 md:flex">
-          <ThemeToggle />
+          {/* هم‌قد با دکمه sm کنارش — آیتم‌های کنار هم باید یک اندازه باشند */}
+          <ThemeToggle size="sm" />
           <Button href={site.cta.href} size="sm">
             {site.cta.label}
           </Button>
