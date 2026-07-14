@@ -1,0 +1,66 @@
+{
+  "C:\\Users\\Sepehr\\Desktop\\Artvoid Design\\next-env.d.ts": {
+    "mtime": 1784044756.885916,
+    "hash": "b698cdd97fe8e3bd16dcd74899ad7cef"
+  },
+  "C:\\Users\\Sepehr\\Desktop\\Artvoid Design\\next.config.ts": {
+    "mtime": 1784044534.237213,
+    "hash": "d1dc1dc217f0e8cecac09bf84fe44be3"
+  },
+  "C:\\Users\\Sepehr\\Desktop\\Artvoid Design\\postcss.config.mjs": {
+    "mtime": 1784044535.0882092,
+    "hash": "239f3ebf717465dc636818a1a619398d"
+  },
+  "C:\\Users\\Sepehr\\Desktop\\Artvoid Design\\app\\fonts.ts": {
+    "mtime": 1784044644.9396632,
+    "hash": "27325e6d2a23b58b9d6d1e38a68a1ab6"
+  },
+  "C:\\Users\\Sepehr\\Desktop\\Artvoid Design\\app\\layout.tsx": {
+    "mtime": 1784044650.8068645,
+    "hash": "011b811d4ad46438f3b6c93df24b1c71"
+  },
+  "C:\\Users\\Sepehr\\Desktop\\Artvoid Design\\app\\page.tsx": {
+    "mtime": 1784044663.2816243,
+    "hash": "a171b6f50c732664c3f1a591e2366988"
+  },
+  "C:\\Users\\Sepehr\\Desktop\\Artvoid Design\\components\\ui\\ThemeToggle.tsx": {
+    "mtime": 1784044658.1633582,
+    "hash": "6442b500f770d517545c6ded4d1c89b1"
+  },
+  "C:\\Users\\Sepehr\\Desktop\\Artvoid Design\\content\\home.ts": {
+    "mtime": 1784044656.4342382,
+    "hash": "41a189f4295b92774d5c6d63f1d087ee"
+  },
+  "C:\\Users\\Sepehr\\Desktop\\Artvoid Design\\CLAUDE.md": {
+    "mtime": 1784042459.0,
+    "hash": "b00b5dcbc1740c707cd67499f76e618b"
+  },
+  "C:\\Users\\Sepehr\\Desktop\\Artvoid Design\\PROGRESS.md": {
+    "mtime": 1784044050.7523916,
+    "hash": "a0823c454c4ecb5b0cdd64a72ed01cc6"
+  },
+  "C:\\Users\\Sepehr\\Desktop\\Artvoid Design\\README.md": {
+    "mtime": 1784044724.304386,
+    "hash": "3feed559062a72cf63f66f83148b64ed"
+  },
+  "C:\\Users\\Sepehr\\Desktop\\Artvoid Design\\docs\\DESIGN.md": {
+    "mtime": 1784044054.941998,
+    "hash": "dda49008a219cc77387cfc49a93c788a"
+  },
+  "C:\\Users\\Sepehr\\Desktop\\Artvoid Design\\docs\\ROADMAP.md": {
+    "mtime": 1784042501.0,
+    "hash": "dfeeabb5640856b23891cd0a7edc6387"
+  },
+  "C:\\Users\\Sepehr\\Desktop\\Artvoid Design\\docs\\SHOWCASE.md": {
+    "mtime": 1784041761.0,
+    "hash": "9ca70f600384123e9fd953d980a87b53"
+  },
+  "C:\\Users\\Sepehr\\Desktop\\Artvoid Design\\public\\brand\\mark-dark.svg": {
+    "mtime": 1778060449.0,
+    "hash": "22fa2f0721ea2f1c96d3e49bd94d0336"
+  },
+  "C:\\Users\\Sepehr\\Desktop\\Artvoid Design\\public\\brand\\mark-light.svg": {
+    "mtime": 1778060713.0,
+    "hash": "55ca49acc756e3618ba62c0529051988"
+  }
+}

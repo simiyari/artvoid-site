@@ -1,0 +1,11 @@
+// همه متن‌های صفحه خانه — هاردکد کردن متن فارسی در JSX ممنوع (قانون CLAUDE.md)
+export const home = {
+  brand: "Artvoid",
+  title: "استودیو طراحی و توسعه دیجیتال",
+  tagline:
+    "وب‌سایت رسمی آرت‌وید در حال ساخت است؛ به‌زودی با نمونه‌کارها، خدمات و تجربه‌های تعاملی برمی‌گردیم.",
+  meta: "تهران — تیر ۱۴۰۵",
+  metaLatin: "Crafted with precision",
+  themeToggleLabel: "تغییر حالت روشن و تیره",
+  themeToggleText: "روشن / تیره",
+};

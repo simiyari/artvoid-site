@@ -1,0 +1,115 @@
+@import "tailwindcss";
+
+/* ─── سوییچ تم با data-theme (نه کلاس) ─── */
+@custom-variant dark ([data-theme="dark"] &);
+
+/* ─── پالت مونوکروم Artvoid — نقش‌محور: در حالت تیره paper ↔ ink معکوس می‌شوند ───
+   مقادیر هر دو حالت در docs/DESIGN.md ثبت است. */
+:root {
+  --ink: #0a0a0a;
+  --ink-soft: #262626;
+  --gray-strong: #525252;
+  --gray: #a3a3a3;
+  --gray-soft: #d4d4d4;
+  --mist: #f5f5f5;
+  --paper: #fafafa;
+  --surface: #ffffff;
+}
+
+[data-theme="dark"] {
+  --ink: #fafafa;
+  --ink-soft: #d4d4d4;
+  --gray-strong: #a3a3a3;
+  --gray: #737373;
+  --gray-soft: #2e2e2e;
+  --mist: #171717;
+  --paper: #0a0a0a;
+  --surface: #141414;
+}
+
+/* پالت پیش‌فرض Tailwind حذف — فقط توکن‌های Artvoid مجازند (قانون DESIGN.md) */
+@theme {
+  --color-*: initial;
+  --text-*: initial;
+  --radius-*: initial;
+
+  /* رنگ‌های سمانتیک — فقط برای وضعیت‌های سیستمی */
+  --color-success: #16a34a;
+  --color-danger: #dc2626;
+  --color-warning: #d97706;
+
+  /* تایپوگرافی — مقیاس DESIGN.md بر پایه 16px */
+  --text-display: clamp(3.5rem, 2.8rem + 3.5vw, 4.5rem);
+  --text-display--line-height: 1.15;
+  --text-display--font-weight: 700;
+  --text-h1: 2.5rem;
+  --text-h1--line-height: 1.35;
+  --text-h1--font-weight: 700;
+  --text-h2: 1.75rem;
+  --text-h2--line-height: 1.45;
+  --text-h2--font-weight: 700;
+  --text-h3: 1.25rem;
+  --text-h3--line-height: 1.55;
+  --text-h3--font-weight: 500;
+  --text-body: 1rem;
+  --text-body--line-height: 1.8;
+  --text-small: 0.875rem;
+  --text-small--line-height: 1.7;
+
+  /* گوشه‌ها — فقط دو مقدار مجاز */
+  --radius-sm: 6px;
+  --radius-md: 12px;
+
+  /* عرض container اصلی: 1200px */
+  --container-site: 75rem;
+
+  /* منحنی ورود عناصر (DESIGN.md بخش حرکت) */
+  --ease-enter: cubic-bezier(0.22, 1, 0.36, 1);
+
+  /* فونت‌ها: یکان (فارسی + اعداد فارسی) ← Inter (لاتین) ← Switzer (تیتر لاتین/لوگوتایپ) */
+  --font-sans: var(--font-yekan), var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-latin: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-switzer), var(--font-inter), ui-sans-serif, sans-serif;
+}
+
+/* رنگ‌های مونوکروم به‌صورت inline تا با تغییر data-theme زنده عوض شوند */
+@theme inline {
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-gray-strong: var(--gray-strong);
+  --color-gray: var(--gray);
+  --color-gray-soft: var(--gray-soft);
+  --color-mist: var(--mist);
+  --color-paper: var(--paper);
+  --color-white: var(--surface);
+}
+
+@layer base {
+  body {
+    @apply bg-paper font-sans text-body text-ink;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  ::selection {
+    background-color: var(--ink);
+    color: var(--paper);
+  }
+
+  /* دسترسی‌پذیری: focus مشخص با ink (الزام DESIGN.md) */
+  :focus-visible {
+    outline: 2px solid var(--ink);
+    outline-offset: 2px;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      transition:
+        background-color 200ms ease-out,
+        color 200ms ease-out;
+    }
+  }
+}
