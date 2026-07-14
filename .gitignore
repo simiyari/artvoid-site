@@ -30,3 +30,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# graphify transient cache (post-commit hook churn)
+/graphify-out/cache/

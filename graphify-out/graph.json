@@ -4,56 +4,172 @@
   "graph": {},
   "nodes": [
     {
-      "label": "next-env.d.ts",
-      "file_type": "code",
-      "source_file": "next-env.d.ts",
+      "label": "PROGRESS.md",
+      "file_type": "document",
+      "source_file": "PROGRESS.md",
       "source_location": "L1",
-      "id": "next_env_d_ts",
-      "community": 10,
-      "norm_label": "next-env.d.ts"
-    },
-    {
-      "label": "next.config.ts",
-      "file_type": "code",
-      "source_file": "next.config.ts",
-      "source_location": "L1",
-      "id": "next_config_ts",
-      "community": 9,
-      "norm_label": "next.config.ts"
-    },
-    {
-      "label": "nextConfig",
-      "file_type": "code",
-      "source_file": "next.config.ts",
-      "source_location": "L4",
-      "id": "artvoid_design_next_config_nextconfig",
-      "community": 9,
-      "norm_label": "nextconfig"
-    },
-    {
-      "label": "postcss.config.mjs",
-      "file_type": "code",
-      "source_file": "postcss.config.mjs",
-      "source_location": "L1",
-      "id": "postcss_config_mjs",
+      "_origin": "ast",
+      "id": "progress",
       "community": 8,
-      "norm_label": "postcss.config.mjs"
+      "norm_label": "progress.md"
     },
     {
-      "label": "config",
-      "file_type": "code",
-      "source_file": "postcss.config.mjs",
+      "label": "PROGRESS.md \u2014 \u062d\u0627\u0641\u0638\u0647 \u067e\u06cc\u0634\u0631\u0641\u062a \u067e\u0631\u0648\u0698\u0647 Artvoid",
+      "file_type": "document",
+      "source_file": "PROGRESS.md",
       "source_location": "L1",
-      "id": "artvoid_design_postcss_config_config",
+      "_origin": "ast",
+      "id": "progress_progress_md_\u062d\u0627\u0641\u0638\u0647_\u067e\u06cc\u0634\u0631\u0641\u062a_\u067e\u0631\u0648\u0698\u0647_artvoid",
       "community": 8,
-      "norm_label": "config"
+      "norm_label": "progress.md \u2014 \u062d\u0627\u0641\u0638\u0647 \u067e\u06cc\u0634\u0631\u0641\u062a \u067e\u0631\u0648\u0698\u0647 artvoid"
+    },
+    {
+      "label": "\u0648\u0636\u0639\u06cc\u062a \u0641\u0639\u0644\u06cc",
+      "file_type": "document",
+      "source_file": "PROGRESS.md",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "progress_\u0648\u0636\u0639\u06cc\u062a_\u0641\u0639\u0644\u06cc",
+      "community": 8,
+      "norm_label": "\u0648\u0636\u0639\u06cc\u062a \u0641\u0639\u0644\u06cc"
+    },
+    {
+      "label": "\u062a\u0635\u0645\u06cc\u0645\u0627\u062a \u0642\u0637\u0639\u06cc\u200c\u0634\u062f\u0647",
+      "file_type": "document",
+      "source_file": "PROGRESS.md",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "progress_\u062a\u0635\u0645\u06cc\u0645\u0627\u062a_\u0642\u0637\u0639\u06cc_\u0634\u062f\u0647",
+      "community": 8,
+      "norm_label": "\u062a\u0635\u0645\u06cc\u0645\u0627\u062a \u0642\u0637\u0639\u06cc\u200c\u0634\u062f\u0647"
+    },
+    {
+      "label": "\u062a\u0635\u0645\u06cc\u0645\u0627\u062a \u0628\u0627\u0632 (\u0627\u0632 \u06a9\u0627\u0631\u0628\u0631 \u0628\u067e\u0631\u0633 \u0648\u0642\u062a\u06cc \u0628\u0647 \u0622\u0646 \u0631\u0633\u06cc\u062f\u06cc)",
+      "file_type": "document",
+      "source_file": "PROGRESS.md",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "progress_\u062a\u0635\u0645\u06cc\u0645\u0627\u062a_\u0628\u0627\u0632_\u0627\u0632_\u06a9\u0627\u0631\u0628\u0631_\u0628\u067e\u0631\u0633_\u0648\u0642\u062a\u06cc_\u0628\u0647_\u0622\u0646_\u0631\u0633\u06cc\u062f\u06cc",
+      "community": 8,
+      "norm_label": "\u062a\u0635\u0645\u06cc\u0645\u0627\u062a \u0628\u0627\u0632 (\u0627\u0632 \u06a9\u0627\u0631\u0628\u0631 \u0628\u067e\u0631\u0633 \u0648\u0642\u062a\u06cc \u0628\u0647 \u0627\u0646 \u0631\u0633\u06cc\u062f\u06cc)"
+    },
+    {
+      "label": "\u0633\u0627\u0628\u0642\u0647 \u06a9\u0627\u0631\u0647\u0627\u06cc \u0627\u0646\u062c\u0627\u0645\u200c\u0634\u062f\u0647",
+      "file_type": "document",
+      "source_file": "PROGRESS.md",
+      "source_location": "L32",
+      "_origin": "ast",
+      "id": "progress_\u0633\u0627\u0628\u0642\u0647_\u06a9\u0627\u0631\u0647\u0627\u06cc_\u0627\u0646\u062c\u0627\u0645_\u0634\u062f\u0647",
+      "community": 8,
+      "norm_label": "\u0633\u0627\u0628\u0642\u0647 \u06a9\u0627\u0631\u0647\u0627\u06cc \u0627\u0646\u062c\u0627\u0645\u200c\u0634\u062f\u0647"
+    },
+    {
+      "label": "\u0645\u0631\u062d\u0644\u0647 \u06f0 \u2014 \u0628\u0648\u062a\u200c\u0627\u0633\u062a\u0631\u067e (\u062e\u0648\u062f\u06a9\u0627\u0631 \u062a\u0648\u0633\u0637 Claude Code)",
+      "file_type": "document",
+      "source_file": "PROGRESS.md",
+      "source_location": "L34",
+      "_origin": "ast",
+      "id": "progress_\u0645\u0631\u062d\u0644\u0647_\u06f0_\u0628\u0648\u062a_\u0627\u0633\u062a\u0631\u067e_\u062e\u0648\u062f\u06a9\u0627\u0631_\u062a\u0648\u0633\u0637_claude_code",
+      "community": 8,
+      "norm_label": "\u0645\u0631\u062d\u0644\u0647 \u06f0 \u2014 \u0628\u0648\u062a\u200c\u0627\u0633\u062a\u0631\u067e (\u062e\u0648\u062f\u06a9\u0627\u0631 \u062a\u0648\u0633\u0637 claude code)"
+    },
+    {
+      "label": "\u0645\u0631\u062d\u0644\u0647 \u06f1 \u2014 \u0627\u0633\u06a9\u0644\u062a \u067e\u0631\u0648\u0698\u0647",
+      "file_type": "document",
+      "source_file": "PROGRESS.md",
+      "source_location": "L41",
+      "_origin": "ast",
+      "id": "progress_\u0645\u0631\u062d\u0644\u0647_\u06f1_\u0627\u0633\u06a9\u0644\u062a_\u067e\u0631\u0648\u0698\u0647",
+      "community": 8,
+      "norm_label": "\u0645\u0631\u062d\u0644\u0647 \u06f1 \u2014 \u0627\u0633\u06a9\u0644\u062a \u067e\u0631\u0648\u0698\u0647"
+    },
+    {
+      "label": "\u0645\u0631\u062d\u0644\u0647 \u06f2 \u2014 \u06a9\u0627\u0645\u067e\u0648\u0646\u0646\u062a\u200c\u0647\u0627\u06cc \u067e\u0627\u06cc\u0647",
+      "file_type": "document",
+      "source_file": "PROGRESS.md",
+      "source_location": "L50",
+      "_origin": "ast",
+      "id": "progress_\u0645\u0631\u062d\u0644\u0647_\u06f2_\u06a9\u0627\u0645\u067e\u0648\u0646\u0646\u062a_\u0647\u0627\u06cc_\u067e\u0627\u06cc\u0647",
+      "community": 8,
+      "norm_label": "\u0645\u0631\u062d\u0644\u0647 \u06f2 \u2014 \u06a9\u0627\u0645\u067e\u0648\u0646\u0646\u062a\u200c\u0647\u0627\u06cc \u067e\u0627\u06cc\u0647"
+    },
+    {
+      "label": "\u0645\u0631\u062d\u0644\u0647 \u06f3 \u0628\u0647 \u0628\u0639\u062f",
+      "file_type": "document",
+      "source_file": "PROGRESS.md",
+      "source_location": "L53",
+      "_origin": "ast",
+      "id": "progress_\u0645\u0631\u062d\u0644\u0647_\u06f3_\u0628\u0647_\u0628\u0639\u062f",
+      "community": 8,
+      "norm_label": "\u0645\u0631\u062d\u0644\u0647 \u06f3 \u0628\u0647 \u0628\u0639\u062f"
+    },
+    {
+      "label": "\u0646\u06a9\u0627\u062a \u0648 \u062f\u0631\u0633\u200c\u0622\u0645\u0648\u062e\u062a\u0647\u200c\u0647\u0627",
+      "file_type": "document",
+      "source_file": "PROGRESS.md",
+      "source_location": "L56",
+      "_origin": "ast",
+      "id": "progress_\u0646\u06a9\u0627\u062a_\u0648_\u062f\u0631\u0633_\u0622\u0645\u0648\u062e\u062a\u0647_\u0647\u0627",
+      "community": 8,
+      "norm_label": "\u0646\u06a9\u0627\u062a \u0648 \u062f\u0631\u0633\u200c\u0627\u0645\u0648\u062e\u062a\u0647\u200c\u0647\u0627"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "readme",
+      "community": 9,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "Artvoid \u2014 artvoid.ir",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "readme_artvoid_artvoid_ir",
+      "community": 9,
+      "norm_label": "artvoid \u2014 artvoid.ir"
+    },
+    {
+      "label": "\u0627\u0633\u062a\u06a9",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "readme_\u0627\u0633\u062a\u06a9",
+      "community": 9,
+      "norm_label": "\u0627\u0633\u062a\u06a9"
+    },
+    {
+      "label": "\u062a\u0648\u0633\u0639\u0647",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "readme_\u062a\u0648\u0633\u0639\u0647",
+      "community": 9,
+      "norm_label": "\u062a\u0648\u0633\u0639\u0647"
+    },
+    {
+      "label": "\u0627\u0633\u0646\u0627\u062f \u067e\u0631\u0648\u0698\u0647",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "readme_\u0627\u0633\u0646\u0627\u062f_\u067e\u0631\u0648\u0698\u0647",
+      "community": 9,
+      "norm_label": "\u0627\u0633\u0646\u0627\u062f \u067e\u0631\u0648\u0698\u0647"
     },
     {
       "label": "fonts.ts",
       "file_type": "code",
       "source_file": "app/fonts.ts",
       "source_location": "L1",
-      "id": "app_fonts_ts",
+      "_origin": "ast",
+      "id": "app_fonts",
       "community": 4,
       "norm_label": "fonts.ts"
     },
@@ -62,6 +178,7 @@
       "file_type": "code",
       "source_file": "app/fonts.ts",
       "source_location": "L6",
+      "_origin": "ast",
       "id": "app_fonts_yekan",
       "community": 4,
       "norm_label": "yekan"
@@ -71,6 +188,7 @@
       "file_type": "code",
       "source_file": "app/fonts.ts",
       "source_location": "L14",
+      "_origin": "ast",
       "id": "app_fonts_inter",
       "community": 4,
       "norm_label": "inter"
@@ -80,6 +198,7 @@
       "file_type": "code",
       "source_file": "app/fonts.ts",
       "source_location": "L25",
+      "_origin": "ast",
       "id": "app_fonts_switzer",
       "community": 4,
       "norm_label": "switzer"
@@ -89,7 +208,8 @@
       "file_type": "code",
       "source_file": "app/layout.tsx",
       "source_location": "L1",
-      "id": "app_layout_tsx",
+      "_origin": "ast",
+      "id": "app_layout",
       "community": 4,
       "norm_label": "layout.tsx"
     },
@@ -98,6 +218,7 @@
       "file_type": "code",
       "source_file": "app/layout.tsx",
       "source_location": "L5",
+      "_origin": "ast",
       "id": "app_layout_metadata",
       "community": 4,
       "norm_label": "metadata"
@@ -107,6 +228,7 @@
       "file_type": "code",
       "source_file": "app/layout.tsx",
       "source_location": "L14",
+      "_origin": "ast",
       "id": "app_layout_rootlayout",
       "community": 4,
       "norm_label": "rootlayout()"
@@ -116,7 +238,8 @@
       "file_type": "code",
       "source_file": "app/page.tsx",
       "source_location": "L1",
-      "id": "app_page_tsx",
+      "_origin": "ast",
+      "id": "app_page",
       "community": 7,
       "norm_label": "page.tsx"
     },
@@ -125,6 +248,7 @@
       "file_type": "code",
       "source_file": "app/page.tsx",
       "source_location": "L4",
+      "_origin": "ast",
       "id": "app_page_homepage",
       "community": 7,
       "norm_label": "homepage()"
@@ -134,7 +258,8 @@
       "file_type": "code",
       "source_file": "components/ui/ThemeToggle.tsx",
       "source_location": "L1",
-      "id": "components_ui_themetoggle_tsx",
+      "_origin": "ast",
+      "id": "ui_themetoggle",
       "community": 7,
       "norm_label": "themetoggle.tsx"
     },
@@ -143,6 +268,7 @@
       "file_type": "code",
       "source_file": "components/ui/ThemeToggle.tsx",
       "source_location": "L6",
+      "_origin": "ast",
       "id": "ui_themetoggle_themetoggle",
       "community": 7,
       "norm_label": "themetoggle()"
@@ -152,7 +278,8 @@
       "file_type": "code",
       "source_file": "content/home.ts",
       "source_location": "L1",
-      "id": "content_home_ts",
+      "_origin": "ast",
+      "id": "content_home",
       "community": 7,
       "norm_label": "home.ts"
     },
@@ -161,304 +288,18 @@
       "file_type": "code",
       "source_file": "content/home.ts",
       "source_location": "L2",
+      "_origin": "ast",
       "id": "content_home_home",
       "community": 7,
       "norm_label": "home"
-    },
-    {
-      "label": "CLAUDE.md",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L1",
-      "id": "claude_md",
-      "community": 0,
-      "norm_label": "claude.md"
-    },
-    {
-      "label": "CLAUDE.md \u2014 \u0645\u063a\u0632 \u0641\u0631\u0645\u0627\u0646\u062f\u0647 \u067e\u0631\u0648\u0698\u0647 Artvoid",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L1",
-      "id": "artvoid_design_claude_claude_md_\u0645\u063a\u0632_\u0641\u0631\u0645\u0627\u0646\u062f\u0647_\u067e\u0631\u0648\u0698\u0647_artvoid",
-      "community": 0,
-      "norm_label": "claude.md \u2014 \u0645\u063a\u0632 \u0641\u0631\u0645\u0627\u0646\u062f\u0647 \u067e\u0631\u0648\u0698\u0647 artvoid"
-    },
-    {
-      "label": "\u0647\u0648\u06cc\u062a",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L5",
-      "id": "artvoid_design_claude_\u0647\u0648\u06cc\u062a",
-      "community": 0,
-      "norm_label": "\u0647\u0648\u06cc\u062a"
-    },
-    {
-      "label": "\ud83d\udd11 \u0627\u0642\u062a\u0635\u0627\u062f \u062a\u0648\u06a9\u0646 \u2014 \u0628\u0627\u0644\u0627\u062a\u0631\u06cc\u0646 \u0627\u0648\u0644\u0648\u06cc\u062a \u0631\u0641\u062a\u0627\u0631\u06cc",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L9",
-      "id": "artvoid_design_claude_\u0627\u0642\u062a\u0635\u0627\u062f_\u062a\u0648\u06a9\u0646_\u0628\u0627\u0644\u0627\u062a\u0631\u06cc\u0646_\u0627\u0648\u0644\u0648\u06cc\u062a_\u0631\u0641\u062a\u0627\u0631\u06cc",
-      "community": 0,
-      "norm_label": "\ud83d\udd11 \u0627\u0642\u062a\u0635\u0627\u062f \u062a\u0648\u06a9\u0646 \u2014 \u0628\u0627\u0644\u0627\u062a\u0631\u06cc\u0646 \u0627\u0648\u0644\u0648\u06cc\u062a \u0631\u0641\u062a\u0627\u0631\u06cc"
-    },
-    {
-      "label": "\u067e\u0631\u0648\u062a\u06a9\u0644 \u0634\u0631\u0648\u0639 \u0633\u0634\u0646",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L18",
-      "id": "artvoid_design_claude_\u067e\u0631\u0648\u062a\u06a9\u0644_\u0634\u0631\u0648\u0639_\u0633\u0634\u0646",
-      "community": 0,
-      "norm_label": "\u067e\u0631\u0648\u062a\u06a9\u0644 \u0634\u0631\u0648\u0639 \u0633\u0634\u0646"
-    },
-    {
-      "label": "\u062d\u0627\u0644\u062a BOOTSTRAP (\u0641\u0642\u0637 \u0627\u0648\u0644\u06cc\u0646 \u0627\u062c\u0631\u0627 \u2014 \u062e\u0648\u062f\u06a9\u0627\u0631\u060c \u0628\u062f\u0648\u0646 \u0633\u0624\u0627\u0644 \u0627\u0636\u0627\u0641\u0647)",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L24",
-      "id": "artvoid_design_claude_\u062d\u0627\u0644\u062a_bootstrap_\u0641\u0642\u0637_\u0627\u0648\u0644\u06cc\u0646_\u0627\u062c\u0631\u0627_\u062e\u0648\u062f\u06a9\u0627\u0631_\u0628\u062f\u0648\u0646_\u0633\u0624\u0627\u0644_\u0627\u0636\u0627\u0641\u0647",
-      "community": 0,
-      "norm_label": "\u062d\u0627\u0644\u062a bootstrap (\u0641\u0642\u0637 \u0627\u0648\u0644\u06cc\u0646 \u0627\u062c\u0631\u0627 \u2014 \u062e\u0648\u062f\u06a9\u0627\u0631\u060c \u0628\u062f\u0648\u0646 \u0633\u0648\u0627\u0644 \u0627\u0636\u0627\u0641\u0647)"
-    },
-    {
-      "label": "\u062d\u0627\u0644\u062a \u06a9\u0627\u0631 \u0639\u0627\u062f\u06cc",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L35",
-      "id": "artvoid_design_claude_\u062d\u0627\u0644\u062a_\u06a9\u0627\u0631_\u0639\u0627\u062f\u06cc",
-      "community": 0,
-      "norm_label": "\u062d\u0627\u0644\u062a \u06a9\u0627\u0631 \u0639\u0627\u062f\u06cc"
-    },
-    {
-      "label": "code:block1 (\ud83d\udccd \u0645\u0631\u062d\u0644\u0647 [X] \u2014 [\u0646\u0627\u0645] | \u2705 \u0622\u062e\u0631\u06cc\u0646: [...] | \u25b6\ufe0f \u0628\u0639\u062f\u06cc: [...])",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L39",
-      "id": "artvoid_design_claude_codeblock_1",
-      "community": 0,
-      "norm_label": "code:block1 (\ud83d\udccd \u0645\u0631\u062d\u0644\u0647 [x] \u2014 [\u0646\u0627\u0645] | \u2705 \u0627\u062e\u0631\u06cc\u0646: [...] | \u25b6\ufe0f \u0628\u0639\u062f\u06cc: [...])"
-    },
-    {
-      "label": "\u067e\u0631\u0648\u062a\u06a9\u0644 \u067e\u0627\u06cc\u0627\u0646 \u0647\u0631 \u06a9\u0627\u0631",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L44",
-      "id": "artvoid_design_claude_\u067e\u0631\u0648\u062a\u06a9\u0644_\u067e\u0627\u06cc\u0627\u0646_\u0647\u0631_\u06a9\u0627\u0631",
-      "community": 0,
-      "norm_label": "\u067e\u0631\u0648\u062a\u06a9\u0644 \u067e\u0627\u06cc\u0627\u0646 \u0647\u0631 \u06a9\u0627\u0631"
-    },
-    {
-      "label": "\u0627\u0633\u062a\u06a9 \u0641\u0646\u06cc \u2014 \u062c\u062f\u06cc\u062f\u062a\u0631\u06cc\u0646 \u0646\u0633\u062e\u0647\u200c\u0647\u0627\u060c \u063a\u06cc\u0631\u0642\u0627\u0628\u0644 \u0645\u0630\u0627\u06a9\u0631\u0647",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L51",
-      "id": "artvoid_design_claude_\u0627\u0633\u062a\u06a9_\u0641\u0646\u06cc_\u062c\u062f\u06cc\u062f\u062a\u0631\u06cc\u0646_\u0646\u0633\u062e\u0647_\u0647\u0627_\u063a\u06cc\u0631\u0642\u0627\u0628\u0644_\u0645\u0630\u0627\u06a9\u0631\u0647",
-      "community": 0,
-      "norm_label": "\u0627\u0633\u062a\u06a9 \u0641\u0646\u06cc \u2014 \u062c\u062f\u06cc\u062f\u062a\u0631\u06cc\u0646 \u0646\u0633\u062e\u0647\u200c\u0647\u0627\u060c \u063a\u06cc\u0631\u0642\u0627\u0628\u0644 \u0645\u0630\u0627\u06a9\u0631\u0647"
-    },
-    {
-      "label": "\ud83c\uddee\ud83c\uddf7 \u0633\u0627\u0632\u06af\u0627\u0631\u06cc \u06a9\u0627\u0645\u0644 \u0628\u0627 \u0634\u0628\u06a9\u0647 \u0627\u06cc\u0631\u0627\u0646 \u2014 \u0642\u0627\u0646\u0648\u0646 \u0633\u062e\u062a",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L59",
-      "id": "artvoid_design_claude_\u0633\u0627\u0632\u06af\u0627\u0631\u06cc_\u06a9\u0627\u0645\u0644_\u0628\u0627_\u0634\u0628\u06a9\u0647_\u0627\u06cc\u0631\u0627\u0646_\u0642\u0627\u0646\u0648\u0646_\u0633\u062e\u062a",
-      "community": 0,
-      "norm_label": "\ud83c\uddee\ud83c\uddf7 \u0633\u0627\u0632\u06af\u0627\u0631\u06cc \u06a9\u0627\u0645\u0644 \u0628\u0627 \u0634\u0628\u06a9\u0647 \u0627\u06cc\u0631\u0627\u0646 \u2014 \u0642\u0627\u0646\u0648\u0646 \u0633\u062e\u062a"
-    },
-    {
-      "label": "\u0642\u0648\u0627\u0646\u06cc\u0646 \u0637\u0644\u0627\u06cc\u06cc \u0637\u0631\u0627\u062d\u06cc (\u06a9\u0627\u0645\u0644: docs/DESIGN.md)",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L69",
-      "id": "artvoid_design_claude_\u0642\u0648\u0627\u0646\u06cc\u0646_\u0637\u0644\u0627\u06cc\u06cc_\u0637\u0631\u0627\u062d\u06cc_\u06a9\u0627\u0645\u0644_docs_design_md",
-      "community": 0,
-      "norm_label": "\u0642\u0648\u0627\u0646\u06cc\u0646 \u0637\u0644\u0627\u06cc\u06cc \u0637\u0631\u0627\u062d\u06cc (\u06a9\u0627\u0645\u0644: docs/design.md)"
-    },
-    {
-      "label": "\u0633\u0627\u062e\u062a\u0627\u0631 \u067e\u0648\u0634\u0647\u200c\u0647\u0627",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L77",
-      "id": "artvoid_design_claude_\u0633\u0627\u062e\u062a\u0627\u0631_\u067e\u0648\u0634\u0647_\u0647\u0627",
-      "community": 0,
-      "norm_label": "\u0633\u0627\u062e\u062a\u0627\u0631 \u067e\u0648\u0634\u0647\u200c\u0647\u0627"
-    },
-    {
-      "label": "code:block2 (/app  /components/{ui,sections,showcase}  /content(\u0647\u0645\u0647 \u0645\u062a\u0646\u200c\u0647)",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L79",
-      "id": "artvoid_design_claude_codeblock_2",
-      "community": 0,
-      "norm_label": "code:block2 (/app  /components/{ui,sections,showcase}  /content(\u0647\u0645\u0647 \u0645\u062a\u0646\u200c\u0647)"
-    },
-    {
-      "label": "\u0647\u0631\u06af\u0632\u0647\u0627",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L84",
-      "id": "artvoid_design_claude_\u0647\u0631\u06af\u0632\u0647\u0627",
-      "community": 0,
-      "norm_label": "\u0647\u0631\u06af\u0632\u0647\u0627"
-    },
-    {
-      "label": "PROGRESS.md",
-      "file_type": "document",
-      "source_file": "PROGRESS.md",
-      "source_location": "L1",
-      "id": "progress_md",
-      "community": 2,
-      "norm_label": "progress.md"
-    },
-    {
-      "label": "PROGRESS.md \u2014 \u062d\u0627\u0641\u0638\u0647 \u067e\u06cc\u0634\u0631\u0641\u062a \u067e\u0631\u0648\u0698\u0647 Artvoid",
-      "file_type": "document",
-      "source_file": "PROGRESS.md",
-      "source_location": "L1",
-      "id": "artvoid_design_progress_progress_md_\u062d\u0627\u0641\u0638\u0647_\u067e\u06cc\u0634\u0631\u0641\u062a_\u067e\u0631\u0648\u0698\u0647_artvoid",
-      "community": 2,
-      "norm_label": "progress.md \u2014 \u062d\u0627\u0641\u0638\u0647 \u067e\u06cc\u0634\u0631\u0641\u062a \u067e\u0631\u0648\u0698\u0647 artvoid"
-    },
-    {
-      "label": "\u0648\u0636\u0639\u06cc\u062a \u0641\u0639\u0644\u06cc",
-      "file_type": "document",
-      "source_file": "PROGRESS.md",
-      "source_location": "L6",
-      "id": "artvoid_design_progress_\u0648\u0636\u0639\u06cc\u062a_\u0641\u0639\u0644\u06cc",
-      "community": 2,
-      "norm_label": "\u0648\u0636\u0639\u06cc\u062a \u0641\u0639\u0644\u06cc"
-    },
-    {
-      "label": "\u062a\u0635\u0645\u06cc\u0645\u0627\u062a \u0642\u0637\u0639\u06cc\u200c\u0634\u062f\u0647",
-      "file_type": "document",
-      "source_file": "PROGRESS.md",
-      "source_location": "L12",
-      "id": "artvoid_design_progress_\u062a\u0635\u0645\u06cc\u0645\u0627\u062a_\u0642\u0637\u0639\u06cc_\u0634\u062f\u0647",
-      "community": 2,
-      "norm_label": "\u062a\u0635\u0645\u06cc\u0645\u0627\u062a \u0642\u0637\u0639\u06cc\u200c\u0634\u062f\u0647"
-    },
-    {
-      "label": "\u062a\u0635\u0645\u06cc\u0645\u0627\u062a \u0628\u0627\u0632 (\u0627\u0632 \u06a9\u0627\u0631\u0628\u0631 \u0628\u067e\u0631\u0633 \u0648\u0642\u062a\u06cc \u0628\u0647 \u0622\u0646 \u0631\u0633\u06cc\u062f\u06cc)",
-      "file_type": "document",
-      "source_file": "PROGRESS.md",
-      "source_location": "L26",
-      "id": "artvoid_design_progress_\u062a\u0635\u0645\u06cc\u0645\u0627\u062a_\u0628\u0627\u0632_\u0627\u0632_\u06a9\u0627\u0631\u0628\u0631_\u0628\u067e\u0631\u0633_\u0648\u0642\u062a\u06cc_\u0628\u0647_\u0622\u0646_\u0631\u0633\u06cc\u062f\u06cc",
-      "community": 2,
-      "norm_label": "\u062a\u0635\u0645\u06cc\u0645\u0627\u062a \u0628\u0627\u0632 (\u0627\u0632 \u06a9\u0627\u0631\u0628\u0631 \u0628\u067e\u0631\u0633 \u0648\u0642\u062a\u06cc \u0628\u0647 \u0627\u0646 \u0631\u0633\u06cc\u062f\u06cc)"
-    },
-    {
-      "label": "\u0633\u0627\u0628\u0642\u0647 \u06a9\u0627\u0631\u0647\u0627\u06cc \u0627\u0646\u062c\u0627\u0645\u200c\u0634\u062f\u0647",
-      "file_type": "document",
-      "source_file": "PROGRESS.md",
-      "source_location": "L32",
-      "id": "artvoid_design_progress_\u0633\u0627\u0628\u0642\u0647_\u06a9\u0627\u0631\u0647\u0627\u06cc_\u0627\u0646\u062c\u0627\u0645_\u0634\u062f\u0647",
-      "community": 2,
-      "norm_label": "\u0633\u0627\u0628\u0642\u0647 \u06a9\u0627\u0631\u0647\u0627\u06cc \u0627\u0646\u062c\u0627\u0645\u200c\u0634\u062f\u0647"
-    },
-    {
-      "label": "\u0645\u0631\u062d\u0644\u0647 \u06f0 \u2014 \u0628\u0648\u062a\u200c\u0627\u0633\u062a\u0631\u067e (\u062e\u0648\u062f\u06a9\u0627\u0631 \u062a\u0648\u0633\u0637 Claude Code)",
-      "file_type": "document",
-      "source_file": "PROGRESS.md",
-      "source_location": "L34",
-      "id": "artvoid_design_progress_\u0645\u0631\u062d\u0644\u0647_\u06f0_\u0628\u0648\u062a_\u0627\u0633\u062a\u0631\u067e_\u062e\u0648\u062f\u06a9\u0627\u0631_\u062a\u0648\u0633\u0637_claude_code",
-      "community": 2,
-      "norm_label": "\u0645\u0631\u062d\u0644\u0647 \u06f0 \u2014 \u0628\u0648\u062a\u200c\u0627\u0633\u062a\u0631\u067e (\u062e\u0648\u062f\u06a9\u0627\u0631 \u062a\u0648\u0633\u0637 claude code)"
-    },
-    {
-      "label": "\u0645\u0631\u062d\u0644\u0647 \u06f1 \u2014 \u0627\u0633\u06a9\u0644\u062a \u067e\u0631\u0648\u0698\u0647",
-      "file_type": "document",
-      "source_file": "PROGRESS.md",
-      "source_location": "L41",
-      "id": "artvoid_design_progress_\u0645\u0631\u062d\u0644\u0647_\u06f1_\u0627\u0633\u06a9\u0644\u062a_\u067e\u0631\u0648\u0698\u0647",
-      "community": 2,
-      "norm_label": "\u0645\u0631\u062d\u0644\u0647 \u06f1 \u2014 \u0627\u0633\u06a9\u0644\u062a \u067e\u0631\u0648\u0698\u0647"
-    },
-    {
-      "label": "\u0645\u0631\u062d\u0644\u0647 \u06f2 \u2014 \u06a9\u0627\u0645\u067e\u0648\u0646\u0646\u062a\u200c\u0647\u0627\u06cc \u067e\u0627\u06cc\u0647",
-      "file_type": "document",
-      "source_file": "PROGRESS.md",
-      "source_location": "L50",
-      "id": "artvoid_design_progress_\u0645\u0631\u062d\u0644\u0647_\u06f2_\u06a9\u0627\u0645\u067e\u0648\u0646\u0646\u062a_\u0647\u0627\u06cc_\u067e\u0627\u06cc\u0647",
-      "community": 2,
-      "norm_label": "\u0645\u0631\u062d\u0644\u0647 \u06f2 \u2014 \u06a9\u0627\u0645\u067e\u0648\u0646\u0646\u062a\u200c\u0647\u0627\u06cc \u067e\u0627\u06cc\u0647"
-    },
-    {
-      "label": "\u0645\u0631\u062d\u0644\u0647 \u06f3 \u0628\u0647 \u0628\u0639\u062f",
-      "file_type": "document",
-      "source_file": "PROGRESS.md",
-      "source_location": "L53",
-      "id": "artvoid_design_progress_\u0645\u0631\u062d\u0644\u0647_\u06f3_\u0628\u0647_\u0628\u0639\u062f",
-      "community": 2,
-      "norm_label": "\u0645\u0631\u062d\u0644\u0647 \u06f3 \u0628\u0647 \u0628\u0639\u062f"
-    },
-    {
-      "label": "\u0646\u06a9\u0627\u062a \u0648 \u062f\u0631\u0633\u200c\u0622\u0645\u0648\u062e\u062a\u0647\u200c\u0647\u0627",
-      "file_type": "document",
-      "source_file": "PROGRESS.md",
-      "source_location": "L56",
-      "id": "artvoid_design_progress_\u0646\u06a9\u0627\u062a_\u0648_\u062f\u0631\u0633_\u0622\u0645\u0648\u062e\u062a\u0647_\u0647\u0627",
-      "community": 2,
-      "norm_label": "\u0646\u06a9\u0627\u062a \u0648 \u062f\u0631\u0633\u200c\u0627\u0645\u0648\u062e\u062a\u0647\u200c\u0647\u0627"
-    },
-    {
-      "label": "README.md",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L1",
-      "id": "readme_md",
-      "community": 6,
-      "norm_label": "readme.md"
-    },
-    {
-      "label": "Artvoid \u2014 artvoid.ir",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L1",
-      "id": "artvoid_design_readme_artvoid_artvoid_ir",
-      "community": 6,
-      "norm_label": "artvoid \u2014 artvoid.ir"
-    },
-    {
-      "label": "\u0627\u0633\u062a\u06a9",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L5",
-      "id": "artvoid_design_readme_\u0627\u0633\u062a\u06a9",
-      "community": 6,
-      "norm_label": "\u0627\u0633\u062a\u06a9"
-    },
-    {
-      "label": "\u062a\u0648\u0633\u0639\u0647",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L12",
-      "id": "artvoid_design_readme_\u062a\u0648\u0633\u0639\u0647",
-      "community": 6,
-      "norm_label": "\u062a\u0648\u0633\u0639\u0647"
-    },
-    {
-      "label": "code:bash (npm install)",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L14",
-      "id": "artvoid_design_readme_codeblock_1",
-      "community": 6,
-      "norm_label": "code:bash (npm install)"
-    },
-    {
-      "label": "\u0627\u0633\u0646\u0627\u062f \u067e\u0631\u0648\u0698\u0647",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L20",
-      "id": "artvoid_design_readme_\u0627\u0633\u0646\u0627\u062f_\u067e\u0631\u0648\u0698\u0647",
-      "community": 6,
-      "norm_label": "\u0627\u0633\u0646\u0627\u062f \u067e\u0631\u0648\u0698\u0647"
     },
     {
       "label": "DESIGN.md",
       "file_type": "document",
       "source_file": "docs/DESIGN.md",
       "source_location": "L1",
-      "id": "docs_design_md",
+      "_origin": "ast",
+      "id": "docs_design",
       "community": 1,
       "norm_label": "design.md"
     },
@@ -467,6 +308,7 @@
       "file_type": "document",
       "source_file": "docs/DESIGN.md",
       "source_location": "L1",
+      "_origin": "ast",
       "id": "docs_design_design_md_\u0633\u06cc\u0633\u062a\u0645_\u0637\u0631\u0627\u062d\u06cc_artvoid",
       "community": 1,
       "norm_label": "design.md \u2014 \u0633\u06cc\u0633\u062a\u0645 \u0637\u0631\u0627\u062d\u06cc artvoid"
@@ -476,6 +318,7 @@
       "file_type": "document",
       "source_file": "docs/DESIGN.md",
       "source_location": "L6",
+      "_origin": "ast",
       "id": "docs_design_\u06f1_\u0631\u0646\u06af_\u0647\u0627",
       "community": 1,
       "norm_label": "\u06f1. \u0631\u0646\u06af\u200c\u0647\u0627"
@@ -485,6 +328,7 @@
       "file_type": "document",
       "source_file": "docs/DESIGN.md",
       "source_location": "L8",
+      "_origin": "ast",
       "id": "docs_design_\u067e\u0627\u0644\u062a_\u0645\u0648\u0646\u0648\u06a9\u0631\u0648\u0645_\u062a\u0646\u0647\u0627_\u067e\u0627\u0644\u062a_\u0645\u062c\u0627\u0632_\u0628\u0631\u0627\u06cc_ui",
       "community": 1,
       "norm_label": "\u067e\u0627\u0644\u062a \u0645\u0648\u0646\u0648\u06a9\u0631\u0648\u0645 (\u062a\u0646\u0647\u0627 \u067e\u0627\u0644\u062a \u0645\u062c\u0627\u0632 \u0628\u0631\u0627\u06cc ui)"
@@ -494,6 +338,7 @@
       "file_type": "document",
       "source_file": "docs/DESIGN.md",
       "source_location": "L20",
+      "_origin": "ast",
       "id": "docs_design_\u0631\u0646\u06af_\u0647\u0627\u06cc_\u0633\u0645\u0627\u0646\u062a\u06cc\u06a9_\u0641\u0642\u0637_\u0628\u0631\u0627\u06cc_\u0648\u0636\u0639\u06cc\u062a_\u0647\u0627\u06cc_\u0633\u06cc\u0633\u062a\u0645\u06cc_\u0646\u0647_\u062f\u06a9\u0648\u0631\u0627\u0633\u06cc\u0648\u0646",
       "community": 1,
       "norm_label": "\u0631\u0646\u06af\u200c\u0647\u0627\u06cc \u0633\u0645\u0627\u0646\u062a\u06cc\u06a9 (\u0641\u0642\u0637 \u0628\u0631\u0627\u06cc \u0648\u0636\u0639\u06cc\u062a\u200c\u0647\u0627\u06cc \u0633\u06cc\u0633\u062a\u0645\u06cc \u2014 \u0646\u0647 \u062f\u06a9\u0648\u0631\u0627\u0633\u06cc\u0648\u0646)"
@@ -503,6 +348,7 @@
       "file_type": "document",
       "source_file": "docs/DESIGN.md",
       "source_location": "L29",
+      "_origin": "ast",
       "id": "docs_design_\u062d\u0627\u0644\u062a_\u062a\u06cc\u0631\u0647_dark_mode",
       "community": 1,
       "norm_label": "\u062d\u0627\u0644\u062a \u062a\u06cc\u0631\u0647 (dark mode)"
@@ -511,7 +357,8 @@
       "label": "\u06f2. \u062a\u0627\u06cc\u067e\u0648\u06af\u0631\u0627\u0641\u06cc",
       "file_type": "document",
       "source_file": "docs/DESIGN.md",
-      "source_location": "L33",
+      "source_location": "L45",
+      "_origin": "ast",
       "id": "docs_design_\u06f2_\u062a\u0627\u06cc\u067e\u0648\u06af\u0631\u0627\u0641\u06cc",
       "community": 1,
       "norm_label": "\u06f2. \u062a\u0627\u06cc\u067e\u0648\u06af\u0631\u0627\u0641\u06cc"
@@ -520,7 +367,8 @@
       "label": "\u06f3. \u0641\u0627\u0635\u0644\u0647\u200c\u06af\u0630\u0627\u0631\u06cc \u0648 \u0634\u0628\u06a9\u0647",
       "file_type": "document",
       "source_file": "docs/DESIGN.md",
-      "source_location": "L48",
+      "source_location": "L61",
+      "_origin": "ast",
       "id": "docs_design_\u06f3_\u0641\u0627\u0635\u0644\u0647_\u06af\u0630\u0627\u0631\u06cc_\u0648_\u0634\u0628\u06a9\u0647",
       "community": 1,
       "norm_label": "\u06f3. \u0641\u0627\u0635\u0644\u0647\u200c\u06af\u0630\u0627\u0631\u06cc \u0648 \u0634\u0628\u06a9\u0647"
@@ -529,7 +377,8 @@
       "label": "\u06f4. \u0627\u062c\u0632\u0627 (Primitives)",
       "file_type": "document",
       "source_file": "docs/DESIGN.md",
-      "source_location": "L56",
+      "source_location": "L69",
+      "_origin": "ast",
       "id": "docs_design_\u06f4_\u0627\u062c\u0632\u0627_primitives",
       "community": 1,
       "norm_label": "\u06f4. \u0627\u062c\u0632\u0627 (primitives)"
@@ -538,7 +387,8 @@
       "label": "\u06f5. \u062d\u0631\u06a9\u062a (Motion)",
       "file_type": "document",
       "source_file": "docs/DESIGN.md",
-      "source_location": "L63",
+      "source_location": "L76",
+      "_origin": "ast",
       "id": "docs_design_\u06f5_\u062d\u0631\u06a9\u062a_motion",
       "community": 1,
       "norm_label": "\u06f5. \u062d\u0631\u06a9\u062a (motion)"
@@ -547,7 +397,8 @@
       "label": "\u06f6. \u0632\u0628\u0627\u0646 \u0628\u0635\u0631\u06cc \u0628\u0631\u0646\u062f",
       "file_type": "document",
       "source_file": "docs/DESIGN.md",
-      "source_location": "L71",
+      "source_location": "L84",
+      "_origin": "ast",
       "id": "docs_design_\u06f6_\u0632\u0628\u0627\u0646_\u0628\u0635\u0631\u06cc_\u0628\u0631\u0646\u062f",
       "community": 1,
       "norm_label": "\u06f6. \u0632\u0628\u0627\u0646 \u0628\u0635\u0631\u06cc \u0628\u0631\u0646\u062f"
@@ -556,203 +407,888 @@
       "label": "\u06f7. \u062f\u0633\u062a\u0631\u0633\u06cc\u200c\u067e\u0630\u06cc\u0631\u06cc (\u062d\u062f\u0627\u0642\u0644\u200c\u0647\u0627\u06cc \u0627\u0644\u0632\u0627\u0645\u06cc)",
       "file_type": "document",
       "source_file": "docs/DESIGN.md",
-      "source_location": "L78",
+      "source_location": "L91",
+      "_origin": "ast",
       "id": "docs_design_\u06f7_\u062f\u0633\u062a\u0631\u0633\u06cc_\u067e\u0630\u06cc\u0631\u06cc_\u062d\u062f\u0627\u0642\u0644_\u0647\u0627\u06cc_\u0627\u0644\u0632\u0627\u0645\u06cc",
       "community": 1,
       "norm_label": "\u06f7. \u062f\u0633\u062a\u0631\u0633\u06cc\u200c\u067e\u0630\u06cc\u0631\u06cc (\u062d\u062f\u0627\u0642\u0644\u200c\u0647\u0627\u06cc \u0627\u0644\u0632\u0627\u0645\u06cc)"
+    },
+    {
+      "label": "next.config.ts",
+      "file_type": "code",
+      "source_file": "next.config.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "next_config",
+      "community": 11,
+      "norm_label": "next.config.ts"
+    },
+    {
+      "label": "nextConfig",
+      "file_type": "code",
+      "source_file": "next.config.ts",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "next_config_nextconfig",
+      "community": 11,
+      "norm_label": "nextconfig"
+    },
+    {
+      "label": "package.json",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "package",
+      "community": 6,
+      "norm_label": "package.json"
+    },
+    {
+      "label": "name",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L2",
+      "_origin": "ast",
+      "id": "package_name",
+      "community": 6,
+      "norm_label": "name"
+    },
+    {
+      "label": "version",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "package_version",
+      "community": 6,
+      "norm_label": "version"
+    },
+    {
+      "label": "private",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "package_private",
+      "community": 6,
+      "norm_label": "private"
+    },
+    {
+      "label": "scripts",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "package_scripts",
+      "community": 6,
+      "norm_label": "scripts"
+    },
+    {
+      "label": "dev",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "package_scripts_dev",
+      "community": 6,
+      "norm_label": "dev"
+    },
+    {
+      "label": "build",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "package_scripts_build",
+      "community": 6,
+      "norm_label": "build"
+    },
+    {
+      "label": "start",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "package_scripts_start",
+      "community": 6,
+      "norm_label": "start"
+    },
+    {
+      "label": "dependencies",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "package_dependencies",
+      "community": 6,
+      "norm_label": "dependencies"
+    },
+    {
+      "label": "next",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "package_dependencies_next",
+      "community": 6,
+      "norm_label": "next"
+    },
+    {
+      "label": "react",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "package_dependencies_react",
+      "community": 6,
+      "norm_label": "react"
+    },
+    {
+      "label": "react-dom",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "package_dependencies_react_dom",
+      "community": 6,
+      "norm_label": "react-dom"
+    },
+    {
+      "label": "devDependencies",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "package_devdependencies",
+      "community": 6,
+      "norm_label": "devdependencies"
+    },
+    {
+      "label": "@tailwindcss/postcss",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "package_devdependencies_tailwindcss_postcss",
+      "community": 6,
+      "norm_label": "@tailwindcss/postcss"
+    },
+    {
+      "label": "@types/node",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "package_devdependencies_types_node",
+      "community": 6,
+      "norm_label": "@types/node"
+    },
+    {
+      "label": "@types/react",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L18",
+      "_origin": "ast",
+      "id": "package_devdependencies_types_react",
+      "community": 6,
+      "norm_label": "@types/react"
+    },
+    {
+      "label": "@types/react-dom",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "package_devdependencies_types_react_dom",
+      "community": 6,
+      "norm_label": "@types/react-dom"
+    },
+    {
+      "label": "tailwindcss",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "package_devdependencies_tailwindcss",
+      "community": 6,
+      "norm_label": "tailwindcss"
+    },
+    {
+      "label": "typescript",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "package_devdependencies_typescript",
+      "community": 6,
+      "norm_label": "typescript"
+    },
+    {
+      "label": "postcss.config.mjs",
+      "file_type": "code",
+      "source_file": "postcss.config.mjs",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "postcss_config",
+      "community": 12,
+      "norm_label": "postcss.config.mjs"
+    },
+    {
+      "label": "config",
+      "file_type": "code",
+      "source_file": "postcss.config.mjs",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "postcss_config_config",
+      "community": 12,
+      "norm_label": "config"
+    },
+    {
+      "label": "tsconfig.json",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "tsconfig",
+      "community": 2,
+      "norm_label": "tsconfig.json"
+    },
+    {
+      "label": "compilerOptions",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L2",
+      "_origin": "ast",
+      "id": "tsconfig_compileroptions",
+      "community": 2,
+      "norm_label": "compileroptions"
+    },
+    {
+      "label": "target",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "tsconfig_compileroptions_target",
+      "community": 2,
+      "norm_label": "target"
+    },
+    {
+      "label": "lib",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "tsconfig_compileroptions_lib",
+      "community": 2,
+      "norm_label": "lib"
+    },
+    {
+      "label": "allowJs",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "tsconfig_compileroptions_allowjs",
+      "community": 2,
+      "norm_label": "allowjs"
+    },
+    {
+      "label": "skipLibCheck",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "tsconfig_compileroptions_skiplibcheck",
+      "community": 2,
+      "norm_label": "skiplibcheck"
+    },
+    {
+      "label": "strict",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "tsconfig_compileroptions_strict",
+      "community": 2,
+      "norm_label": "strict"
+    },
+    {
+      "label": "noEmit",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "tsconfig_compileroptions_noemit",
+      "community": 2,
+      "norm_label": "noemit"
+    },
+    {
+      "label": "esModuleInterop",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "tsconfig_compileroptions_esmoduleinterop",
+      "community": 2,
+      "norm_label": "esmoduleinterop"
+    },
+    {
+      "label": "module",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "tsconfig_compileroptions_module",
+      "community": 2,
+      "norm_label": "module"
+    },
+    {
+      "label": "moduleResolution",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "tsconfig_compileroptions_moduleresolution",
+      "community": 2,
+      "norm_label": "moduleresolution"
+    },
+    {
+      "label": "resolveJsonModule",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "tsconfig_compileroptions_resolvejsonmodule",
+      "community": 2,
+      "norm_label": "resolvejsonmodule"
+    },
+    {
+      "label": "isolatedModules",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "tsconfig_compileroptions_isolatedmodules",
+      "community": 2,
+      "norm_label": "isolatedmodules"
+    },
+    {
+      "label": "jsx",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L18",
+      "_origin": "ast",
+      "id": "tsconfig_compileroptions_jsx",
+      "community": 2,
+      "norm_label": "jsx"
+    },
+    {
+      "label": "incremental",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "tsconfig_compileroptions_incremental",
+      "community": 2,
+      "norm_label": "incremental"
+    },
+    {
+      "label": "plugins",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "tsconfig_compileroptions_plugins",
+      "community": 2,
+      "norm_label": "plugins"
+    },
+    {
+      "label": "paths",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L25",
+      "_origin": "ast",
+      "id": "tsconfig_compileroptions_paths",
+      "community": 2,
+      "norm_label": "paths"
+    },
+    {
+      "label": "@/*",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "tsconfig_paths",
+      "community": 2,
+      "norm_label": "@/*"
+    },
+    {
+      "label": "include",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L31",
+      "_origin": "ast",
+      "id": "tsconfig_include",
+      "community": 2,
+      "norm_label": "include"
+    },
+    {
+      "label": "exclude",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L38",
+      "_origin": "ast",
+      "id": "tsconfig_exclude",
+      "community": 2,
+      "norm_label": "exclude"
+    },
+    {
+      "label": "next-env.d.ts",
+      "file_type": "code",
+      "source_file": "next-env.d.ts",
+      "source_location": "L1",
+      "community": 10,
+      "norm_label": "next-env.d.ts",
+      "id": "next_env_d_ts"
+    },
+    {
+      "label": "CLAUDE.md",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L1",
+      "community": 0,
+      "norm_label": "claude.md",
+      "id": "claude_md"
+    },
+    {
+      "label": "CLAUDE.md \u2014 \u0645\u063a\u0632 \u0641\u0631\u0645\u0627\u0646\u062f\u0647 \u067e\u0631\u0648\u0698\u0647 Artvoid",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L1",
+      "community": 0,
+      "norm_label": "claude.md \u2014 \u0645\u063a\u0632 \u0641\u0631\u0645\u0627\u0646\u062f\u0647 \u067e\u0631\u0648\u0698\u0647 artvoid",
+      "id": "artvoid_design_claude_claude_md_\u0645\u063a\u0632_\u0641\u0631\u0645\u0627\u0646\u062f\u0647_\u067e\u0631\u0648\u0698\u0647_artvoid"
+    },
+    {
+      "label": "\u0647\u0648\u06cc\u062a",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L5",
+      "community": 0,
+      "norm_label": "\u0647\u0648\u06cc\u062a",
+      "id": "artvoid_design_claude_\u0647\u0648\u06cc\u062a"
+    },
+    {
+      "label": "\ud83d\udd11 \u0627\u0642\u062a\u0635\u0627\u062f \u062a\u0648\u06a9\u0646 \u2014 \u0628\u0627\u0644\u0627\u062a\u0631\u06cc\u0646 \u0627\u0648\u0644\u0648\u06cc\u062a \u0631\u0641\u062a\u0627\u0631\u06cc",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L9",
+      "community": 0,
+      "norm_label": "\ud83d\udd11 \u0627\u0642\u062a\u0635\u0627\u062f \u062a\u0648\u06a9\u0646 \u2014 \u0628\u0627\u0644\u0627\u062a\u0631\u06cc\u0646 \u0627\u0648\u0644\u0648\u06cc\u062a \u0631\u0641\u062a\u0627\u0631\u06cc",
+      "id": "artvoid_design_claude_\u0627\u0642\u062a\u0635\u0627\u062f_\u062a\u0648\u06a9\u0646_\u0628\u0627\u0644\u0627\u062a\u0631\u06cc\u0646_\u0627\u0648\u0644\u0648\u06cc\u062a_\u0631\u0641\u062a\u0627\u0631\u06cc"
+    },
+    {
+      "label": "\u067e\u0631\u0648\u062a\u06a9\u0644 \u0634\u0631\u0648\u0639 \u0633\u0634\u0646",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L18",
+      "community": 0,
+      "norm_label": "\u067e\u0631\u0648\u062a\u06a9\u0644 \u0634\u0631\u0648\u0639 \u0633\u0634\u0646",
+      "id": "artvoid_design_claude_\u067e\u0631\u0648\u062a\u06a9\u0644_\u0634\u0631\u0648\u0639_\u0633\u0634\u0646"
+    },
+    {
+      "label": "\u062d\u0627\u0644\u062a BOOTSTRAP (\u0641\u0642\u0637 \u0627\u0648\u0644\u06cc\u0646 \u0627\u062c\u0631\u0627 \u2014 \u062e\u0648\u062f\u06a9\u0627\u0631\u060c \u0628\u062f\u0648\u0646 \u0633\u0624\u0627\u0644 \u0627\u0636\u0627\u0641\u0647)",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L24",
+      "community": 0,
+      "norm_label": "\u062d\u0627\u0644\u062a bootstrap (\u0641\u0642\u0637 \u0627\u0648\u0644\u06cc\u0646 \u0627\u062c\u0631\u0627 \u2014 \u062e\u0648\u062f\u06a9\u0627\u0631\u060c \u0628\u062f\u0648\u0646 \u0633\u0648\u0627\u0644 \u0627\u0636\u0627\u0641\u0647)",
+      "id": "artvoid_design_claude_\u062d\u0627\u0644\u062a_bootstrap_\u0641\u0642\u0637_\u0627\u0648\u0644\u06cc\u0646_\u0627\u062c\u0631\u0627_\u062e\u0648\u062f\u06a9\u0627\u0631_\u0628\u062f\u0648\u0646_\u0633\u0624\u0627\u0644_\u0627\u0636\u0627\u0641\u0647"
+    },
+    {
+      "label": "\u062d\u0627\u0644\u062a \u06a9\u0627\u0631 \u0639\u0627\u062f\u06cc",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L35",
+      "community": 0,
+      "norm_label": "\u062d\u0627\u0644\u062a \u06a9\u0627\u0631 \u0639\u0627\u062f\u06cc",
+      "id": "artvoid_design_claude_\u062d\u0627\u0644\u062a_\u06a9\u0627\u0631_\u0639\u0627\u062f\u06cc"
+    },
+    {
+      "label": "code:block1 (\ud83d\udccd \u0645\u0631\u062d\u0644\u0647 [X] \u2014 [\u0646\u0627\u0645] | \u2705 \u0622\u062e\u0631\u06cc\u0646: [...] | \u25b6\ufe0f \u0628\u0639\u062f\u06cc: [...])",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L39",
+      "community": 0,
+      "norm_label": "code:block1 (\ud83d\udccd \u0645\u0631\u062d\u0644\u0647 [x] \u2014 [\u0646\u0627\u0645] | \u2705 \u0627\u062e\u0631\u06cc\u0646: [...] | \u25b6\ufe0f \u0628\u0639\u062f\u06cc: [...])",
+      "id": "artvoid_design_claude_codeblock_1"
+    },
+    {
+      "label": "\u067e\u0631\u0648\u062a\u06a9\u0644 \u067e\u0627\u06cc\u0627\u0646 \u0647\u0631 \u06a9\u0627\u0631",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L44",
+      "community": 0,
+      "norm_label": "\u067e\u0631\u0648\u062a\u06a9\u0644 \u067e\u0627\u06cc\u0627\u0646 \u0647\u0631 \u06a9\u0627\u0631",
+      "id": "artvoid_design_claude_\u067e\u0631\u0648\u062a\u06a9\u0644_\u067e\u0627\u06cc\u0627\u0646_\u0647\u0631_\u06a9\u0627\u0631"
+    },
+    {
+      "label": "\u0627\u0633\u062a\u06a9 \u0641\u0646\u06cc \u2014 \u062c\u062f\u06cc\u062f\u062a\u0631\u06cc\u0646 \u0646\u0633\u062e\u0647\u200c\u0647\u0627\u060c \u063a\u06cc\u0631\u0642\u0627\u0628\u0644 \u0645\u0630\u0627\u06a9\u0631\u0647",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L51",
+      "community": 0,
+      "norm_label": "\u0627\u0633\u062a\u06a9 \u0641\u0646\u06cc \u2014 \u062c\u062f\u06cc\u062f\u062a\u0631\u06cc\u0646 \u0646\u0633\u062e\u0647\u200c\u0647\u0627\u060c \u063a\u06cc\u0631\u0642\u0627\u0628\u0644 \u0645\u0630\u0627\u06a9\u0631\u0647",
+      "id": "artvoid_design_claude_\u0627\u0633\u062a\u06a9_\u0641\u0646\u06cc_\u062c\u062f\u06cc\u062f\u062a\u0631\u06cc\u0646_\u0646\u0633\u062e\u0647_\u0647\u0627_\u063a\u06cc\u0631\u0642\u0627\u0628\u0644_\u0645\u0630\u0627\u06a9\u0631\u0647"
+    },
+    {
+      "label": "\ud83c\uddee\ud83c\uddf7 \u0633\u0627\u0632\u06af\u0627\u0631\u06cc \u06a9\u0627\u0645\u0644 \u0628\u0627 \u0634\u0628\u06a9\u0647 \u0627\u06cc\u0631\u0627\u0646 \u2014 \u0642\u0627\u0646\u0648\u0646 \u0633\u062e\u062a",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L59",
+      "community": 0,
+      "norm_label": "\ud83c\uddee\ud83c\uddf7 \u0633\u0627\u0632\u06af\u0627\u0631\u06cc \u06a9\u0627\u0645\u0644 \u0628\u0627 \u0634\u0628\u06a9\u0647 \u0627\u06cc\u0631\u0627\u0646 \u2014 \u0642\u0627\u0646\u0648\u0646 \u0633\u062e\u062a",
+      "id": "artvoid_design_claude_\u0633\u0627\u0632\u06af\u0627\u0631\u06cc_\u06a9\u0627\u0645\u0644_\u0628\u0627_\u0634\u0628\u06a9\u0647_\u0627\u06cc\u0631\u0627\u0646_\u0642\u0627\u0646\u0648\u0646_\u0633\u062e\u062a"
+    },
+    {
+      "label": "\u0642\u0648\u0627\u0646\u06cc\u0646 \u0637\u0644\u0627\u06cc\u06cc \u0637\u0631\u0627\u062d\u06cc (\u06a9\u0627\u0645\u0644: docs/DESIGN.md)",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L69",
+      "community": 0,
+      "norm_label": "\u0642\u0648\u0627\u0646\u06cc\u0646 \u0637\u0644\u0627\u06cc\u06cc \u0637\u0631\u0627\u062d\u06cc (\u06a9\u0627\u0645\u0644: docs/design.md)",
+      "id": "artvoid_design_claude_\u0642\u0648\u0627\u0646\u06cc\u0646_\u0637\u0644\u0627\u06cc\u06cc_\u0637\u0631\u0627\u062d\u06cc_\u06a9\u0627\u0645\u0644_docs_design_md"
+    },
+    {
+      "label": "\u0633\u0627\u062e\u062a\u0627\u0631 \u067e\u0648\u0634\u0647\u200c\u0647\u0627",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L77",
+      "community": 0,
+      "norm_label": "\u0633\u0627\u062e\u062a\u0627\u0631 \u067e\u0648\u0634\u0647\u200c\u0647\u0627",
+      "id": "artvoid_design_claude_\u0633\u0627\u062e\u062a\u0627\u0631_\u067e\u0648\u0634\u0647_\u0647\u0627"
+    },
+    {
+      "label": "code:block2 (/app  /components/{ui,sections,showcase}  /content(\u0647\u0645\u0647 \u0645\u062a\u0646\u200c\u0647)",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L79",
+      "community": 0,
+      "norm_label": "code:block2 (/app  /components/{ui,sections,showcase}  /content(\u0647\u0645\u0647 \u0645\u062a\u0646\u200c\u0647)",
+      "id": "artvoid_design_claude_codeblock_2"
+    },
+    {
+      "label": "\u0647\u0631\u06af\u0632\u0647\u0627",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L84",
+      "community": 0,
+      "norm_label": "\u0647\u0631\u06af\u0632\u0647\u0627",
+      "id": "artvoid_design_claude_\u0647\u0631\u06af\u0632\u0647\u0627"
     },
     {
       "label": "ROADMAP.md",
       "file_type": "document",
       "source_file": "docs/ROADMAP.md",
       "source_location": "L1",
-      "id": "docs_roadmap_md",
       "community": 3,
-      "norm_label": "roadmap.md"
+      "norm_label": "roadmap.md",
+      "id": "docs_roadmap_md"
     },
     {
       "label": "ROADMAP.md \u2014 \u0645\u0633\u06cc\u0631 \u0633\u0627\u062e\u062a \u0633\u0627\u06cc\u062a Artvoid \u0628\u0627 Claude Code",
       "file_type": "document",
       "source_file": "docs/ROADMAP.md",
       "source_location": "L1",
-      "id": "docs_roadmap_roadmap_md_\u0645\u0633\u06cc\u0631_\u0633\u0627\u062e\u062a_\u0633\u0627\u06cc\u062a_artvoid_\u0628\u0627_claude_code",
       "community": 3,
-      "norm_label": "roadmap.md \u2014 \u0645\u0633\u06cc\u0631 \u0633\u0627\u062e\u062a \u0633\u0627\u06cc\u062a artvoid \u0628\u0627 claude code"
+      "norm_label": "roadmap.md \u2014 \u0645\u0633\u06cc\u0631 \u0633\u0627\u062e\u062a \u0633\u0627\u06cc\u062a artvoid \u0628\u0627 claude code",
+      "id": "docs_roadmap_roadmap_md_\u0645\u0633\u06cc\u0631_\u0633\u0627\u062e\u062a_\u0633\u0627\u06cc\u062a_artvoid_\u0628\u0627_claude_code"
     },
     {
       "label": "\u0645\u0631\u062d\u0644\u0647 \u06f0 \u2014 \u0628\u0648\u062a\u200c\u0627\u0633\u062a\u0631\u067e (Claude Code \u062e\u0648\u062f\u06a9\u0627\u0631 \u0627\u0646\u062c\u0627\u0645 \u0645\u06cc\u200c\u062f\u0647\u062f \u2014 \u067e\u0631\u0648\u062a\u06a9\u0644 \u062f\u0631 CLAUDE.md)",
       "file_type": "document",
       "source_file": "docs/ROADMAP.md",
       "source_location": "L8",
-      "id": "docs_roadmap_\u0645\u0631\u062d\u0644\u0647_\u06f0_\u0628\u0648\u062a_\u0627\u0633\u062a\u0631\u067e_claude_code_\u062e\u0648\u062f\u06a9\u0627\u0631_\u0627\u0646\u062c\u0627\u0645_\u0645\u06cc_\u062f\u0647\u062f_\u067e\u0631\u0648\u062a\u06a9\u0644_\u062f\u0631_claude_md",
       "community": 3,
-      "norm_label": "\u0645\u0631\u062d\u0644\u0647 \u06f0 \u2014 \u0628\u0648\u062a\u200c\u0627\u0633\u062a\u0631\u067e (claude code \u062e\u0648\u062f\u06a9\u0627\u0631 \u0627\u0646\u062c\u0627\u0645 \u0645\u06cc\u200c\u062f\u0647\u062f \u2014 \u067e\u0631\u0648\u062a\u06a9\u0644 \u062f\u0631 claude.md)"
+      "norm_label": "\u0645\u0631\u062d\u0644\u0647 \u06f0 \u2014 \u0628\u0648\u062a\u200c\u0627\u0633\u062a\u0631\u067e (claude code \u062e\u0648\u062f\u06a9\u0627\u0631 \u0627\u0646\u062c\u0627\u0645 \u0645\u06cc\u200c\u062f\u0647\u062f \u2014 \u067e\u0631\u0648\u062a\u06a9\u0644 \u062f\u0631 claude.md)",
+      "id": "docs_roadmap_\u0645\u0631\u062d\u0644\u0647_\u06f0_\u0628\u0648\u062a_\u0627\u0633\u062a\u0631\u067e_claude_code_\u062e\u0648\u062f\u06a9\u0627\u0631_\u0627\u0646\u062c\u0627\u0645_\u0645\u06cc_\u062f\u0647\u062f_\u067e\u0631\u0648\u062a\u06a9\u0644_\u062f\u0631_claude_md"
     },
     {
       "label": "\u0645\u0631\u062d\u0644\u0647 \u06f1 \u2014 \u0627\u0633\u06a9\u0644\u062a \u067e\u0631\u0648\u0698\u0647",
       "file_type": "document",
       "source_file": "docs/ROADMAP.md",
       "source_location": "L15",
-      "id": "docs_roadmap_\u0645\u0631\u062d\u0644\u0647_\u06f1_\u0627\u0633\u06a9\u0644\u062a_\u067e\u0631\u0648\u0698\u0647",
       "community": 3,
-      "norm_label": "\u0645\u0631\u062d\u0644\u0647 \u06f1 \u2014 \u0627\u0633\u06a9\u0644\u062a \u067e\u0631\u0648\u0698\u0647"
+      "norm_label": "\u0645\u0631\u062d\u0644\u0647 \u06f1 \u2014 \u0627\u0633\u06a9\u0644\u062a \u067e\u0631\u0648\u0698\u0647",
+      "id": "docs_roadmap_\u0645\u0631\u062d\u0644\u0647_\u06f1_\u0627\u0633\u06a9\u0644\u062a_\u067e\u0631\u0648\u0698\u0647"
     },
     {
       "label": "\u0645\u0631\u062d\u0644\u0647 \u06f2 \u2014 \u06a9\u062a\u0627\u0628\u062e\u0627\u0646\u0647 \u06a9\u0627\u0645\u067e\u0648\u0646\u0646\u062a\u200c\u0647\u0627\u06cc \u067e\u0627\u06cc\u0647",
       "file_type": "document",
       "source_file": "docs/ROADMAP.md",
       "source_location": "L26",
-      "id": "docs_roadmap_\u0645\u0631\u062d\u0644\u0647_\u06f2_\u06a9\u062a\u0627\u0628\u062e\u0627\u0646\u0647_\u06a9\u0627\u0645\u067e\u0648\u0646\u0646\u062a_\u0647\u0627\u06cc_\u067e\u0627\u06cc\u0647",
       "community": 3,
-      "norm_label": "\u0645\u0631\u062d\u0644\u0647 \u06f2 \u2014 \u06a9\u062a\u0627\u0628\u062e\u0627\u0646\u0647 \u06a9\u0627\u0645\u067e\u0648\u0646\u0646\u062a\u200c\u0647\u0627\u06cc \u067e\u0627\u06cc\u0647"
+      "norm_label": "\u0645\u0631\u062d\u0644\u0647 \u06f2 \u2014 \u06a9\u062a\u0627\u0628\u062e\u0627\u0646\u0647 \u06a9\u0627\u0645\u067e\u0648\u0646\u0646\u062a\u200c\u0647\u0627\u06cc \u067e\u0627\u06cc\u0647",
+      "id": "docs_roadmap_\u0645\u0631\u062d\u0644\u0647_\u06f2_\u06a9\u062a\u0627\u0628\u062e\u0627\u0646\u0647_\u06a9\u0627\u0645\u067e\u0648\u0646\u0646\u062a_\u0647\u0627\u06cc_\u067e\u0627\u06cc\u0647"
     },
     {
       "label": "\u0645\u0631\u062d\u0644\u0647 \u06f3 \u2014 \u0635\u0641\u062d\u0627\u062a \u0627\u0635\u0644\u06cc (\u0628\u0647 \u062a\u0631\u062a\u06cc\u0628)",
       "file_type": "document",
       "source_file": "docs/ROADMAP.md",
       "source_location": "L37",
-      "id": "docs_roadmap_\u0645\u0631\u062d\u0644\u0647_\u06f3_\u0635\u0641\u062d\u0627\u062a_\u0627\u0635\u0644\u06cc_\u0628\u0647_\u062a\u0631\u062a\u06cc\u0628",
       "community": 3,
-      "norm_label": "\u0645\u0631\u062d\u0644\u0647 \u06f3 \u2014 \u0635\u0641\u062d\u0627\u062a \u0627\u0635\u0644\u06cc (\u0628\u0647 \u062a\u0631\u062a\u06cc\u0628)"
+      "norm_label": "\u0645\u0631\u062d\u0644\u0647 \u06f3 \u2014 \u0635\u0641\u062d\u0627\u062a \u0627\u0635\u0644\u06cc (\u0628\u0647 \u062a\u0631\u062a\u06cc\u0628)",
+      "id": "docs_roadmap_\u0645\u0631\u062d\u0644\u0647_\u06f3_\u0635\u0641\u062d\u0627\u062a_\u0627\u0635\u0644\u06cc_\u0628\u0647_\u062a\u0631\u062a\u06cc\u0628"
     },
     {
       "label": "\u0645\u0631\u062d\u0644\u0647 \u06f4 \u2014 \u0628\u062e\u0634 Showcase (\u062a\u0645\u0627\u06cc\u0632 \u0627\u0635\u0644\u06cc!)",
       "file_type": "document",
       "source_file": "docs/ROADMAP.md",
       "source_location": "L46",
-      "id": "docs_roadmap_\u0645\u0631\u062d\u0644\u0647_\u06f4_\u0628\u062e\u0634_showcase_\u062a\u0645\u0627\u06cc\u0632_\u0627\u0635\u0644\u06cc",
       "community": 3,
-      "norm_label": "\u0645\u0631\u062d\u0644\u0647 \u06f4 \u2014 \u0628\u062e\u0634 showcase (\u062a\u0645\u0627\u06cc\u0632 \u0627\u0635\u0644\u06cc!)"
+      "norm_label": "\u0645\u0631\u062d\u0644\u0647 \u06f4 \u2014 \u0628\u062e\u0634 showcase (\u062a\u0645\u0627\u06cc\u0632 \u0627\u0635\u0644\u06cc!)",
+      "id": "docs_roadmap_\u0645\u0631\u062d\u0644\u0647_\u06f4_\u0628\u062e\u0634_showcase_\u062a\u0645\u0627\u06cc\u0632_\u0627\u0635\u0644\u06cc"
     },
     {
       "label": "\u0645\u0631\u062d\u0644\u0647 \u06f5 \u2014 \u0633\u0626\u0648 \u0648 \u0627\u0646\u062a\u0634\u0627\u0631",
       "file_type": "document",
       "source_file": "docs/ROADMAP.md",
       "source_location": "L52",
-      "id": "docs_roadmap_\u0645\u0631\u062d\u0644\u0647_\u06f5_\u0633\u0626\u0648_\u0648_\u0627\u0646\u062a\u0634\u0627\u0631",
       "community": 3,
-      "norm_label": "\u0645\u0631\u062d\u0644\u0647 \u06f5 \u2014 \u0633\u064a\u0648 \u0648 \u0627\u0646\u062a\u0634\u0627\u0631"
+      "norm_label": "\u0645\u0631\u062d\u0644\u0647 \u06f5 \u2014 \u0633\u064a\u0648 \u0648 \u0627\u0646\u062a\u0634\u0627\u0631",
+      "id": "docs_roadmap_\u0645\u0631\u062d\u0644\u0647_\u06f5_\u0633\u0626\u0648_\u0648_\u0627\u0646\u062a\u0634\u0627\u0631"
     },
     {
       "label": "\u0645\u0631\u062d\u0644\u0647 \u06f6 \u2014 \u0641\u0627\u0632\u0647\u0627\u06cc \u0628\u0639\u062f\u06cc (\u0628\u0639\u062f \u0627\u0632 \u0627\u0646\u062a\u0634\u0627\u0631)",
       "file_type": "document",
       "source_file": "docs/ROADMAP.md",
       "source_location": "L60",
-      "id": "docs_roadmap_\u0645\u0631\u062d\u0644\u0647_\u06f6_\u0641\u0627\u0632\u0647\u0627\u06cc_\u0628\u0639\u062f\u06cc_\u0628\u0639\u062f_\u0627\u0632_\u0627\u0646\u062a\u0634\u0627\u0631",
       "community": 3,
-      "norm_label": "\u0645\u0631\u062d\u0644\u0647 \u06f6 \u2014 \u0641\u0627\u0632\u0647\u0627\u06cc \u0628\u0639\u062f\u06cc (\u0628\u0639\u062f \u0627\u0632 \u0627\u0646\u062a\u0634\u0627\u0631)"
+      "norm_label": "\u0645\u0631\u062d\u0644\u0647 \u06f6 \u2014 \u0641\u0627\u0632\u0647\u0627\u06cc \u0628\u0639\u062f\u06cc (\u0628\u0639\u062f \u0627\u0632 \u0627\u0646\u062a\u0634\u0627\u0631)",
+      "id": "docs_roadmap_\u0645\u0631\u062d\u0644\u0647_\u06f6_\u0641\u0627\u0632\u0647\u0627\u06cc_\u0628\u0639\u062f\u06cc_\u0628\u0639\u062f_\u0627\u0632_\u0627\u0646\u062a\u0634\u0627\u0631"
     },
     {
       "label": "\u0627\u0644\u06af\u0648\u06cc \u0634\u0631\u0648\u0639 \u0647\u0631 \u0633\u0634\u0646 Claude Code",
       "file_type": "document",
       "source_file": "docs/ROADMAP.md",
       "source_location": "L68",
-      "id": "docs_roadmap_\u0627\u0644\u06af\u0648\u06cc_\u0634\u0631\u0648\u0639_\u0647\u0631_\u0633\u0634\u0646_claude_code",
       "community": 3,
-      "norm_label": "\u0627\u0644\u06af\u0648\u06cc \u0634\u0631\u0648\u0639 \u0647\u0631 \u0633\u0634\u0646 claude code"
+      "norm_label": "\u0627\u0644\u06af\u0648\u06cc \u0634\u0631\u0648\u0639 \u0647\u0631 \u0633\u0634\u0646 claude code",
+      "id": "docs_roadmap_\u0627\u0644\u06af\u0648\u06cc_\u0634\u0631\u0648\u0639_\u0647\u0631_\u0633\u0634\u0646_claude_code"
     },
     {
       "label": "code:block1 (\u0628\u062e\u0648\u0646 \u0648 \u0627\u062f\u0627\u0645\u0647 \u0628\u062f\u0647.)",
       "file_type": "document",
       "source_file": "docs/ROADMAP.md",
       "source_location": "L72",
-      "id": "docs_roadmap_codeblock_1",
       "community": 3,
-      "norm_label": "code:block1 (\u0628\u062e\u0648\u0646 \u0648 \u0627\u062f\u0627\u0645\u0647 \u0628\u062f\u0647.)"
+      "norm_label": "code:block1 (\u0628\u062e\u0648\u0646 \u0648 \u0627\u062f\u0627\u0645\u0647 \u0628\u062f\u0647.)",
+      "id": "docs_roadmap_codeblock_1"
     },
     {
       "label": "SHOWCASE.md",
       "file_type": "document",
       "source_file": "docs/SHOWCASE.md",
       "source_location": "L1",
-      "id": "docs_showcase_md",
       "community": 5,
-      "norm_label": "showcase.md"
+      "norm_label": "showcase.md",
+      "id": "docs_showcase_md"
     },
     {
       "label": "SHOWCASE.md \u2014 \u0627\u06cc\u062f\u0647\u200c\u0647\u0627\u06cc \u0646\u0645\u0627\u06cc\u0634 \u0632\u0646\u062f\u0647 UI/UX \u062f\u0631 \u0633\u0627\u06cc\u062a Artvoid",
       "file_type": "document",
       "source_file": "docs/SHOWCASE.md",
       "source_location": "L1",
-      "id": "docs_showcase_showcase_md_\u0627\u06cc\u062f\u0647_\u0647\u0627\u06cc_\u0646\u0645\u0627\u06cc\u0634_\u0632\u0646\u062f\u0647_ui_ux_\u062f\u0631_\u0633\u0627\u06cc\u062a_artvoid",
       "community": 5,
-      "norm_label": "showcase.md \u2014 \u0627\u06cc\u062f\u0647\u200c\u0647\u0627\u06cc \u0646\u0645\u0627\u06cc\u0634 \u0632\u0646\u062f\u0647 ui/ux \u062f\u0631 \u0633\u0627\u06cc\u062a artvoid"
+      "norm_label": "showcase.md \u2014 \u0627\u06cc\u062f\u0647\u200c\u0647\u0627\u06cc \u0646\u0645\u0627\u06cc\u0634 \u0632\u0646\u062f\u0647 ui/ux \u062f\u0631 \u0633\u0627\u06cc\u062a artvoid",
+      "id": "docs_showcase_showcase_md_\u0627\u06cc\u062f\u0647_\u0647\u0627\u06cc_\u0646\u0645\u0627\u06cc\u0634_\u0632\u0646\u062f\u0647_ui_ux_\u062f\u0631_\u0633\u0627\u06cc\u062a_artvoid"
     },
     {
       "label": "\u0627\u0648\u0644\u0648\u06cc\u062a \u06f1 \u2014 \u067e\u0646\u062c \u062f\u0645\u0648\u06cc \u0627\u0641\u062a\u062a\u0627\u062d\u06cc\u0647",
       "file_type": "document",
       "source_file": "docs/SHOWCASE.md",
       "source_location": "L6",
-      "id": "docs_showcase_\u0627\u0648\u0644\u0648\u06cc\u062a_\u06f1_\u067e\u0646\u062c_\u062f\u0645\u0648\u06cc_\u0627\u0641\u062a\u062a\u0627\u062d\u06cc\u0647",
       "community": 5,
-      "norm_label": "\u0627\u0648\u0644\u0648\u06cc\u062a \u06f1 \u2014 \u067e\u0646\u062c \u062f\u0645\u0648\u06cc \u0627\u0641\u062a\u062a\u0627\u062d\u06cc\u0647"
+      "norm_label": "\u0627\u0648\u0644\u0648\u06cc\u062a \u06f1 \u2014 \u067e\u0646\u062c \u062f\u0645\u0648\u06cc \u0627\u0641\u062a\u062a\u0627\u062d\u06cc\u0647",
+      "id": "docs_showcase_\u0627\u0648\u0644\u0648\u06cc\u062a_\u06f1_\u067e\u0646\u062c_\u062f\u0645\u0648\u06cc_\u0627\u0641\u062a\u062a\u0627\u062d\u06cc\u0647"
     },
     {
       "label": "\u0627\u0648\u0644\u0648\u06cc\u062a \u06f2 \u2014 \u062a\u062c\u0631\u0628\u0647\u200c\u0647\u0627\u06cc \u0627\u0633\u06a9\u0631\u0648\u0644 \u0648 \u0631\u0648\u0627\u06cc\u062a",
       "file_type": "document",
       "source_file": "docs/SHOWCASE.md",
       "source_location": "L23",
-      "id": "docs_showcase_\u0627\u0648\u0644\u0648\u06cc\u062a_\u06f2_\u062a\u062c\u0631\u0628\u0647_\u0647\u0627\u06cc_\u0627\u0633\u06a9\u0631\u0648\u0644_\u0648_\u0631\u0648\u0627\u06cc\u062a",
       "community": 5,
-      "norm_label": "\u0627\u0648\u0644\u0648\u06cc\u062a \u06f2 \u2014 \u062a\u062c\u0631\u0628\u0647\u200c\u0647\u0627\u06cc \u0627\u0633\u06a9\u0631\u0648\u0644 \u0648 \u0631\u0648\u0627\u06cc\u062a"
+      "norm_label": "\u0627\u0648\u0644\u0648\u06cc\u062a \u06f2 \u2014 \u062a\u062c\u0631\u0628\u0647\u200c\u0647\u0627\u06cc \u0627\u0633\u06a9\u0631\u0648\u0644 \u0648 \u0631\u0648\u0627\u06cc\u062a",
+      "id": "docs_showcase_\u0627\u0648\u0644\u0648\u06cc\u062a_\u06f2_\u062a\u062c\u0631\u0628\u0647_\u0647\u0627\u06cc_\u0627\u0633\u06a9\u0631\u0648\u0644_\u0648_\u0631\u0648\u0627\u06cc\u062a"
     },
     {
       "label": "\u0627\u0648\u0644\u0648\u06cc\u062a \u06f3 \u2014 \u0627\u0628\u0632\u0627\u0631\u0647\u0627\u06cc \u062a\u0639\u0627\u0645\u0644\u06cc (\u062a\u0628\u062f\u06cc\u0644 \u0628\u0627\u0632\u062f\u06cc\u062f \u0628\u0647 \u0633\u0631\u0646\u062e)",
       "file_type": "document",
       "source_file": "docs/SHOWCASE.md",
       "source_location": "L31",
-      "id": "docs_showcase_\u0627\u0648\u0644\u0648\u06cc\u062a_\u06f3_\u0627\u0628\u0632\u0627\u0631\u0647\u0627\u06cc_\u062a\u0639\u0627\u0645\u0644\u06cc_\u062a\u0628\u062f\u06cc\u0644_\u0628\u0627\u0632\u062f\u06cc\u062f_\u0628\u0647_\u0633\u0631\u0646\u062e",
       "community": 5,
-      "norm_label": "\u0627\u0648\u0644\u0648\u06cc\u062a \u06f3 \u2014 \u0627\u0628\u0632\u0627\u0631\u0647\u0627\u06cc \u062a\u0639\u0627\u0645\u0644\u06cc (\u062a\u0628\u062f\u06cc\u0644 \u0628\u0627\u0632\u062f\u06cc\u062f \u0628\u0647 \u0633\u0631\u0646\u062e)"
+      "norm_label": "\u0627\u0648\u0644\u0648\u06cc\u062a \u06f3 \u2014 \u0627\u0628\u0632\u0627\u0631\u0647\u0627\u06cc \u062a\u0639\u0627\u0645\u0644\u06cc (\u062a\u0628\u062f\u06cc\u0644 \u0628\u0627\u0632\u062f\u06cc\u062f \u0628\u0647 \u0633\u0631\u0646\u062e)",
+      "id": "docs_showcase_\u0627\u0648\u0644\u0648\u06cc\u062a_\u06f3_\u0627\u0628\u0632\u0627\u0631\u0647\u0627\u06cc_\u062a\u0639\u0627\u0645\u0644\u06cc_\u062a\u0628\u062f\u06cc\u0644_\u0628\u0627\u0632\u062f\u06cc\u062f_\u0628\u0647_\u0633\u0631\u0646\u062e"
     },
     {
       "label": "\u0627\u0648\u0644\u0648\u06cc\u062a \u06f4 \u2014 \u062c\u0632\u0626\u06cc\u0627\u062a \u0627\u0645\u0636\u0627\u062f\u0627\u0631 (Polish)",
       "file_type": "document",
       "source_file": "docs/SHOWCASE.md",
       "source_location": "L38",
-      "id": "docs_showcase_\u0627\u0648\u0644\u0648\u06cc\u062a_\u06f4_\u062c\u0632\u0626\u06cc\u0627\u062a_\u0627\u0645\u0636\u0627\u062f\u0627\u0631_polish",
       "community": 5,
-      "norm_label": "\u0627\u0648\u0644\u0648\u06cc\u062a \u06f4 \u2014 \u062c\u0632\u064a\u06cc\u0627\u062a \u0627\u0645\u0636\u0627\u062f\u0627\u0631 (polish)"
+      "norm_label": "\u0627\u0648\u0644\u0648\u06cc\u062a \u06f4 \u2014 \u062c\u0632\u064a\u06cc\u0627\u062a \u0627\u0645\u0636\u0627\u062f\u0627\u0631 (polish)",
+      "id": "docs_showcase_\u0627\u0648\u0644\u0648\u06cc\u062a_\u06f4_\u062c\u0632\u0626\u06cc\u0627\u062a_\u0627\u0645\u0636\u0627\u062f\u0627\u0631_polish"
     },
     {
       "label": "\u0642\u0648\u0627\u0646\u06cc\u0646 \u0627\u062c\u0631\u0627\u06cc\u06cc",
       "file_type": "document",
       "source_file": "docs/SHOWCASE.md",
       "source_location": "L47",
-      "id": "docs_showcase_\u0642\u0648\u0627\u0646\u06cc\u0646_\u0627\u062c\u0631\u0627\u06cc\u06cc",
       "community": 5,
-      "norm_label": "\u0642\u0648\u0627\u0646\u06cc\u0646 \u0627\u062c\u0631\u0627\u06cc\u06cc"
+      "norm_label": "\u0642\u0648\u0627\u0646\u06cc\u0646 \u0627\u062c\u0631\u0627\u06cc\u06cc",
+      "id": "docs_showcase_\u0642\u0648\u0627\u0646\u06cc\u0646_\u0627\u062c\u0631\u0627\u06cc\u06cc"
     }
   ],
   "links": [
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "next.config.ts",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "next_config_ts",
-      "target": "artvoid_design_next_config_nextconfig",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "postcss.config.mjs",
+      "source_file": "PROGRESS.md",
       "source_location": "L1",
       "weight": 1.0,
-      "source": "postcss_config_mjs",
-      "target": "artvoid_design_postcss_config_config",
+      "source": "progress",
+      "target": "progress_progress_md_\u062d\u0627\u0641\u0638\u0647_\u067e\u06cc\u0634\u0631\u0641\u062a_\u067e\u0631\u0648\u0698\u0647_artvoid",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "app/fonts.ts",
+      "source_file": "PROGRESS.md",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "progress_progress_md_\u062d\u0627\u0641\u0638\u0647_\u067e\u06cc\u0634\u0631\u0641\u062a_\u067e\u0631\u0648\u0698\u0647_artvoid",
+      "target": "progress_\u062a\u0635\u0645\u06cc\u0645\u0627\u062a_\u0628\u0627\u0632_\u0627\u0632_\u06a9\u0627\u0631\u0628\u0631_\u0628\u067e\u0631\u0633_\u0648\u0642\u062a\u06cc_\u0628\u0647_\u0622\u0646_\u0631\u0633\u06cc\u062f\u06cc",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PROGRESS.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "progress_progress_md_\u062d\u0627\u0641\u0638\u0647_\u067e\u06cc\u0634\u0631\u0641\u062a_\u067e\u0631\u0648\u0698\u0647_artvoid",
+      "target": "progress_\u062a\u0635\u0645\u06cc\u0645\u0627\u062a_\u0642\u0637\u0639\u06cc_\u0634\u062f\u0647",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PROGRESS.md",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "progress_progress_md_\u062d\u0627\u0641\u0638\u0647_\u067e\u06cc\u0634\u0631\u0641\u062a_\u067e\u0631\u0648\u0698\u0647_artvoid",
+      "target": "progress_\u0633\u0627\u0628\u0642\u0647_\u06a9\u0627\u0631\u0647\u0627\u06cc_\u0627\u0646\u062c\u0627\u0645_\u0634\u062f\u0647",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PROGRESS.md",
+      "source_location": "L56",
+      "weight": 1.0,
+      "source": "progress_progress_md_\u062d\u0627\u0641\u0638\u0647_\u067e\u06cc\u0634\u0631\u0641\u062a_\u067e\u0631\u0648\u0698\u0647_artvoid",
+      "target": "progress_\u0646\u06a9\u0627\u062a_\u0648_\u062f\u0631\u0633_\u0622\u0645\u0648\u062e\u062a\u0647_\u0647\u0627",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PROGRESS.md",
       "source_location": "L6",
       "weight": 1.0,
-      "source": "app_fonts_ts",
-      "target": "app_fonts_yekan",
+      "source": "progress_progress_md_\u062d\u0627\u0641\u0638\u0647_\u067e\u06cc\u0634\u0631\u0641\u062a_\u067e\u0631\u0648\u0698\u0647_artvoid",
+      "target": "progress_\u0648\u0636\u0639\u06cc\u062a_\u0641\u0639\u0644\u06cc",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PROGRESS.md",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "progress_\u0633\u0627\u0628\u0642\u0647_\u06a9\u0627\u0631\u0647\u0627\u06cc_\u0627\u0646\u062c\u0627\u0645_\u0634\u062f\u0647",
+      "target": "progress_\u0645\u0631\u062d\u0644\u0647_\u06f0_\u0628\u0648\u062a_\u0627\u0633\u062a\u0631\u067e_\u062e\u0648\u062f\u06a9\u0627\u0631_\u062a\u0648\u0633\u0637_claude_code",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PROGRESS.md",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "progress_\u0633\u0627\u0628\u0642\u0647_\u06a9\u0627\u0631\u0647\u0627\u06cc_\u0627\u0646\u062c\u0627\u0645_\u0634\u062f\u0647",
+      "target": "progress_\u0645\u0631\u062d\u0644\u0647_\u06f1_\u0627\u0633\u06a9\u0644\u062a_\u067e\u0631\u0648\u0698\u0647",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PROGRESS.md",
+      "source_location": "L50",
+      "weight": 1.0,
+      "source": "progress_\u0633\u0627\u0628\u0642\u0647_\u06a9\u0627\u0631\u0647\u0627\u06cc_\u0627\u0646\u062c\u0627\u0645_\u0634\u062f\u0647",
+      "target": "progress_\u0645\u0631\u062d\u0644\u0647_\u06f2_\u06a9\u0627\u0645\u067e\u0648\u0646\u0646\u062a_\u0647\u0627\u06cc_\u067e\u0627\u06cc\u0647",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PROGRESS.md",
+      "source_location": "L53",
+      "weight": 1.0,
+      "source": "progress_\u0633\u0627\u0628\u0642\u0647_\u06a9\u0627\u0631\u0647\u0627\u06cc_\u0627\u0646\u062c\u0627\u0645_\u0634\u062f\u0647",
+      "target": "progress_\u0645\u0631\u062d\u0644\u0647_\u06f3_\u0628\u0647_\u0628\u0639\u062f",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "readme",
+      "target": "readme_artvoid_artvoid_ir",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "readme_artvoid_artvoid_ir",
+      "target": "readme_\u0627\u0633\u062a\u06a9",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "readme_artvoid_artvoid_ir",
+      "target": "readme_\u0627\u0633\u0646\u0627\u062f_\u067e\u0631\u0648\u0698\u0647",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "readme_artvoid_artvoid_ir",
+      "target": "readme_\u062a\u0648\u0633\u0639\u0647",
       "confidence_score": 1.0
     },
     {
@@ -761,7 +1297,7 @@
       "source_file": "app/fonts.ts",
       "source_location": "L14",
       "weight": 1.0,
-      "source": "app_fonts_ts",
+      "source": "app_fonts",
       "target": "app_fonts_inter",
       "confidence_score": 1.0
     },
@@ -771,8 +1307,18 @@
       "source_file": "app/fonts.ts",
       "source_location": "L25",
       "weight": 1.0,
-      "source": "app_fonts_ts",
+      "source": "app_fonts",
       "target": "app_fonts_switzer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/fonts.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "app_fonts",
+      "target": "app_fonts_yekan",
       "confidence_score": 1.0
     },
     {
@@ -782,8 +1328,8 @@
       "source_file": "app/layout.tsx",
       "source_location": "L2",
       "weight": 1.0,
-      "source": "app_layout_tsx",
-      "target": "app_fonts_ts",
+      "source": "app_layout",
+      "target": "app_fonts",
       "confidence_score": 1.0
     },
     {
@@ -793,7 +1339,7 @@
       "source_file": "app/layout.tsx",
       "source_location": "L2",
       "weight": 1.0,
-      "source": "app_layout_tsx",
+      "source": "app_layout",
       "target": "app_fonts_yekan",
       "confidence_score": 1.0
     },
@@ -804,7 +1350,7 @@
       "source_file": "app/layout.tsx",
       "source_location": "L2",
       "weight": 1.0,
-      "source": "app_layout_tsx",
+      "source": "app_layout",
       "target": "app_fonts_inter",
       "confidence_score": 1.0
     },
@@ -815,7 +1361,7 @@
       "source_file": "app/layout.tsx",
       "source_location": "L2",
       "weight": 1.0,
-      "source": "app_layout_tsx",
+      "source": "app_layout",
       "target": "app_fonts_switzer",
       "confidence_score": 1.0
     },
@@ -825,7 +1371,7 @@
       "source_file": "app/layout.tsx",
       "source_location": "L5",
       "weight": 1.0,
-      "source": "app_layout_tsx",
+      "source": "app_layout",
       "target": "app_layout_metadata",
       "confidence_score": 1.0
     },
@@ -835,8 +1381,40 @@
       "source_file": "app/layout.tsx",
       "source_location": "L14",
       "weight": 1.0,
-      "source": "app_layout_tsx",
+      "source": "app_layout",
       "target": "app_layout_rootlayout",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "app_page",
+      "target": "app_page_homepage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/page.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "app_page",
+      "target": "content_home",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/page.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "app_page",
+      "target": "content_home_home",
       "confidence_score": 1.0
     },
     {
@@ -846,19 +1424,8 @@
       "source_file": "app/page.tsx",
       "source_location": "L1",
       "weight": 1.0,
-      "source": "app_page_tsx",
-      "target": "components_ui_themetoggle_tsx",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/page.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "app_page_tsx",
-      "target": "content_home_ts",
+      "source": "app_page",
+      "target": "ui_themetoggle",
       "confidence_score": 1.0
     },
     {
@@ -866,20 +1433,10 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "app/page.tsx",
-      "source_location": "L2",
+      "source_location": "L1",
       "weight": 1.0,
-      "source": "app_page_tsx",
-      "target": "content_home_home",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/page.tsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "app_page_tsx",
-      "target": "app_page_homepage",
+      "source": "app_page",
+      "target": "ui_themetoggle_themetoggle",
       "confidence_score": 1.0
     },
     {
@@ -889,8 +1446,8 @@
       "source_file": "components/ui/ThemeToggle.tsx",
       "source_location": "L3",
       "weight": 1.0,
-      "source": "components_ui_themetoggle_tsx",
-      "target": "content_home_ts",
+      "source": "ui_themetoggle",
+      "target": "content_home",
       "confidence_score": 1.0
     },
     {
@@ -900,7 +1457,7 @@
       "source_file": "components/ui/ThemeToggle.tsx",
       "source_location": "L3",
       "weight": 1.0,
-      "source": "components_ui_themetoggle_tsx",
+      "source": "ui_themetoggle",
       "target": "content_home_home",
       "confidence_score": 1.0
     },
@@ -910,7 +1467,7 @@
       "source_file": "components/ui/ThemeToggle.tsx",
       "source_location": "L6",
       "weight": 1.0,
-      "source": "components_ui_themetoggle_tsx",
+      "source": "ui_themetoggle",
       "target": "ui_themetoggle_themetoggle",
       "confidence_score": 1.0
     },
@@ -920,298 +1477,8 @@
       "source_file": "content/home.ts",
       "source_location": "L2",
       "weight": 1.0,
-      "source": "content_home_ts",
+      "source": "content_home",
       "target": "content_home_home",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "claude_md",
-      "target": "artvoid_design_claude_claude_md_\u0645\u063a\u0632_\u0641\u0631\u0645\u0627\u0646\u062f\u0647_\u067e\u0631\u0648\u0698\u0647_artvoid",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "artvoid_design_claude_claude_md_\u0645\u063a\u0632_\u0641\u0631\u0645\u0627\u0646\u062f\u0647_\u067e\u0631\u0648\u0698\u0647_artvoid",
-      "target": "artvoid_design_claude_\u0647\u0648\u06cc\u062a",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L9",
-      "weight": 1.0,
-      "source": "artvoid_design_claude_claude_md_\u0645\u063a\u0632_\u0641\u0631\u0645\u0627\u0646\u062f\u0647_\u067e\u0631\u0648\u0698\u0647_artvoid",
-      "target": "artvoid_design_claude_\u0627\u0642\u062a\u0635\u0627\u062f_\u062a\u0648\u06a9\u0646_\u0628\u0627\u0644\u0627\u062a\u0631\u06cc\u0646_\u0627\u0648\u0644\u0648\u06cc\u062a_\u0631\u0641\u062a\u0627\u0631\u06cc",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L18",
-      "weight": 1.0,
-      "source": "artvoid_design_claude_claude_md_\u0645\u063a\u0632_\u0641\u0631\u0645\u0627\u0646\u062f\u0647_\u067e\u0631\u0648\u0698\u0647_artvoid",
-      "target": "artvoid_design_claude_\u067e\u0631\u0648\u062a\u06a9\u0644_\u0634\u0631\u0648\u0639_\u0633\u0634\u0646",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L44",
-      "weight": 1.0,
-      "source": "artvoid_design_claude_claude_md_\u0645\u063a\u0632_\u0641\u0631\u0645\u0627\u0646\u062f\u0647_\u067e\u0631\u0648\u0698\u0647_artvoid",
-      "target": "artvoid_design_claude_\u067e\u0631\u0648\u062a\u06a9\u0644_\u067e\u0627\u06cc\u0627\u0646_\u0647\u0631_\u06a9\u0627\u0631",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L51",
-      "weight": 1.0,
-      "source": "artvoid_design_claude_claude_md_\u0645\u063a\u0632_\u0641\u0631\u0645\u0627\u0646\u062f\u0647_\u067e\u0631\u0648\u0698\u0647_artvoid",
-      "target": "artvoid_design_claude_\u0627\u0633\u062a\u06a9_\u0641\u0646\u06cc_\u062c\u062f\u06cc\u062f\u062a\u0631\u06cc\u0646_\u0646\u0633\u062e\u0647_\u0647\u0627_\u063a\u06cc\u0631\u0642\u0627\u0628\u0644_\u0645\u0630\u0627\u06a9\u0631\u0647",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L59",
-      "weight": 1.0,
-      "source": "artvoid_design_claude_claude_md_\u0645\u063a\u0632_\u0641\u0631\u0645\u0627\u0646\u062f\u0647_\u067e\u0631\u0648\u0698\u0647_artvoid",
-      "target": "artvoid_design_claude_\u0633\u0627\u0632\u06af\u0627\u0631\u06cc_\u06a9\u0627\u0645\u0644_\u0628\u0627_\u0634\u0628\u06a9\u0647_\u0627\u06cc\u0631\u0627\u0646_\u0642\u0627\u0646\u0648\u0646_\u0633\u062e\u062a",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L69",
-      "weight": 1.0,
-      "source": "artvoid_design_claude_claude_md_\u0645\u063a\u0632_\u0641\u0631\u0645\u0627\u0646\u062f\u0647_\u067e\u0631\u0648\u0698\u0647_artvoid",
-      "target": "artvoid_design_claude_\u0642\u0648\u0627\u0646\u06cc\u0646_\u0637\u0644\u0627\u06cc\u06cc_\u0637\u0631\u0627\u062d\u06cc_\u06a9\u0627\u0645\u0644_docs_design_md",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L77",
-      "weight": 1.0,
-      "source": "artvoid_design_claude_claude_md_\u0645\u063a\u0632_\u0641\u0631\u0645\u0627\u0646\u062f\u0647_\u067e\u0631\u0648\u0698\u0647_artvoid",
-      "target": "artvoid_design_claude_\u0633\u0627\u062e\u062a\u0627\u0631_\u067e\u0648\u0634\u0647_\u0647\u0627",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L84",
-      "weight": 1.0,
-      "source": "artvoid_design_claude_claude_md_\u0645\u063a\u0632_\u0641\u0631\u0645\u0627\u0646\u062f\u0647_\u067e\u0631\u0648\u0698\u0647_artvoid",
-      "target": "artvoid_design_claude_\u0647\u0631\u06af\u0632\u0647\u0627",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L24",
-      "weight": 1.0,
-      "source": "artvoid_design_claude_\u067e\u0631\u0648\u062a\u06a9\u0644_\u0634\u0631\u0648\u0639_\u0633\u0634\u0646",
-      "target": "artvoid_design_claude_\u062d\u0627\u0644\u062a_bootstrap_\u0641\u0642\u0637_\u0627\u0648\u0644\u06cc\u0646_\u0627\u062c\u0631\u0627_\u062e\u0648\u062f\u06a9\u0627\u0631_\u0628\u062f\u0648\u0646_\u0633\u0624\u0627\u0644_\u0627\u0636\u0627\u0641\u0647",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L35",
-      "weight": 1.0,
-      "source": "artvoid_design_claude_\u067e\u0631\u0648\u062a\u06a9\u0644_\u0634\u0631\u0648\u0639_\u0633\u0634\u0646",
-      "target": "artvoid_design_claude_\u062d\u0627\u0644\u062a_\u06a9\u0627\u0631_\u0639\u0627\u062f\u06cc",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L39",
-      "weight": 1.0,
-      "source": "artvoid_design_claude_\u062d\u0627\u0644\u062a_\u06a9\u0627\u0631_\u0639\u0627\u062f\u06cc",
-      "target": "artvoid_design_claude_codeblock_1",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L79",
-      "weight": 1.0,
-      "source": "artvoid_design_claude_\u0633\u0627\u062e\u062a\u0627\u0631_\u067e\u0648\u0634\u0647_\u0647\u0627",
-      "target": "artvoid_design_claude_codeblock_2",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "PROGRESS.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "progress_md",
-      "target": "artvoid_design_progress_progress_md_\u062d\u0627\u0641\u0638\u0647_\u067e\u06cc\u0634\u0631\u0641\u062a_\u067e\u0631\u0648\u0698\u0647_artvoid",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "PROGRESS.md",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "artvoid_design_progress_progress_md_\u062d\u0627\u0641\u0638\u0647_\u067e\u06cc\u0634\u0631\u0641\u062a_\u067e\u0631\u0648\u0698\u0647_artvoid",
-      "target": "artvoid_design_progress_\u0648\u0636\u0639\u06cc\u062a_\u0641\u0639\u0644\u06cc",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "PROGRESS.md",
-      "source_location": "L12",
-      "weight": 1.0,
-      "source": "artvoid_design_progress_progress_md_\u062d\u0627\u0641\u0638\u0647_\u067e\u06cc\u0634\u0631\u0641\u062a_\u067e\u0631\u0648\u0698\u0647_artvoid",
-      "target": "artvoid_design_progress_\u062a\u0635\u0645\u06cc\u0645\u0627\u062a_\u0642\u0637\u0639\u06cc_\u0634\u062f\u0647",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "PROGRESS.md",
-      "source_location": "L26",
-      "weight": 1.0,
-      "source": "artvoid_design_progress_progress_md_\u062d\u0627\u0641\u0638\u0647_\u067e\u06cc\u0634\u0631\u0641\u062a_\u067e\u0631\u0648\u0698\u0647_artvoid",
-      "target": "artvoid_design_progress_\u062a\u0635\u0645\u06cc\u0645\u0627\u062a_\u0628\u0627\u0632_\u0627\u0632_\u06a9\u0627\u0631\u0628\u0631_\u0628\u067e\u0631\u0633_\u0648\u0642\u062a\u06cc_\u0628\u0647_\u0622\u0646_\u0631\u0633\u06cc\u062f\u06cc",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "PROGRESS.md",
-      "source_location": "L32",
-      "weight": 1.0,
-      "source": "artvoid_design_progress_progress_md_\u062d\u0627\u0641\u0638\u0647_\u067e\u06cc\u0634\u0631\u0641\u062a_\u067e\u0631\u0648\u0698\u0647_artvoid",
-      "target": "artvoid_design_progress_\u0633\u0627\u0628\u0642\u0647_\u06a9\u0627\u0631\u0647\u0627\u06cc_\u0627\u0646\u062c\u0627\u0645_\u0634\u062f\u0647",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "PROGRESS.md",
-      "source_location": "L56",
-      "weight": 1.0,
-      "source": "artvoid_design_progress_progress_md_\u062d\u0627\u0641\u0638\u0647_\u067e\u06cc\u0634\u0631\u0641\u062a_\u067e\u0631\u0648\u0698\u0647_artvoid",
-      "target": "artvoid_design_progress_\u0646\u06a9\u0627\u062a_\u0648_\u062f\u0631\u0633_\u0622\u0645\u0648\u062e\u062a\u0647_\u0647\u0627",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "PROGRESS.md",
-      "source_location": "L34",
-      "weight": 1.0,
-      "source": "artvoid_design_progress_\u0633\u0627\u0628\u0642\u0647_\u06a9\u0627\u0631\u0647\u0627\u06cc_\u0627\u0646\u062c\u0627\u0645_\u0634\u062f\u0647",
-      "target": "artvoid_design_progress_\u0645\u0631\u062d\u0644\u0647_\u06f0_\u0628\u0648\u062a_\u0627\u0633\u062a\u0631\u067e_\u062e\u0648\u062f\u06a9\u0627\u0631_\u062a\u0648\u0633\u0637_claude_code",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "PROGRESS.md",
-      "source_location": "L41",
-      "weight": 1.0,
-      "source": "artvoid_design_progress_\u0633\u0627\u0628\u0642\u0647_\u06a9\u0627\u0631\u0647\u0627\u06cc_\u0627\u0646\u062c\u0627\u0645_\u0634\u062f\u0647",
-      "target": "artvoid_design_progress_\u0645\u0631\u062d\u0644\u0647_\u06f1_\u0627\u0633\u06a9\u0644\u062a_\u067e\u0631\u0648\u0698\u0647",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "PROGRESS.md",
-      "source_location": "L50",
-      "weight": 1.0,
-      "source": "artvoid_design_progress_\u0633\u0627\u0628\u0642\u0647_\u06a9\u0627\u0631\u0647\u0627\u06cc_\u0627\u0646\u062c\u0627\u0645_\u0634\u062f\u0647",
-      "target": "artvoid_design_progress_\u0645\u0631\u062d\u0644\u0647_\u06f2_\u06a9\u0627\u0645\u067e\u0648\u0646\u0646\u062a_\u0647\u0627\u06cc_\u067e\u0627\u06cc\u0647",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "PROGRESS.md",
-      "source_location": "L53",
-      "weight": 1.0,
-      "source": "artvoid_design_progress_\u0633\u0627\u0628\u0642\u0647_\u06a9\u0627\u0631\u0647\u0627\u06cc_\u0627\u0646\u062c\u0627\u0645_\u0634\u062f\u0647",
-      "target": "artvoid_design_progress_\u0645\u0631\u062d\u0644\u0647_\u06f3_\u0628\u0647_\u0628\u0639\u062f",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "readme_md",
-      "target": "artvoid_design_readme_artvoid_artvoid_ir",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "artvoid_design_readme_artvoid_artvoid_ir",
-      "target": "artvoid_design_readme_\u0627\u0633\u062a\u06a9",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L12",
-      "weight": 1.0,
-      "source": "artvoid_design_readme_artvoid_artvoid_ir",
-      "target": "artvoid_design_readme_\u062a\u0648\u0633\u0639\u0647",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L20",
-      "weight": 1.0,
-      "source": "artvoid_design_readme_artvoid_artvoid_ir",
-      "target": "artvoid_design_readme_\u0627\u0633\u0646\u0627\u062f_\u067e\u0631\u0648\u0698\u0647",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L14",
-      "weight": 1.0,
-      "source": "artvoid_design_readme_\u062a\u0648\u0633\u0639\u0647",
-      "target": "artvoid_design_readme_codeblock_1",
       "confidence_score": 1.0
     },
     {
@@ -1220,7 +1487,7 @@
       "source_file": "docs/DESIGN.md",
       "source_location": "L1",
       "weight": 1.0,
-      "source": "docs_design_md",
+      "source": "docs_design",
       "target": "docs_design_design_md_\u0633\u06cc\u0633\u062a\u0645_\u0637\u0631\u0627\u062d\u06cc_artvoid",
       "confidence_score": 1.0
     },
@@ -1230,9 +1497,9 @@
       "source_file": "docs/DESIGN.md",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_design_design_md_\u0633\u06cc\u0633\u062a\u0645_\u0637\u0631\u0627\u062d\u06cc_artvoid",
-      "target": "docs_design_\u06f1_\u0631\u0646\u06af_\u0647\u0627",
-      "confidence_score": 1.0
+      "target": "docs_design_\u06f1_\u0631\u0646\u06af_\u0647\u0627"
     },
     {
       "relation": "contains",
@@ -1240,9 +1507,9 @@
       "source_file": "docs/DESIGN.md",
       "source_location": "L33",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_design_design_md_\u0633\u06cc\u0633\u062a\u0645_\u0637\u0631\u0627\u062d\u06cc_artvoid",
-      "target": "docs_design_\u06f2_\u062a\u0627\u06cc\u067e\u0648\u06af\u0631\u0627\u0641\u06cc",
-      "confidence_score": 1.0
+      "target": "docs_design_\u06f2_\u062a\u0627\u06cc\u067e\u0648\u06af\u0631\u0627\u0641\u06cc"
     },
     {
       "relation": "contains",
@@ -1250,9 +1517,9 @@
       "source_file": "docs/DESIGN.md",
       "source_location": "L48",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_design_design_md_\u0633\u06cc\u0633\u062a\u0645_\u0637\u0631\u0627\u062d\u06cc_artvoid",
-      "target": "docs_design_\u06f3_\u0641\u0627\u0635\u0644\u0647_\u06af\u0630\u0627\u0631\u06cc_\u0648_\u0634\u0628\u06a9\u0647",
-      "confidence_score": 1.0
+      "target": "docs_design_\u06f3_\u0641\u0627\u0635\u0644\u0647_\u06af\u0630\u0627\u0631\u06cc_\u0648_\u0634\u0628\u06a9\u0647"
     },
     {
       "relation": "contains",
@@ -1260,9 +1527,9 @@
       "source_file": "docs/DESIGN.md",
       "source_location": "L56",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_design_design_md_\u0633\u06cc\u0633\u062a\u0645_\u0637\u0631\u0627\u062d\u06cc_artvoid",
-      "target": "docs_design_\u06f4_\u0627\u062c\u0632\u0627_primitives",
-      "confidence_score": 1.0
+      "target": "docs_design_\u06f4_\u0627\u062c\u0632\u0627_primitives"
     },
     {
       "relation": "contains",
@@ -1270,9 +1537,9 @@
       "source_file": "docs/DESIGN.md",
       "source_location": "L63",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_design_design_md_\u0633\u06cc\u0633\u062a\u0645_\u0637\u0631\u0627\u062d\u06cc_artvoid",
-      "target": "docs_design_\u06f5_\u062d\u0631\u06a9\u062a_motion",
-      "confidence_score": 1.0
+      "target": "docs_design_\u06f5_\u062d\u0631\u06a9\u062a_motion"
     },
     {
       "relation": "contains",
@@ -1280,9 +1547,9 @@
       "source_file": "docs/DESIGN.md",
       "source_location": "L71",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_design_design_md_\u0633\u06cc\u0633\u062a\u0645_\u0637\u0631\u0627\u062d\u06cc_artvoid",
-      "target": "docs_design_\u06f6_\u0632\u0628\u0627\u0646_\u0628\u0635\u0631\u06cc_\u0628\u0631\u0646\u062f",
-      "confidence_score": 1.0
+      "target": "docs_design_\u06f6_\u0632\u0628\u0627\u0646_\u0628\u0635\u0631\u06cc_\u0628\u0631\u0646\u062f"
     },
     {
       "relation": "contains",
@@ -1290,29 +1557,9 @@
       "source_file": "docs/DESIGN.md",
       "source_location": "L78",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_design_design_md_\u0633\u06cc\u0633\u062a\u0645_\u0637\u0631\u0627\u062d\u06cc_artvoid",
-      "target": "docs_design_\u06f7_\u062f\u0633\u062a\u0631\u0633\u06cc_\u067e\u0630\u06cc\u0631\u06cc_\u062d\u062f\u0627\u0642\u0644_\u0647\u0627\u06cc_\u0627\u0644\u0632\u0627\u0645\u06cc",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/DESIGN.md",
-      "source_location": "L8",
-      "weight": 1.0,
-      "source": "docs_design_\u06f1_\u0631\u0646\u06af_\u0647\u0627",
-      "target": "docs_design_\u067e\u0627\u0644\u062a_\u0645\u0648\u0646\u0648\u06a9\u0631\u0648\u0645_\u062a\u0646\u0647\u0627_\u067e\u0627\u0644\u062a_\u0645\u062c\u0627\u0632_\u0628\u0631\u0627\u06cc_ui",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/DESIGN.md",
-      "source_location": "L20",
-      "weight": 1.0,
-      "source": "docs_design_\u06f1_\u0631\u0646\u06af_\u0647\u0627",
-      "target": "docs_design_\u0631\u0646\u06af_\u0647\u0627\u06cc_\u0633\u0645\u0627\u0646\u062a\u06cc\u06a9_\u0641\u0642\u0637_\u0628\u0631\u0627\u06cc_\u0648\u0636\u0639\u06cc\u062a_\u0647\u0627\u06cc_\u0633\u06cc\u0633\u062a\u0645\u06cc_\u0646\u0647_\u062f\u06a9\u0648\u0631\u0627\u0633\u06cc\u0648\u0646",
-      "confidence_score": 1.0
+      "target": "docs_design_\u06f7_\u062f\u0633\u062a\u0631\u0633\u06cc_\u067e\u0630\u06cc\u0631\u06cc_\u062d\u062f\u0627\u0642\u0644_\u0647\u0627\u06cc_\u0627\u0644\u0632\u0627\u0645\u06cc"
     },
     {
       "relation": "contains",
@@ -1320,9 +1567,559 @@
       "source_file": "docs/DESIGN.md",
       "source_location": "L29",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_design_\u06f1_\u0631\u0646\u06af_\u0647\u0627",
-      "target": "docs_design_\u062d\u0627\u0644\u062a_\u062a\u06cc\u0631\u0647_dark_mode",
+      "target": "docs_design_\u062d\u0627\u0644\u062a_\u062a\u06cc\u0631\u0647_dark_mode"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/DESIGN.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_design_\u06f1_\u0631\u0646\u06af_\u0647\u0627",
+      "target": "docs_design_\u0631\u0646\u06af_\u0647\u0627\u06cc_\u0633\u0645\u0627\u0646\u062a\u06cc\u06a9_\u0641\u0642\u0637_\u0628\u0631\u0627\u06cc_\u0648\u0636\u0639\u06cc\u062a_\u0647\u0627\u06cc_\u0633\u06cc\u0633\u062a\u0645\u06cc_\u0646\u0647_\u062f\u06a9\u0648\u0631\u0627\u0633\u06cc\u0648\u0646"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/DESIGN.md",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_design_\u06f1_\u0631\u0646\u06af_\u0647\u0627",
+      "target": "docs_design_\u067e\u0627\u0644\u062a_\u0645\u0648\u0646\u0648\u06a9\u0631\u0648\u0645_\u062a\u0646\u0647\u0627_\u067e\u0627\u0644\u062a_\u0645\u062c\u0627\u0632_\u0628\u0631\u0627\u06cc_ui"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "next.config.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "next_config",
+      "target": "next_config_nextconfig",
       "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_dependencies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_devdependencies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_name",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_private",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_scripts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_version",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_build",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_dev",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_start",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_next",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_react",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_react_dom",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_tailwindcss",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_tailwindcss_postcss",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_types_node",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_types_react",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_types_react_dom",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_typescript",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "postcss.config.mjs",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "postcss_config",
+      "target": "postcss_config_config",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "tsconfig",
+      "target": "tsconfig_compileroptions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "tsconfig",
+      "target": "tsconfig_exclude",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "tsconfig",
+      "target": "tsconfig_include",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_allowjs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_esmoduleinterop",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_incremental",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_isolatedmodules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_lib",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_module",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_moduleresolution",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_noemit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_paths",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_plugins",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_resolvejsonmodule",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_skiplibcheck",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_strict",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_target",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions_paths",
+      "target": "tsconfig_paths",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "claude_md",
+      "target": "artvoid_design_claude_claude_md_\u0645\u063a\u0632_\u0641\u0631\u0645\u0627\u0646\u062f\u0647_\u067e\u0631\u0648\u0698\u0647_artvoid"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L51",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "artvoid_design_claude_claude_md_\u0645\u063a\u0632_\u0641\u0631\u0645\u0627\u0646\u062f\u0647_\u067e\u0631\u0648\u0698\u0647_artvoid",
+      "target": "artvoid_design_claude_\u0627\u0633\u062a\u06a9_\u0641\u0646\u06cc_\u062c\u062f\u06cc\u062f\u062a\u0631\u06cc\u0646_\u0646\u0633\u062e\u0647_\u0647\u0627_\u063a\u06cc\u0631\u0642\u0627\u0628\u0644_\u0645\u0630\u0627\u06a9\u0631\u0647"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "artvoid_design_claude_claude_md_\u0645\u063a\u0632_\u0641\u0631\u0645\u0627\u0646\u062f\u0647_\u067e\u0631\u0648\u0698\u0647_artvoid",
+      "target": "artvoid_design_claude_\u0627\u0642\u062a\u0635\u0627\u062f_\u062a\u0648\u06a9\u0646_\u0628\u0627\u0644\u0627\u062a\u0631\u06cc\u0646_\u0627\u0648\u0644\u0648\u06cc\u062a_\u0631\u0641\u062a\u0627\u0631\u06cc"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L77",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "artvoid_design_claude_claude_md_\u0645\u063a\u0632_\u0641\u0631\u0645\u0627\u0646\u062f\u0647_\u067e\u0631\u0648\u0698\u0647_artvoid",
+      "target": "artvoid_design_claude_\u0633\u0627\u062e\u062a\u0627\u0631_\u067e\u0648\u0634\u0647_\u0647\u0627"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L59",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "artvoid_design_claude_claude_md_\u0645\u063a\u0632_\u0641\u0631\u0645\u0627\u0646\u062f\u0647_\u067e\u0631\u0648\u0698\u0647_artvoid",
+      "target": "artvoid_design_claude_\u0633\u0627\u0632\u06af\u0627\u0631\u06cc_\u06a9\u0627\u0645\u0644_\u0628\u0627_\u0634\u0628\u06a9\u0647_\u0627\u06cc\u0631\u0627\u0646_\u0642\u0627\u0646\u0648\u0646_\u0633\u062e\u062a"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L69",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "artvoid_design_claude_claude_md_\u0645\u063a\u0632_\u0641\u0631\u0645\u0627\u0646\u062f\u0647_\u067e\u0631\u0648\u0698\u0647_artvoid",
+      "target": "artvoid_design_claude_\u0642\u0648\u0627\u0646\u06cc\u0646_\u0637\u0644\u0627\u06cc\u06cc_\u0637\u0631\u0627\u062d\u06cc_\u06a9\u0627\u0645\u0644_docs_design_md"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L84",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "artvoid_design_claude_claude_md_\u0645\u063a\u0632_\u0641\u0631\u0645\u0627\u0646\u062f\u0647_\u067e\u0631\u0648\u0698\u0647_artvoid",
+      "target": "artvoid_design_claude_\u0647\u0631\u06af\u0632\u0647\u0627"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "artvoid_design_claude_claude_md_\u0645\u063a\u0632_\u0641\u0631\u0645\u0627\u0646\u062f\u0647_\u067e\u0631\u0648\u0698\u0647_artvoid",
+      "target": "artvoid_design_claude_\u0647\u0648\u06cc\u062a"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "artvoid_design_claude_claude_md_\u0645\u063a\u0632_\u0641\u0631\u0645\u0627\u0646\u062f\u0647_\u067e\u0631\u0648\u0698\u0647_artvoid",
+      "target": "artvoid_design_claude_\u067e\u0631\u0648\u062a\u06a9\u0644_\u0634\u0631\u0648\u0639_\u0633\u0634\u0646"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L44",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "artvoid_design_claude_claude_md_\u0645\u063a\u0632_\u0641\u0631\u0645\u0627\u0646\u062f\u0647_\u067e\u0631\u0648\u0698\u0647_artvoid",
+      "target": "artvoid_design_claude_\u067e\u0631\u0648\u062a\u06a9\u0644_\u067e\u0627\u06cc\u0627\u0646_\u0647\u0631_\u06a9\u0627\u0631"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "artvoid_design_claude_\u067e\u0631\u0648\u062a\u06a9\u0644_\u0634\u0631\u0648\u0639_\u0633\u0634\u0646",
+      "target": "artvoid_design_claude_\u062d\u0627\u0644\u062a_bootstrap_\u0641\u0642\u0637_\u0627\u0648\u0644\u06cc\u0646_\u0627\u062c\u0631\u0627_\u062e\u0648\u062f\u06a9\u0627\u0631_\u0628\u062f\u0648\u0646_\u0633\u0624\u0627\u0644_\u0627\u0636\u0627\u0641\u0647"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L35",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "artvoid_design_claude_\u067e\u0631\u0648\u062a\u06a9\u0644_\u0634\u0631\u0648\u0639_\u0633\u0634\u0646",
+      "target": "artvoid_design_claude_\u062d\u0627\u0644\u062a_\u06a9\u0627\u0631_\u0639\u0627\u062f\u06cc"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L39",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "artvoid_design_claude_\u062d\u0627\u0644\u062a_\u06a9\u0627\u0631_\u0639\u0627\u062f\u06cc",
+      "target": "artvoid_design_claude_codeblock_1"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L79",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "artvoid_design_claude_\u0633\u0627\u062e\u062a\u0627\u0631_\u067e\u0648\u0634\u0647_\u0647\u0627",
+      "target": "artvoid_design_claude_codeblock_2"
     },
     {
       "relation": "contains",
@@ -1330,79 +2127,9 @@
       "source_file": "docs/ROADMAP.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_roadmap_md",
-      "target": "docs_roadmap_roadmap_md_\u0645\u0633\u06cc\u0631_\u0633\u0627\u062e\u062a_\u0633\u0627\u06cc\u062a_artvoid_\u0628\u0627_claude_code",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/ROADMAP.md",
-      "source_location": "L8",
-      "weight": 1.0,
-      "source": "docs_roadmap_roadmap_md_\u0645\u0633\u06cc\u0631_\u0633\u0627\u062e\u062a_\u0633\u0627\u06cc\u062a_artvoid_\u0628\u0627_claude_code",
-      "target": "docs_roadmap_\u0645\u0631\u062d\u0644\u0647_\u06f0_\u0628\u0648\u062a_\u0627\u0633\u062a\u0631\u067e_claude_code_\u062e\u0648\u062f\u06a9\u0627\u0631_\u0627\u0646\u062c\u0627\u0645_\u0645\u06cc_\u062f\u0647\u062f_\u067e\u0631\u0648\u062a\u06a9\u0644_\u062f\u0631_claude_md",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/ROADMAP.md",
-      "source_location": "L15",
-      "weight": 1.0,
-      "source": "docs_roadmap_roadmap_md_\u0645\u0633\u06cc\u0631_\u0633\u0627\u062e\u062a_\u0633\u0627\u06cc\u062a_artvoid_\u0628\u0627_claude_code",
-      "target": "docs_roadmap_\u0645\u0631\u062d\u0644\u0647_\u06f1_\u0627\u0633\u06a9\u0644\u062a_\u067e\u0631\u0648\u0698\u0647",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/ROADMAP.md",
-      "source_location": "L26",
-      "weight": 1.0,
-      "source": "docs_roadmap_roadmap_md_\u0645\u0633\u06cc\u0631_\u0633\u0627\u062e\u062a_\u0633\u0627\u06cc\u062a_artvoid_\u0628\u0627_claude_code",
-      "target": "docs_roadmap_\u0645\u0631\u062d\u0644\u0647_\u06f2_\u06a9\u062a\u0627\u0628\u062e\u0627\u0646\u0647_\u06a9\u0627\u0645\u067e\u0648\u0646\u0646\u062a_\u0647\u0627\u06cc_\u067e\u0627\u06cc\u0647",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/ROADMAP.md",
-      "source_location": "L37",
-      "weight": 1.0,
-      "source": "docs_roadmap_roadmap_md_\u0645\u0633\u06cc\u0631_\u0633\u0627\u062e\u062a_\u0633\u0627\u06cc\u062a_artvoid_\u0628\u0627_claude_code",
-      "target": "docs_roadmap_\u0645\u0631\u062d\u0644\u0647_\u06f3_\u0635\u0641\u062d\u0627\u062a_\u0627\u0635\u0644\u06cc_\u0628\u0647_\u062a\u0631\u062a\u06cc\u0628",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/ROADMAP.md",
-      "source_location": "L46",
-      "weight": 1.0,
-      "source": "docs_roadmap_roadmap_md_\u0645\u0633\u06cc\u0631_\u0633\u0627\u062e\u062a_\u0633\u0627\u06cc\u062a_artvoid_\u0628\u0627_claude_code",
-      "target": "docs_roadmap_\u0645\u0631\u062d\u0644\u0647_\u06f4_\u0628\u062e\u0634_showcase_\u062a\u0645\u0627\u06cc\u0632_\u0627\u0635\u0644\u06cc",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/ROADMAP.md",
-      "source_location": "L52",
-      "weight": 1.0,
-      "source": "docs_roadmap_roadmap_md_\u0645\u0633\u06cc\u0631_\u0633\u0627\u062e\u062a_\u0633\u0627\u06cc\u062a_artvoid_\u0628\u0627_claude_code",
-      "target": "docs_roadmap_\u0645\u0631\u062d\u0644\u0647_\u06f5_\u0633\u0626\u0648_\u0648_\u0627\u0646\u062a\u0634\u0627\u0631",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/ROADMAP.md",
-      "source_location": "L60",
-      "weight": 1.0,
-      "source": "docs_roadmap_roadmap_md_\u0645\u0633\u06cc\u0631_\u0633\u0627\u062e\u062a_\u0633\u0627\u06cc\u062a_artvoid_\u0628\u0627_claude_code",
-      "target": "docs_roadmap_\u0645\u0631\u062d\u0644\u0647_\u06f6_\u0641\u0627\u0632\u0647\u0627\u06cc_\u0628\u0639\u062f\u06cc_\u0628\u0639\u062f_\u0627\u0632_\u0627\u0646\u062a\u0634\u0627\u0631",
-      "confidence_score": 1.0
+      "target": "docs_roadmap_roadmap_md_\u0645\u0633\u06cc\u0631_\u0633\u0627\u062e\u062a_\u0633\u0627\u06cc\u062a_artvoid_\u0628\u0627_claude_code"
     },
     {
       "relation": "contains",
@@ -1410,9 +2137,79 @@
       "source_file": "docs/ROADMAP.md",
       "source_location": "L68",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_roadmap_roadmap_md_\u0645\u0633\u06cc\u0631_\u0633\u0627\u062e\u062a_\u0633\u0627\u06cc\u062a_artvoid_\u0628\u0627_claude_code",
-      "target": "docs_roadmap_\u0627\u0644\u06af\u0648\u06cc_\u0634\u0631\u0648\u0639_\u0647\u0631_\u0633\u0634\u0646_claude_code",
-      "confidence_score": 1.0
+      "target": "docs_roadmap_\u0627\u0644\u06af\u0648\u06cc_\u0634\u0631\u0648\u0639_\u0647\u0631_\u0633\u0634\u0646_claude_code"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ROADMAP.md",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_roadmap_roadmap_md_\u0645\u0633\u06cc\u0631_\u0633\u0627\u062e\u062a_\u0633\u0627\u06cc\u062a_artvoid_\u0628\u0627_claude_code",
+      "target": "docs_roadmap_\u0645\u0631\u062d\u0644\u0647_\u06f0_\u0628\u0648\u062a_\u0627\u0633\u062a\u0631\u067e_claude_code_\u062e\u0648\u062f\u06a9\u0627\u0631_\u0627\u0646\u062c\u0627\u0645_\u0645\u06cc_\u062f\u0647\u062f_\u067e\u0631\u0648\u062a\u06a9\u0644_\u062f\u0631_claude_md"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ROADMAP.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_roadmap_roadmap_md_\u0645\u0633\u06cc\u0631_\u0633\u0627\u062e\u062a_\u0633\u0627\u06cc\u062a_artvoid_\u0628\u0627_claude_code",
+      "target": "docs_roadmap_\u0645\u0631\u062d\u0644\u0647_\u06f1_\u0627\u0633\u06a9\u0644\u062a_\u067e\u0631\u0648\u0698\u0647"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ROADMAP.md",
+      "source_location": "L26",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_roadmap_roadmap_md_\u0645\u0633\u06cc\u0631_\u0633\u0627\u062e\u062a_\u0633\u0627\u06cc\u062a_artvoid_\u0628\u0627_claude_code",
+      "target": "docs_roadmap_\u0645\u0631\u062d\u0644\u0647_\u06f2_\u06a9\u062a\u0627\u0628\u062e\u0627\u0646\u0647_\u06a9\u0627\u0645\u067e\u0648\u0646\u0646\u062a_\u0647\u0627\u06cc_\u067e\u0627\u06cc\u0647"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ROADMAP.md",
+      "source_location": "L37",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_roadmap_roadmap_md_\u0645\u0633\u06cc\u0631_\u0633\u0627\u062e\u062a_\u0633\u0627\u06cc\u062a_artvoid_\u0628\u0627_claude_code",
+      "target": "docs_roadmap_\u0645\u0631\u062d\u0644\u0647_\u06f3_\u0635\u0641\u062d\u0627\u062a_\u0627\u0635\u0644\u06cc_\u0628\u0647_\u062a\u0631\u062a\u06cc\u0628"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ROADMAP.md",
+      "source_location": "L46",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_roadmap_roadmap_md_\u0645\u0633\u06cc\u0631_\u0633\u0627\u062e\u062a_\u0633\u0627\u06cc\u062a_artvoid_\u0628\u0627_claude_code",
+      "target": "docs_roadmap_\u0645\u0631\u062d\u0644\u0647_\u06f4_\u0628\u062e\u0634_showcase_\u062a\u0645\u0627\u06cc\u0632_\u0627\u0635\u0644\u06cc"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ROADMAP.md",
+      "source_location": "L52",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_roadmap_roadmap_md_\u0645\u0633\u06cc\u0631_\u0633\u0627\u062e\u062a_\u0633\u0627\u06cc\u062a_artvoid_\u0628\u0627_claude_code",
+      "target": "docs_roadmap_\u0645\u0631\u062d\u0644\u0647_\u06f5_\u0633\u0626\u0648_\u0648_\u0627\u0646\u062a\u0634\u0627\u0631"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ROADMAP.md",
+      "source_location": "L60",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_roadmap_roadmap_md_\u0645\u0633\u06cc\u0631_\u0633\u0627\u062e\u062a_\u0633\u0627\u06cc\u062a_artvoid_\u0628\u0627_claude_code",
+      "target": "docs_roadmap_\u0645\u0631\u062d\u0644\u0647_\u06f6_\u0641\u0627\u0632\u0647\u0627\u06cc_\u0628\u0639\u062f\u06cc_\u0628\u0639\u062f_\u0627\u0632_\u0627\u0646\u062a\u0634\u0627\u0631"
     },
     {
       "relation": "contains",
@@ -1420,9 +2217,9 @@
       "source_file": "docs/ROADMAP.md",
       "source_location": "L72",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_roadmap_\u0627\u0644\u06af\u0648\u06cc_\u0634\u0631\u0648\u0639_\u0647\u0631_\u0633\u0634\u0646_claude_code",
-      "target": "docs_roadmap_codeblock_1",
-      "confidence_score": 1.0
+      "target": "docs_roadmap_codeblock_1"
     },
     {
       "relation": "contains",
@@ -1430,9 +2227,9 @@
       "source_file": "docs/SHOWCASE.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_showcase_md",
-      "target": "docs_showcase_showcase_md_\u0627\u06cc\u062f\u0647_\u0647\u0627\u06cc_\u0646\u0645\u0627\u06cc\u0634_\u0632\u0646\u062f\u0647_ui_ux_\u062f\u0631_\u0633\u0627\u06cc\u062a_artvoid",
-      "confidence_score": 1.0
+      "target": "docs_showcase_showcase_md_\u0627\u06cc\u062f\u0647_\u0647\u0627\u06cc_\u0646\u0645\u0627\u06cc\u0634_\u0632\u0646\u062f\u0647_ui_ux_\u062f\u0631_\u0633\u0627\u06cc\u062a_artvoid"
     },
     {
       "relation": "contains",
@@ -1440,9 +2237,9 @@
       "source_file": "docs/SHOWCASE.md",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_showcase_showcase_md_\u0627\u06cc\u062f\u0647_\u0647\u0627\u06cc_\u0646\u0645\u0627\u06cc\u0634_\u0632\u0646\u062f\u0647_ui_ux_\u062f\u0631_\u0633\u0627\u06cc\u062a_artvoid",
-      "target": "docs_showcase_\u0627\u0648\u0644\u0648\u06cc\u062a_\u06f1_\u067e\u0646\u062c_\u062f\u0645\u0648\u06cc_\u0627\u0641\u062a\u062a\u0627\u062d\u06cc\u0647",
-      "confidence_score": 1.0
+      "target": "docs_showcase_\u0627\u0648\u0644\u0648\u06cc\u062a_\u06f1_\u067e\u0646\u062c_\u062f\u0645\u0648\u06cc_\u0627\u0641\u062a\u062a\u0627\u062d\u06cc\u0647"
     },
     {
       "relation": "contains",
@@ -1450,9 +2247,9 @@
       "source_file": "docs/SHOWCASE.md",
       "source_location": "L23",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_showcase_showcase_md_\u0627\u06cc\u062f\u0647_\u0647\u0627\u06cc_\u0646\u0645\u0627\u06cc\u0634_\u0632\u0646\u062f\u0647_ui_ux_\u062f\u0631_\u0633\u0627\u06cc\u062a_artvoid",
-      "target": "docs_showcase_\u0627\u0648\u0644\u0648\u06cc\u062a_\u06f2_\u062a\u062c\u0631\u0628\u0647_\u0647\u0627\u06cc_\u0627\u0633\u06a9\u0631\u0648\u0644_\u0648_\u0631\u0648\u0627\u06cc\u062a",
-      "confidence_score": 1.0
+      "target": "docs_showcase_\u0627\u0648\u0644\u0648\u06cc\u062a_\u06f2_\u062a\u062c\u0631\u0628\u0647_\u0647\u0627\u06cc_\u0627\u0633\u06a9\u0631\u0648\u0644_\u0648_\u0631\u0648\u0627\u06cc\u062a"
     },
     {
       "relation": "contains",
@@ -1460,9 +2257,9 @@
       "source_file": "docs/SHOWCASE.md",
       "source_location": "L31",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_showcase_showcase_md_\u0627\u06cc\u062f\u0647_\u0647\u0627\u06cc_\u0646\u0645\u0627\u06cc\u0634_\u0632\u0646\u062f\u0647_ui_ux_\u062f\u0631_\u0633\u0627\u06cc\u062a_artvoid",
-      "target": "docs_showcase_\u0627\u0648\u0644\u0648\u06cc\u062a_\u06f3_\u0627\u0628\u0632\u0627\u0631\u0647\u0627\u06cc_\u062a\u0639\u0627\u0645\u0644\u06cc_\u062a\u0628\u062f\u06cc\u0644_\u0628\u0627\u0632\u062f\u06cc\u062f_\u0628\u0647_\u0633\u0631\u0646\u062e",
-      "confidence_score": 1.0
+      "target": "docs_showcase_\u0627\u0648\u0644\u0648\u06cc\u062a_\u06f3_\u0627\u0628\u0632\u0627\u0631\u0647\u0627\u06cc_\u062a\u0639\u0627\u0645\u0644\u06cc_\u062a\u0628\u062f\u06cc\u0644_\u0628\u0627\u0632\u062f\u06cc\u062f_\u0628\u0647_\u0633\u0631\u0646\u062e"
     },
     {
       "relation": "contains",
@@ -1470,9 +2267,9 @@
       "source_file": "docs/SHOWCASE.md",
       "source_location": "L38",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_showcase_showcase_md_\u0627\u06cc\u062f\u0647_\u0647\u0627\u06cc_\u0646\u0645\u0627\u06cc\u0634_\u0632\u0646\u062f\u0647_ui_ux_\u062f\u0631_\u0633\u0627\u06cc\u062a_artvoid",
-      "target": "docs_showcase_\u0627\u0648\u0644\u0648\u06cc\u062a_\u06f4_\u062c\u0632\u0626\u06cc\u0627\u062a_\u0627\u0645\u0636\u0627\u062f\u0627\u0631_polish",
-      "confidence_score": 1.0
+      "target": "docs_showcase_\u0627\u0648\u0644\u0648\u06cc\u062a_\u06f4_\u062c\u0632\u0626\u06cc\u0627\u062a_\u0627\u0645\u0636\u0627\u062f\u0627\u0631_polish"
     },
     {
       "relation": "contains",
@@ -1480,11 +2277,11 @@
       "source_file": "docs/SHOWCASE.md",
       "source_location": "L47",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_showcase_showcase_md_\u0627\u06cc\u062f\u0647_\u0647\u0627\u06cc_\u0646\u0645\u0627\u06cc\u0634_\u0632\u0646\u062f\u0647_ui_ux_\u062f\u0631_\u0633\u0627\u06cc\u062a_artvoid",
-      "target": "docs_showcase_\u0642\u0648\u0627\u0646\u06cc\u0646_\u0627\u062c\u0631\u0627\u06cc\u06cc",
-      "confidence_score": 1.0
+      "target": "docs_showcase_\u0642\u0648\u0627\u0646\u06cc\u0646_\u0627\u062c\u0631\u0627\u06cc\u06cc"
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "75937fca4358d7aef9a34e17ac9ea3a6c87b65ab"
+  "built_at_commit": "520dea513c9a6b76163a613ae6aa7ceb54405fe5"
 }
