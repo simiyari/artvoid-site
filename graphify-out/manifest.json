@@ -25,8 +25,8 @@
     "semantic_hash": ""
   },
   "app/page.tsx": {
-    "mtime": 1784054526.9998314,
-    "ast_hash": "65b30cd0590dfdb1312ba11c58eb6a71",
+    "mtime": 1784058057.1203039,
+    "ast_hash": "4afc0c229e560ef16cff469f7880d467",
     "semantic_hash": ""
   },
   "components/ui/ThemeToggle.tsx": {
@@ -35,8 +35,8 @@
     "semantic_hash": ""
   },
   "content/home.ts": {
-    "mtime": 1784054429.6522188,
-    "ast_hash": "a0c62fd8c2ce6f610ecb87589fed439b",
+    "mtime": 1784058020.7907877,
+    "ast_hash": "cc0229ac52daf3fd701e77c4906efb11",
     "semantic_hash": ""
   },
   "CLAUDE.md": {
@@ -45,8 +45,8 @@
     "semantic_hash": ""
   },
   "PROGRESS.md": {
-    "mtime": 1784055403.7043746,
-    "ast_hash": "59a7c8d2698996f708226b1b19c49bd9",
+    "mtime": 1784058060.5961435,
+    "ast_hash": "8352e01cb09584d4645f4e948e3df67f",
     "semantic_hash": ""
   },
   "README.md": {
@@ -55,8 +55,8 @@
     "semantic_hash": ""
   },
   "docs/DESIGN.md": {
-    "mtime": 1784055331.1874936,
-    "ast_hash": "4b16d1ecd527c9a4139cb58f195007e6",
+    "mtime": 1784057966.0400753,
+    "ast_hash": "e64ee3614f5c8aa25d1436e061c438fa",
     "semantic_hash": ""
   },
   "docs/ROADMAP.md": {
@@ -490,13 +490,13 @@
     "semantic_hash": ""
   },
   "app/dev/ui/page.tsx": {
-    "mtime": 1784054368.807868,
-    "ast_hash": "d37b3da73bad89fad8318193a2c91919",
+    "mtime": 1784058680.800676,
+    "ast_hash": "04d01aa3a7bb5d8ff7cd935b224075dc",
     "semantic_hash": ""
   },
   "components/sections/Footer.tsx": {
-    "mtime": 1784054325.9792302,
-    "ast_hash": "06d65502a3e80304ba53ea5d2b3f1a8f",
+    "mtime": 1784057962.248918,
+    "ast_hash": "60d48859d197904c8489361fbbd7e0dc",
     "semantic_hash": ""
   },
   "components/sections/Navbar.tsx": {
@@ -572,6 +572,11 @@
   "components/sections/Hero.tsx": {
     "mtime": 1784054442.0910115,
     "ast_hash": "b1e82b01d1eadec18255d7c7279935fd",
+    "semantic_hash": ""
+  },
+  "components/ui/SitePreview.tsx": {
+    "mtime": 1784058014.4105587,
+    "ast_hash": "d209daff763da078716d6e2b903d00b7",
     "semantic_hash": ""
   }
 }

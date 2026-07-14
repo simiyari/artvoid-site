@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Hero from "@/components/sections/Hero";
+import ProcessScroll from "@/components/sections/ProcessScroll";
 import Badge from "@/components/ui/Badge";
 import Button from "@/components/ui/Button";
 import Card from "@/components/ui/Card";
@@ -113,23 +114,8 @@ export default function HomePage() {
         </Container>
       </Section>
 
-      {/* فرآیند کار */}
-      <Section className="bg-mist transition-colors duration-200">
-        <Container>
-          <SectionHeader title={home.process.title} sub={home.process.sub} />
-          <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
-            {home.process.steps.map((step, index) => (
-              <Reveal key={step.number} delay={index * 0.1}>
-                <div className="flex h-full flex-col gap-3 border-t border-gray-strong pt-6">
-                  <span className="text-h2 text-gray">{step.number}</span>
-                  <h3 className="text-h3 text-ink">{step.title}</h3>
-                  <p className="text-small text-gray-strong">{step.body}</p>
-                </div>
-              </Reveal>
-            ))}
-          </div>
-        </Container>
-      </Section>
+      {/* فرآیند کار — Scrollytelling چسبان */}
+      <ProcessScroll />
 
       {/* CTA پایانی — بلوک معکوس مونوکروم */}
       <Section className="bg-ink transition-colors duration-200">

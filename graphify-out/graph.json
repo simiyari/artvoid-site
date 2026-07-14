@@ -57,7 +57,7 @@
       "label": "\u0633\u0627\u0628\u0642\u0647 \u06a9\u0627\u0631\u0647\u0627\u06cc \u0627\u0646\u062c\u0627\u0645\u200c\u0634\u062f\u0647",
       "file_type": "document",
       "source_file": "PROGRESS.md",
-      "source_location": "L34",
+      "source_location": "L35",
       "_origin": "ast",
       "id": "progress_\u0633\u0627\u0628\u0642\u0647_\u06a9\u0627\u0631\u0647\u0627\u06cc_\u0627\u0646\u062c\u0627\u0645_\u0634\u062f\u0647",
       "community": 8,
@@ -67,7 +67,7 @@
       "label": "\u0645\u0631\u062d\u0644\u0647 \u06f0 \u2014 \u0628\u0648\u062a\u200c\u0627\u0633\u062a\u0631\u067e (\u062e\u0648\u062f\u06a9\u0627\u0631 \u062a\u0648\u0633\u0637 Claude Code)",
       "file_type": "document",
       "source_file": "PROGRESS.md",
-      "source_location": "L36",
+      "source_location": "L37",
       "_origin": "ast",
       "id": "progress_\u0645\u0631\u062d\u0644\u0647_\u06f0_\u0628\u0648\u062a_\u0627\u0633\u062a\u0631\u067e_\u062e\u0648\u062f\u06a9\u0627\u0631_\u062a\u0648\u0633\u0637_claude_code",
       "community": 8,
@@ -77,7 +77,7 @@
       "label": "\u0645\u0631\u062d\u0644\u0647 \u06f1 \u2014 \u0627\u0633\u06a9\u0644\u062a \u067e\u0631\u0648\u0698\u0647",
       "file_type": "document",
       "source_file": "PROGRESS.md",
-      "source_location": "L43",
+      "source_location": "L44",
       "_origin": "ast",
       "id": "progress_\u0645\u0631\u062d\u0644\u0647_\u06f1_\u0627\u0633\u06a9\u0644\u062a_\u067e\u0631\u0648\u0698\u0647",
       "community": 8,
@@ -87,7 +87,7 @@
       "label": "\u0645\u0631\u062d\u0644\u0647 \u06f2 \u2014 \u06a9\u062a\u0627\u0628\u062e\u0627\u0646\u0647 \u06a9\u0627\u0645\u067e\u0648\u0646\u0646\u062a\u200c\u0647\u0627\u06cc \u067e\u0627\u06cc\u0647 (\u0646\u0645\u0627\u06cc\u0634 \u062f\u0631 \u0635\u0641\u062d\u0647 \u0645\u062e\u0641\u06cc /dev/ui)",
       "file_type": "document",
       "source_file": "PROGRESS.md",
-      "source_location": "L52",
+      "source_location": "L53",
       "_origin": "ast",
       "id": "progress_\u0645\u0631\u062d\u0644\u0647_\u06f2_\u06a9\u062a\u0627\u0628\u062e\u0627\u0646\u0647_\u06a9\u0627\u0645\u067e\u0648\u0646\u0646\u062a_\u0647\u0627\u06cc_\u067e\u0627\u06cc\u0647_\u0646\u0645\u0627\u06cc\u0634_\u062f\u0631_\u0635\u0641\u062d\u0647_\u0645\u062e\u0641\u06cc_dev_ui",
       "community": 8,
@@ -97,7 +97,7 @@
       "label": "\u0645\u0631\u062d\u0644\u0647 \u06f3 \u2014 \u0635\u0641\u062d\u0627\u062a \u0627\u0635\u0644\u06cc",
       "file_type": "document",
       "source_file": "PROGRESS.md",
-      "source_location": "L61",
+      "source_location": "L62",
       "_origin": "ast",
       "id": "progress_\u0645\u0631\u062d\u0644\u0647_\u06f3_\u0635\u0641\u062d\u0627\u062a_\u0627\u0635\u0644\u06cc",
       "community": 8,
@@ -107,7 +107,7 @@
       "label": "\u0645\u0631\u062d\u0644\u0647 \u06f4 \u0628\u0647 \u0628\u0639\u062f",
       "file_type": "document",
       "source_file": "PROGRESS.md",
-      "source_location": "L69",
+      "source_location": "L70",
       "_origin": "ast",
       "id": "progress_\u0645\u0631\u062d\u0644\u0647_\u06f4_\u0628\u0647_\u0628\u0639\u062f",
       "community": 8,
@@ -117,7 +117,7 @@
       "label": "\u0646\u06a9\u0627\u062a \u0648 \u062f\u0631\u0633\u200c\u0622\u0645\u0648\u062e\u062a\u0647\u200c\u0647\u0627",
       "file_type": "document",
       "source_file": "PROGRESS.md",
-      "source_location": "L72",
+      "source_location": "L73",
       "_origin": "ast",
       "id": "progress_\u0646\u06a9\u0627\u062a_\u0648_\u062f\u0631\u0633_\u0622\u0645\u0648\u062e\u062a\u0647_\u0647\u0627",
       "community": 8,
@@ -184,36 +184,6 @@
       "norm_label": "devuipage()"
     },
     {
-      "label": "layout.tsx",
-      "file_type": "code",
-      "source_file": "app/layout.tsx",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "app_layout",
-      "community": 4,
-      "norm_label": "layout.tsx"
-    },
-    {
-      "label": "metadata",
-      "file_type": "code",
-      "source_file": "app/layout.tsx",
-      "source_location": "L7",
-      "_origin": "ast",
-      "id": "app_layout_metadata",
-      "community": 4,
-      "norm_label": "metadata"
-    },
-    {
-      "label": "RootLayout()",
-      "file_type": "code",
-      "source_file": "app/layout.tsx",
-      "source_location": "L19",
-      "_origin": "ast",
-      "id": "app_layout_rootlayout",
-      "community": 4,
-      "norm_label": "rootlayout()"
-    },
-    {
       "label": "page.tsx",
       "file_type": "code",
       "source_file": "app/page.tsx",
@@ -227,7 +197,7 @@
       "label": "SectionHeader()",
       "file_type": "code",
       "source_file": "app/page.tsx",
-      "source_location": "L12",
+      "source_location": "L13",
       "_origin": "ast",
       "id": "app_page_sectionheader",
       "community": 7,
@@ -237,7 +207,7 @@
       "label": "ArrowLink()",
       "file_type": "code",
       "source_file": "app/page.tsx",
-      "source_location": "L23",
+      "source_location": "L24",
       "_origin": "ast",
       "id": "app_page_arrowlink",
       "community": 7,
@@ -247,7 +217,7 @@
       "label": "HomePage()",
       "file_type": "code",
       "source_file": "app/page.tsx",
-      "source_location": "L38",
+      "source_location": "L39",
       "_origin": "ast",
       "id": "app_page_homepage",
       "community": 7,
@@ -274,194 +244,64 @@
       "norm_label": "footer()"
     },
     {
-      "label": "Hero.tsx",
+      "label": "SitePreview.tsx",
       "file_type": "code",
-      "source_file": "components/sections/Hero.tsx",
+      "source_file": "components/ui/SitePreview.tsx",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "sections_hero",
-      "community": 7,
-      "norm_label": "hero.tsx"
+      "id": "ui_sitepreview",
+      "community": 14,
+      "norm_label": "sitepreview.tsx"
     },
     {
-      "label": "EASE",
+      "label": "SitePreviewVariant",
       "file_type": "code",
-      "source_file": "components/sections/Hero.tsx",
-      "source_location": "L9",
-      "_origin": "ast",
-      "id": "sections_hero_ease",
-      "community": 7,
-      "norm_label": "ease"
-    },
-    {
-      "label": "container",
-      "file_type": "code",
-      "source_file": "components/sections/Hero.tsx",
-      "source_location": "L11",
-      "_origin": "ast",
-      "id": "sections_hero_container",
-      "community": 7,
-      "norm_label": "container"
-    },
-    {
-      "label": "item",
-      "file_type": "code",
-      "source_file": "components/sections/Hero.tsx",
-      "source_location": "L16",
-      "_origin": "ast",
-      "id": "sections_hero_item",
-      "community": 7,
-      "norm_label": "item"
-    },
-    {
-      "label": "Hero()",
-      "file_type": "code",
-      "source_file": "components/sections/Hero.tsx",
-      "source_location": "L21",
-      "_origin": "ast",
-      "id": "sections_hero_hero",
-      "community": 7,
-      "norm_label": "hero()"
-    },
-    {
-      "label": "Navbar.tsx",
-      "file_type": "code",
-      "source_file": "components/sections/Navbar.tsx",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "sections_navbar",
-      "community": 4,
-      "norm_label": "navbar.tsx"
-    },
-    {
-      "label": "BrandMark()",
-      "file_type": "code",
-      "source_file": "components/sections/Navbar.tsx",
-      "source_location": "L11",
-      "_origin": "ast",
-      "id": "sections_navbar_brandmark",
-      "community": 4,
-      "norm_label": "brandmark()"
-    },
-    {
-      "label": "Navbar()",
-      "file_type": "code",
-      "source_file": "components/sections/Navbar.tsx",
-      "source_location": "L20",
-      "_origin": "ast",
-      "id": "sections_navbar_navbar",
-      "community": 4,
-      "norm_label": "navbar()"
-    },
-    {
-      "label": "Button.tsx",
-      "file_type": "code",
-      "source_file": "components/ui/Button.tsx",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "ui_button",
-      "community": 7,
-      "norm_label": "button.tsx"
-    },
-    {
-      "label": "ButtonVariant",
-      "file_type": "code",
-      "source_file": "components/ui/Button.tsx",
-      "source_location": "L5",
-      "_origin": "ast",
-      "id": "ui_button_buttonvariant",
-      "community": 7,
-      "norm_label": "buttonvariant"
-    },
-    {
-      "label": "ButtonSize",
-      "file_type": "code",
-      "source_file": "components/ui/Button.tsx",
-      "source_location": "L6",
-      "_origin": "ast",
-      "id": "ui_button_buttonsize",
-      "community": 7,
-      "norm_label": "buttonsize"
-    },
-    {
-      "label": "variants",
-      "file_type": "code",
-      "source_file": "components/ui/Button.tsx",
-      "source_location": "L11",
-      "_origin": "ast",
-      "id": "ui_button_variants",
-      "community": 7,
-      "norm_label": "variants"
-    },
-    {
-      "label": "sizes",
-      "file_type": "code",
-      "source_file": "components/ui/Button.tsx",
-      "source_location": "L18",
-      "_origin": "ast",
-      "id": "ui_button_sizes",
-      "community": 7,
-      "norm_label": "sizes"
-    },
-    {
-      "label": "ButtonProps",
-      "file_type": "code",
-      "source_file": "components/ui/Button.tsx",
-      "source_location": "L24",
-      "_origin": "ast",
-      "id": "ui_button_buttonprops",
-      "community": 7,
-      "norm_label": "buttonprops"
-    },
-    {
-      "label": "Spinner()",
-      "file_type": "code",
-      "source_file": "components/ui/Button.tsx",
-      "source_location": "L32",
-      "_origin": "ast",
-      "id": "ui_button_spinner",
-      "community": 7,
-      "norm_label": "spinner()"
-    },
-    {
-      "label": "Button()",
-      "file_type": "code",
-      "source_file": "components/ui/Button.tsx",
-      "source_location": "L41",
-      "_origin": "ast",
-      "id": "ui_button_button",
-      "community": 7,
-      "norm_label": "button()"
-    },
-    {
-      "label": "ThemeToggle.tsx",
-      "file_type": "code",
-      "source_file": "components/ui/ThemeToggle.tsx",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "ui_themetoggle",
-      "community": 7,
-      "norm_label": "themetoggle.tsx"
-    },
-    {
-      "label": "sizes",
-      "file_type": "code",
-      "source_file": "components/ui/ThemeToggle.tsx",
+      "source_file": "components/ui/SitePreview.tsx",
       "source_location": "L7",
       "_origin": "ast",
-      "id": "ui_themetoggle_sizes",
-      "community": 7,
-      "norm_label": "sizes"
+      "id": "ui_sitepreview_sitepreviewvariant",
+      "community": 14,
+      "norm_label": "sitepreviewvariant"
     },
     {
-      "label": "ThemeToggle()",
+      "label": "BrowserChrome()",
       "file_type": "code",
-      "source_file": "components/ui/ThemeToggle.tsx",
-      "source_location": "L14",
+      "source_file": "components/ui/SitePreview.tsx",
+      "source_location": "L9",
       "_origin": "ast",
-      "id": "ui_themetoggle_themetoggle",
-      "community": 7,
-      "norm_label": "themetoggle()"
+      "id": "ui_sitepreview_browserchrome",
+      "community": 14,
+      "norm_label": "browserchrome()"
+    },
+    {
+      "label": "GanjrizBody()",
+      "file_type": "code",
+      "source_file": "components/ui/SitePreview.tsx",
+      "source_location": "L29",
+      "_origin": "ast",
+      "id": "ui_sitepreview_ganjrizbody",
+      "community": 14,
+      "norm_label": "ganjrizbody()"
+    },
+    {
+      "label": "IdiBody()",
+      "file_type": "code",
+      "source_file": "components/ui/SitePreview.tsx",
+      "source_location": "L69",
+      "_origin": "ast",
+      "id": "ui_sitepreview_idibody",
+      "community": 14,
+      "norm_label": "idibody()"
+    },
+    {
+      "label": "SitePreview()",
+      "file_type": "code",
+      "source_file": "components/ui/SitePreview.tsx",
+      "source_location": "L104",
+      "_origin": "ast",
+      "id": "ui_sitepreview_sitepreview",
+      "community": 14,
+      "norm_label": "sitepreview()"
     },
     {
       "label": "home.ts",
@@ -482,26 +322,6 @@
       "id": "content_home_home",
       "community": 7,
       "norm_label": "home"
-    },
-    {
-      "label": "site.ts",
-      "file_type": "code",
-      "source_file": "content/site.ts",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "content_site",
-      "community": 4,
-      "norm_label": "site.ts"
-    },
-    {
-      "label": "site",
-      "file_type": "code",
-      "source_file": "content/site.ts",
-      "source_location": "L2",
-      "_origin": "ast",
-      "id": "content_site_site",
-      "community": 4,
-      "norm_label": "site"
     },
     {
       "label": "DESIGN.md",
@@ -624,6 +444,246 @@
       "norm_label": "\u06f7. \u062f\u0633\u062a\u0631\u0633\u06cc\u200c\u067e\u0630\u06cc\u0631\u06cc (\u062d\u062f\u0627\u0642\u0644\u200c\u0647\u0627\u06cc \u0627\u0644\u0632\u0627\u0645\u06cc)"
     },
     {
+      "label": "layout.tsx",
+      "file_type": "code",
+      "source_file": "app/layout.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 4,
+      "norm_label": "layout.tsx",
+      "id": "app_layout"
+    },
+    {
+      "label": "metadata",
+      "file_type": "code",
+      "source_file": "app/layout.tsx",
+      "source_location": "L7",
+      "_origin": "ast",
+      "community": 4,
+      "norm_label": "metadata",
+      "id": "app_layout_metadata"
+    },
+    {
+      "label": "RootLayout()",
+      "file_type": "code",
+      "source_file": "app/layout.tsx",
+      "source_location": "L19",
+      "_origin": "ast",
+      "community": 4,
+      "norm_label": "rootlayout()",
+      "id": "app_layout_rootlayout"
+    },
+    {
+      "label": "Hero.tsx",
+      "file_type": "code",
+      "source_file": "components/sections/Hero.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 7,
+      "norm_label": "hero.tsx",
+      "id": "sections_hero"
+    },
+    {
+      "label": "EASE",
+      "file_type": "code",
+      "source_file": "components/sections/Hero.tsx",
+      "source_location": "L9",
+      "_origin": "ast",
+      "community": 7,
+      "norm_label": "ease",
+      "id": "sections_hero_ease"
+    },
+    {
+      "label": "container",
+      "file_type": "code",
+      "source_file": "components/sections/Hero.tsx",
+      "source_location": "L11",
+      "_origin": "ast",
+      "community": 7,
+      "norm_label": "container",
+      "id": "sections_hero_container"
+    },
+    {
+      "label": "item",
+      "file_type": "code",
+      "source_file": "components/sections/Hero.tsx",
+      "source_location": "L16",
+      "_origin": "ast",
+      "community": 7,
+      "norm_label": "item",
+      "id": "sections_hero_item"
+    },
+    {
+      "label": "Hero()",
+      "file_type": "code",
+      "source_file": "components/sections/Hero.tsx",
+      "source_location": "L21",
+      "_origin": "ast",
+      "community": 7,
+      "norm_label": "hero()",
+      "id": "sections_hero_hero"
+    },
+    {
+      "label": "Navbar.tsx",
+      "file_type": "code",
+      "source_file": "components/sections/Navbar.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 7,
+      "norm_label": "navbar.tsx",
+      "id": "sections_navbar"
+    },
+    {
+      "label": "BrandMark()",
+      "file_type": "code",
+      "source_file": "components/sections/Navbar.tsx",
+      "source_location": "L11",
+      "_origin": "ast",
+      "community": 7,
+      "norm_label": "brandmark()",
+      "id": "sections_navbar_brandmark"
+    },
+    {
+      "label": "Navbar()",
+      "file_type": "code",
+      "source_file": "components/sections/Navbar.tsx",
+      "source_location": "L20",
+      "_origin": "ast",
+      "community": 7,
+      "norm_label": "navbar()",
+      "id": "sections_navbar_navbar"
+    },
+    {
+      "label": "Button.tsx",
+      "file_type": "code",
+      "source_file": "components/ui/Button.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 7,
+      "norm_label": "button.tsx",
+      "id": "ui_button"
+    },
+    {
+      "label": "ButtonVariant",
+      "file_type": "code",
+      "source_file": "components/ui/Button.tsx",
+      "source_location": "L5",
+      "_origin": "ast",
+      "community": 7,
+      "norm_label": "buttonvariant",
+      "id": "ui_button_buttonvariant"
+    },
+    {
+      "label": "ButtonSize",
+      "file_type": "code",
+      "source_file": "components/ui/Button.tsx",
+      "source_location": "L6",
+      "_origin": "ast",
+      "community": 7,
+      "norm_label": "buttonsize",
+      "id": "ui_button_buttonsize"
+    },
+    {
+      "label": "variants",
+      "file_type": "code",
+      "source_file": "components/ui/Button.tsx",
+      "source_location": "L11",
+      "_origin": "ast",
+      "community": 7,
+      "norm_label": "variants",
+      "id": "ui_button_variants"
+    },
+    {
+      "label": "sizes",
+      "file_type": "code",
+      "source_file": "components/ui/Button.tsx",
+      "source_location": "L18",
+      "_origin": "ast",
+      "community": 7,
+      "norm_label": "sizes",
+      "id": "ui_button_sizes"
+    },
+    {
+      "label": "ButtonProps",
+      "file_type": "code",
+      "source_file": "components/ui/Button.tsx",
+      "source_location": "L24",
+      "_origin": "ast",
+      "community": 7,
+      "norm_label": "buttonprops",
+      "id": "ui_button_buttonprops"
+    },
+    {
+      "label": "Spinner()",
+      "file_type": "code",
+      "source_file": "components/ui/Button.tsx",
+      "source_location": "L32",
+      "_origin": "ast",
+      "community": 7,
+      "norm_label": "spinner()",
+      "id": "ui_button_spinner"
+    },
+    {
+      "label": "Button()",
+      "file_type": "code",
+      "source_file": "components/ui/Button.tsx",
+      "source_location": "L41",
+      "_origin": "ast",
+      "community": 7,
+      "norm_label": "button()",
+      "id": "ui_button_button"
+    },
+    {
+      "label": "ThemeToggle.tsx",
+      "file_type": "code",
+      "source_file": "components/ui/ThemeToggle.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 7,
+      "norm_label": "themetoggle.tsx",
+      "id": "ui_themetoggle"
+    },
+    {
+      "label": "sizes",
+      "file_type": "code",
+      "source_file": "components/ui/ThemeToggle.tsx",
+      "source_location": "L7",
+      "_origin": "ast",
+      "community": 7,
+      "norm_label": "sizes",
+      "id": "ui_themetoggle_sizes"
+    },
+    {
+      "label": "ThemeToggle()",
+      "file_type": "code",
+      "source_file": "components/ui/ThemeToggle.tsx",
+      "source_location": "L14",
+      "_origin": "ast",
+      "community": 7,
+      "norm_label": "themetoggle()",
+      "id": "ui_themetoggle_themetoggle"
+    },
+    {
+      "label": "site.ts",
+      "file_type": "code",
+      "source_file": "content/site.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 4,
+      "norm_label": "site.ts",
+      "id": "content_site"
+    },
+    {
+      "label": "site",
+      "file_type": "code",
+      "source_file": "content/site.ts",
+      "source_location": "L2",
+      "_origin": "ast",
+      "community": 4,
+      "norm_label": "site",
+      "id": "content_site_site"
+    },
+    {
       "label": "Badge.tsx",
       "file_type": "code",
       "source_file": "components/ui/Badge.tsx",
@@ -689,7 +749,7 @@
       "source_file": "components/ui/Container.tsx",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 4,
+      "community": 13,
       "norm_label": "container.tsx",
       "id": "ui_container"
     },
@@ -699,7 +759,7 @@
       "source_file": "components/ui/Container.tsx",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 4,
+      "community": 13,
       "norm_label": "container()",
       "id": "ui_container_container"
     },
@@ -1917,9 +1977,9 @@
       "source_file": "PROGRESS.md",
       "source_location": "L61",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "progress_\u0633\u0627\u0628\u0642\u0647_\u06a9\u0627\u0631\u0647\u0627\u06cc_\u0627\u0646\u062c\u0627\u0645_\u0634\u062f\u0647",
-      "target": "progress_\u0645\u0631\u062d\u0644\u0647_\u06f3_\u0635\u0641\u062d\u0627\u062a_\u0627\u0635\u0644\u06cc",
-      "confidence_score": 1.0
+      "target": "progress_\u0645\u0631\u062d\u0644\u0647_\u06f3_\u0635\u0641\u062d\u0627\u062a_\u0627\u0635\u0644\u06cc"
     },
     {
       "relation": "contains",
@@ -1927,9 +1987,9 @@
       "source_file": "PROGRESS.md",
       "source_location": "L69",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "progress_\u0633\u0627\u0628\u0642\u0647_\u06a9\u0627\u0631\u0647\u0627\u06cc_\u0627\u0646\u062c\u0627\u0645_\u0634\u062f\u0647",
-      "target": "progress_\u0645\u0631\u062d\u0644\u0647_\u06f4_\u0628\u0647_\u0628\u0639\u062f",
-      "confidence_score": 1.0
+      "target": "progress_\u0645\u0631\u062d\u0644\u0647_\u06f4_\u0628\u0647_\u0628\u0639\u062f"
     },
     {
       "relation": "imports_from",
@@ -2213,6 +2273,436 @@
       "target": "ui_textarea_textarea"
     },
     {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/page.tsx",
+      "source_location": "L23",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_page",
+      "target": "app_page_arrowlink"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_page",
+      "target": "app_page_homepage"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/page.tsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_page",
+      "target": "app_page_sectionheader"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/page.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_page",
+      "target": "content_home"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/page.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_page",
+      "target": "content_home_home"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/page.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_page",
+      "target": "sections_hero"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_page",
+      "target": "ui_button"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_page",
+      "target": "ui_button_button"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/page.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_page",
+      "target": "ui_icons_arrowforwardicon"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/page.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "app_page",
+      "target": "ui_sitepreview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/page.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_page",
+      "target": "ui_themetoggle"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/page.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_page",
+      "target": "ui_themetoggle_themetoggle"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/layout.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_layout",
+      "target": "sections_footer"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/sections/Footer.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sections_footer",
+      "target": "content_site"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/sections/Footer.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sections_footer",
+      "target": "content_site_site"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/sections/Footer.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sections_footer",
+      "target": "sections_footer_footer"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/sections/Footer.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sections_footer",
+      "target": "ui_container"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/sections/Footer.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sections_footer",
+      "target": "ui_container_container"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/layout.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_layout",
+      "target": "sections_footer_footer"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/SitePreview.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "ui_sitepreview",
+      "target": "lib_cn_cn",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/SitePreview.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "ui_sitepreview",
+      "target": "ui_sitepreview_browserchrome",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/SitePreview.tsx",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "ui_sitepreview",
+      "target": "ui_sitepreview_ganjrizbody",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/SitePreview.tsx",
+      "source_location": "L69",
+      "weight": 1.0,
+      "source": "ui_sitepreview",
+      "target": "ui_sitepreview_idibody",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/SitePreview.tsx",
+      "source_location": "L104",
+      "weight": 1.0,
+      "source": "ui_sitepreview",
+      "target": "ui_sitepreview_sitepreview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/SitePreview.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "ui_sitepreview",
+      "target": "ui_sitepreview_sitepreviewvariant",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "content/home.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "content_home",
+      "target": "content_home_home"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/sections/Hero.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sections_hero",
+      "target": "content_home"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/ThemeToggle.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_themetoggle",
+      "target": "content_home"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/sections/Hero.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sections_hero",
+      "target": "content_home_home"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/ThemeToggle.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_themetoggle",
+      "target": "content_home_home"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/DESIGN.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_design",
+      "target": "docs_design_design_md_\u0633\u06cc\u0633\u062a\u0645_\u0637\u0631\u0627\u062d\u06cc_artvoid"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/DESIGN.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_design_design_md_\u0633\u06cc\u0633\u062a\u0645_\u0637\u0631\u0627\u062d\u06cc_artvoid",
+      "target": "docs_design_\u06f1_\u0631\u0646\u06af_\u0647\u0627"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/DESIGN.md",
+      "source_location": "L33",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_design_design_md_\u0633\u06cc\u0633\u062a\u0645_\u0637\u0631\u0627\u062d\u06cc_artvoid",
+      "target": "docs_design_\u06f2_\u062a\u0627\u06cc\u067e\u0648\u06af\u0631\u0627\u0641\u06cc"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/DESIGN.md",
+      "source_location": "L48",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_design_design_md_\u0633\u06cc\u0633\u062a\u0645_\u0637\u0631\u0627\u062d\u06cc_artvoid",
+      "target": "docs_design_\u06f3_\u0641\u0627\u0635\u0644\u0647_\u06af\u0630\u0627\u0631\u06cc_\u0648_\u0634\u0628\u06a9\u0647"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/DESIGN.md",
+      "source_location": "L56",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_design_design_md_\u0633\u06cc\u0633\u062a\u0645_\u0637\u0631\u0627\u062d\u06cc_artvoid",
+      "target": "docs_design_\u06f4_\u0627\u062c\u0632\u0627_primitives"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/DESIGN.md",
+      "source_location": "L63",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_design_design_md_\u0633\u06cc\u0633\u062a\u0645_\u0637\u0631\u0627\u062d\u06cc_artvoid",
+      "target": "docs_design_\u06f5_\u062d\u0631\u06a9\u062a_motion"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/DESIGN.md",
+      "source_location": "L71",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_design_design_md_\u0633\u06cc\u0633\u062a\u0645_\u0637\u0631\u0627\u062d\u06cc_artvoid",
+      "target": "docs_design_\u06f6_\u0632\u0628\u0627\u0646_\u0628\u0635\u0631\u06cc_\u0628\u0631\u0646\u062f"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/DESIGN.md",
+      "source_location": "L78",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_design_design_md_\u0633\u06cc\u0633\u062a\u0645_\u0637\u0631\u0627\u062d\u06cc_artvoid",
+      "target": "docs_design_\u06f7_\u062f\u0633\u062a\u0631\u0633\u06cc_\u067e\u0630\u06cc\u0631\u06cc_\u062d\u062f\u0627\u0642\u0644_\u0647\u0627\u06cc_\u0627\u0644\u0632\u0627\u0645\u06cc"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/DESIGN.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_design_\u06f1_\u0631\u0646\u06af_\u0647\u0627",
+      "target": "docs_design_\u062d\u0627\u0644\u062a_\u062a\u06cc\u0631\u0647_dark_mode"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/DESIGN.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_design_\u06f1_\u0631\u0646\u06af_\u0647\u0627",
+      "target": "docs_design_\u0631\u0646\u06af_\u0647\u0627\u06cc_\u0633\u0645\u0627\u0646\u062a\u06cc\u06a9_\u0641\u0642\u0637_\u0628\u0631\u0627\u06cc_\u0648\u0636\u0639\u06cc\u062a_\u0647\u0627\u06cc_\u0633\u06cc\u0633\u062a\u0645\u06cc_\u0646\u0647_\u062f\u06a9\u0648\u0631\u0627\u0633\u06cc\u0648\u0646"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/DESIGN.md",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_design_\u06f1_\u0631\u0646\u06af_\u0647\u0627",
+      "target": "docs_design_\u067e\u0627\u0644\u062a_\u0645\u0648\u0646\u0648\u06a9\u0631\u0648\u0645_\u062a\u0646\u0647\u0627_\u067e\u0627\u0644\u062a_\u0645\u062c\u0627\u0632_\u0628\u0631\u0627\u06cc_ui"
+    },
+    {
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -2281,227 +2771,11 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "app/layout.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "app_layout",
-      "target": "sections_footer",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/layout.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "app_layout",
-      "target": "sections_footer_footer",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/layout.tsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_layout",
-      "target": "sections_navbar",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/page.tsx",
-      "source_location": "L23",
-      "weight": 1.0,
-      "source": "app_page",
-      "target": "app_page_arrowlink",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/page.tsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_page",
-      "target": "app_page_homepage"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/page.tsx",
-      "source_location": "L12",
-      "weight": 1.0,
-      "source": "app_page",
-      "target": "app_page_sectionheader",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/page.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_page",
-      "target": "content_home"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/page.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_page",
-      "target": "content_home_home"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/page.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "app_page",
-      "target": "sections_hero",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/page.tsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "app_page",
-      "target": "ui_button",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/page.tsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "app_page",
-      "target": "ui_button_button",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/page.tsx",
-      "source_location": "L9",
-      "weight": 1.0,
-      "source": "app_page",
-      "target": "ui_icons_arrowforwardicon",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/page.tsx",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_page",
-      "target": "ui_themetoggle"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/page.tsx",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_page",
-      "target": "ui_themetoggle_themetoggle"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "components/sections/Footer.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "sections_footer",
-      "target": "content_site"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "components/sections/Footer.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "sections_footer",
-      "target": "content_site_site"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "components/sections/Footer.tsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "sections_footer",
-      "target": "sections_footer_footer"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "components/sections/Footer.tsx",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "sections_footer",
-      "target": "ui_container"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "components/sections/Footer.tsx",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "sections_footer",
-      "target": "ui_container_container"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "components/sections/Hero.tsx",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "sections_hero",
-      "target": "content_home",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "components/sections/Hero.tsx",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "sections_hero",
-      "target": "content_home_home",
-      "confidence_score": 1.0
+      "target": "sections_navbar"
     },
     {
       "relation": "contains",
@@ -2509,9 +2783,9 @@
       "source_file": "components/sections/Hero.tsx",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "sections_hero",
-      "target": "sections_hero_container",
-      "confidence_score": 1.0
+      "target": "sections_hero_container"
     },
     {
       "relation": "contains",
@@ -2519,9 +2793,9 @@
       "source_file": "components/sections/Hero.tsx",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "sections_hero",
-      "target": "sections_hero_ease",
-      "confidence_score": 1.0
+      "target": "sections_hero_ease"
     },
     {
       "relation": "contains",
@@ -2529,9 +2803,9 @@
       "source_file": "components/sections/Hero.tsx",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "sections_hero",
-      "target": "sections_hero_hero",
-      "confidence_score": 1.0
+      "target": "sections_hero_hero"
     },
     {
       "relation": "contains",
@@ -2539,9 +2813,9 @@
       "source_file": "components/sections/Hero.tsx",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "sections_hero",
-      "target": "sections_hero_item",
-      "confidence_score": 1.0
+      "target": "sections_hero_item"
     },
     {
       "relation": "imports_from",
@@ -2550,9 +2824,9 @@
       "source_file": "components/sections/Hero.tsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "sections_hero",
-      "target": "ui_button",
-      "confidence_score": 1.0
+      "target": "ui_button"
     },
     {
       "relation": "imports",
@@ -2561,9 +2835,9 @@
       "source_file": "components/sections/Hero.tsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "sections_hero",
-      "target": "ui_button_button",
-      "confidence_score": 1.0
+      "target": "ui_button_button"
     },
     {
       "relation": "imports_from",
@@ -2814,28 +3088,6 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "components/ui/ThemeToggle.tsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "ui_themetoggle",
-      "target": "content_home"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "components/ui/ThemeToggle.tsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "ui_themetoggle",
-      "target": "content_home_home"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "components/ui/ThemeToggle.tsx",
       "source_location": "L4",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -2914,9 +3166,9 @@
       "source_file": "components/ui/ThemeToggle.tsx",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ui_themetoggle",
-      "target": "ui_themetoggle_sizes",
-      "confidence_score": 1.0
+      "target": "ui_themetoggle_sizes"
     },
     {
       "relation": "contains",
@@ -2942,132 +3194,12 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "content/home.ts",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "content_home",
-      "target": "content_home_home"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
       "source_file": "content/site.ts",
       "source_location": "L2",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "content_site",
       "target": "content_site_site"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/DESIGN.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_design",
-      "target": "docs_design_design_md_\u0633\u06cc\u0633\u062a\u0645_\u0637\u0631\u0627\u062d\u06cc_artvoid"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/DESIGN.md",
-      "source_location": "L6",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_design_design_md_\u0633\u06cc\u0633\u062a\u0645_\u0637\u0631\u0627\u062d\u06cc_artvoid",
-      "target": "docs_design_\u06f1_\u0631\u0646\u06af_\u0647\u0627"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/DESIGN.md",
-      "source_location": "L33",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_design_design_md_\u0633\u06cc\u0633\u062a\u0645_\u0637\u0631\u0627\u062d\u06cc_artvoid",
-      "target": "docs_design_\u06f2_\u062a\u0627\u06cc\u067e\u0648\u06af\u0631\u0627\u0641\u06cc"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/DESIGN.md",
-      "source_location": "L48",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_design_design_md_\u0633\u06cc\u0633\u062a\u0645_\u0637\u0631\u0627\u062d\u06cc_artvoid",
-      "target": "docs_design_\u06f3_\u0641\u0627\u0635\u0644\u0647_\u06af\u0630\u0627\u0631\u06cc_\u0648_\u0634\u0628\u06a9\u0647"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/DESIGN.md",
-      "source_location": "L56",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_design_design_md_\u0633\u06cc\u0633\u062a\u0645_\u0637\u0631\u0627\u062d\u06cc_artvoid",
-      "target": "docs_design_\u06f4_\u0627\u062c\u0632\u0627_primitives"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/DESIGN.md",
-      "source_location": "L63",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_design_design_md_\u0633\u06cc\u0633\u062a\u0645_\u0637\u0631\u0627\u062d\u06cc_artvoid",
-      "target": "docs_design_\u06f5_\u062d\u0631\u06a9\u062a_motion"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/DESIGN.md",
-      "source_location": "L71",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_design_design_md_\u0633\u06cc\u0633\u062a\u0645_\u0637\u0631\u0627\u062d\u06cc_artvoid",
-      "target": "docs_design_\u06f6_\u0632\u0628\u0627\u0646_\u0628\u0635\u0631\u06cc_\u0628\u0631\u0646\u062f"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/DESIGN.md",
-      "source_location": "L78",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_design_design_md_\u0633\u06cc\u0633\u062a\u0645_\u0637\u0631\u0627\u062d\u06cc_artvoid",
-      "target": "docs_design_\u06f7_\u062f\u0633\u062a\u0631\u0633\u06cc_\u067e\u0630\u06cc\u0631\u06cc_\u062d\u062f\u0627\u0642\u0644_\u0647\u0627\u06cc_\u0627\u0644\u0632\u0627\u0645\u06cc"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/DESIGN.md",
-      "source_location": "L29",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_design_\u06f1_\u0631\u0646\u06af_\u0647\u0627",
-      "target": "docs_design_\u062d\u0627\u0644\u062a_\u062a\u06cc\u0631\u0647_dark_mode"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/DESIGN.md",
-      "source_location": "L20",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_design_\u06f1_\u0631\u0646\u06af_\u0647\u0627",
-      "target": "docs_design_\u0631\u0646\u06af_\u0647\u0627\u06cc_\u0633\u0645\u0627\u0646\u062a\u06cc\u06a9_\u0641\u0642\u0637_\u0628\u0631\u0627\u06cc_\u0648\u0636\u0639\u06cc\u062a_\u0647\u0627\u06cc_\u0633\u06cc\u0633\u062a\u0645\u06cc_\u0646\u0647_\u062f\u06a9\u0648\u0631\u0627\u0633\u06cc\u0648\u0646"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/DESIGN.md",
-      "source_location": "L8",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_design_\u06f1_\u0631\u0646\u06af_\u0647\u0627",
-      "target": "docs_design_\u067e\u0627\u0644\u062a_\u0645\u0648\u0646\u0648\u06a9\u0631\u0648\u0645_\u062a\u0646\u0647\u0627_\u067e\u0627\u0644\u062a_\u0645\u062c\u0627\u0632_\u0628\u0631\u0627\u06cc_ui"
     },
     {
       "relation": "imports_from",
@@ -4421,5 +4553,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "decd3b655129bd157bb4d15bfcfa32820156f776"
+  "built_at_commit": "ce4b19b050dfc9be9f337ec99967b46c68703e3c"
 }
