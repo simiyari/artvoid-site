@@ -6,6 +6,4 @@ export const home = {
     "وب‌سایت رسمی آرت‌وید در حال ساخت است؛ به‌زودی با نمونه‌کارها، خدمات و تجربه‌های تعاملی برمی‌گردیم.",
   meta: "تهران — تیر ۱۴۰۵",
   metaLatin: "Crafted with precision",
-  themeToggleLabel: "تغییر حالت روشن و تیره",
-  themeToggleText: "روشن / تیره",
 };

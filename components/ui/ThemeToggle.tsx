@@ -1,9 +1,10 @@
 "use client";
 
-import { home } from "@/content/home";
+import { cn } from "@/lib/cn";
+import { site } from "@/content/site";
+import { MoonIcon, SunIcon } from "./icons";
 
-/** نسخه اولیه — در مرحله ۲ با آیکون و انیمیشن کامل می‌شود */
-export default function ThemeToggle() {
+export default function ThemeToggle({ className }: { className?: string }) {
   const toggle = () => {
     const root = document.documentElement;
     const next = root.getAttribute("data-theme") === "dark" ? "light" : "dark";
@@ -19,10 +20,15 @@ export default function ThemeToggle() {
     <button
       type="button"
       onClick={toggle}
-      aria-label={home.themeToggleLabel}
-      className="inline-flex h-11 min-w-11 items-center justify-center rounded-sm border border-gray-soft px-4 text-small text-ink-soft transition-colors duration-200 hover:border-gray-strong hover:text-ink"
+      aria-label={site.themeToggleLabel}
+      className={cn(
+        "inline-flex size-11 items-center justify-center rounded-sm border border-gray-soft text-ink-soft transition-colors duration-200 hover:border-gray-strong hover:text-ink",
+        className,
+      )}
     >
-      {home.themeToggleText}
+      {/* سواپ آیکون با CSS تا اختلاف hydration پیش نیاید */}
+      <MoonIcon className="dark:hidden" />
+      <SunIcon className="hidden dark:block" />
     </button>
   );
 }

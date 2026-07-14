@@ -1,7 +1,7 @@
 # Graph Report - Artvoid Design  (2026-07-14)
 
 ## Corpus Check
-- 92 files · ~76,281 words
+- 92 files · ~76,449 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
@@ -10,7 +10,7 @@
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `520dea51`
+- Built from commit: `2ee7082d`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -78,7 +78,7 @@ Nodes (18): dependencies, next, react, react-dom, devDependencies, tailwindcss, 
 
 ### Community 8 - "Community 8"
 Cohesion: 0.18
-Nodes (10): PROGRESS.md — حافظه پیشرفت پروژه Artvoid, تصمیمات باز (از کاربر بپرس وقتی به آن رسیدی), تصمیمات قطعی‌شده, سابقه کارهای انجام‌شده, مرحله ۰ — بوت‌استرپ (خودکار توسط Claude Code), مرحله ۱ — اسکلت پروژه, مرحله ۲ — کامپوننت‌های پایه, مرحله ۳ به بعد (+2 more)
+Nodes (10): PROGRESS.md — حافظه پیشرفت پروژه Artvoid, تصمیمات باز (از کاربر بپرس وقتی به آن رسیدی), تصمیمات قطعی‌شده, سابقه کارهای انجام‌شده, مرحله ۰ — بوت‌استرپ (خودکار توسط Claude Code), مرحله ۱ — اسکلت پروژه, مرحله ۲ — کتابخانه کامپوننت‌های پایه (نمایش در صفحه مخفی /dev/ui), مرحله ۳ به بعد (+2 more)
 
 ### Community 9 - "Community 9"
 Cohesion: 0.40

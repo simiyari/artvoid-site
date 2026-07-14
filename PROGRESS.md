@@ -5,9 +5,9 @@
 
 ## وضعیت فعلی
 
-- **مرحله فعال:** مرحله ۲ — کتابخانه کامپوننت‌های پایه (آماده شروع، منتظر تأیید سپهر)
-- **کار بعدی:** ساخت کامپوننت‌های پایه + صفحه /dev/ui (چک‌لیست پایین) — قبل از کار UI اسکیل ui-ux-pro-max فعال شود
-- **آخرین به‌روزرسانی:** ۱۴۰۵/۰۴/۲۳ — مرحله ۱ کامل شد: دیپلوی سبز روی GitHub Pages + دامنه artvoid.ir روی Pages ست شد (DNS با سپهر)
+- **مرحله فعال:** مرحله ۳ — صفحات اصلی (آماده شروع، منتظر تأیید سپهر)
+- **کار بعدی:** صفحه خانه (Hero → خدمات → نمونه‌کارها → فرآیند → CTA) سپس work/services/about/start
+- **آخرین به‌روزرسانی:** ۱۴۰۵/۰۴/۲۳ — مرحله ۲ کامل شد: ۱۲ کامپوننت پایه + صفحه /dev/ui در هر دو تم و موبایل تست شد
 
 ## تصمیمات قطعی‌شده
 
@@ -48,13 +48,13 @@
 - [x] ✅ معیار پایان — ۱۴۰۵/۰۴/۲۳ — فونت فارسی و دو تم در مرورگر تأیید شد؛ Actions سبز؛ cname=artvoid.ir روی Pages ست شد
 
 ### مرحله ۲ — کتابخانه کامپوننت‌های پایه (نمایش در صفحه مخفی /dev/ui)
-- [ ] Button (primary / ghost / اندازه‌ها / حالت لودینگ)
-- [ ] Card، Input، Textarea، Select، Badge
-- [ ] Container، Section (با فاصله‌گذاری استاندارد)
-- [ ] Navbar (با منوی موبایل) و Footer
-- [ ] کامپوننت Reveal (انیمیشن ورود با Intersection Observer) — نیازمند نصب پکیج motion (مجاز طبق اسناد)
-- [ ] ThemeToggle — نسخه اولیه در مرحله ۱ ساخته شد؛ polish + آیکون
-- [ ] ✅ معیار پایان: صفحه /dev/ui همه اجزا را در هر دو حالت رنگی بدون نقص نشان دهد
+- [x] Button (primary / ghost / سه اندازه / لودینگ / حالت لینک با href) — ۱۴۰۵/۰۴/۲۳
+- [x] Card، Input، Textarea، Select، Badge — ۱۴۰۵/۰۴/۲۳ — فرم‌ها با label/hint/error و aria کامل
+- [x] Container (max-w-site) و Section (py-16/24) — ۱۴۰۵/۰۴/۲۳
+- [x] Navbar (منوی موبایل + aria-expanded) و Footer — ۱۴۰۵/۰۴/۲۳ — در components/sections
+- [x] Reveal — ۱۴۰۵/۰۴/۲۳ — پکیج motion@12 نصب شد؛ MotionConfig reducedMotion="user"
+- [x] ThemeToggle آیکونی (سواپ آیکون با CSS برای جلوگیری از hydration mismatch) — ۱۴۰۵/۰۴/۲۳
+- [x] ✅ معیار پایان — ۱۴۰۵/۰۴/۲۳ — /dev/ui در دو تم + موبایل 375 (بدون اسکرول افقی، منو تست شد) تأیید شد
 
 ### مرحله ۳ به بعد
 *(طبق docs/ROADMAP.md)*
@@ -70,7 +70,10 @@
 - graphify-out/cache/ در .gitignore است (hook بعد از هر کامیت بازش می‌سازد و churn می‌شد)؛ خود graph.json/report/html کامیت می‌شوند و همیشه «یک کامیت عقب»اند — طبیعی است
 - **DNS دامنه — پیکربندی کامل شد (۱۴۰۵/۰۴/۲۳):** میزبانی DNS روی **ArvanCloud** پلن رایگان Basic (اکانت سپهر). رکوردها: `ANAME @ → simiyari.github.io` و `CNAME www → simiyari.github.io` (هر دو با ابر/پروکسی **خاموش** — لازمه صدور گواهی SSL گیت‌هاب). NSهای دامنه در «کنترل پنل دامنه» ایران‌سرور (domainpanel.reseller.world) به `a.ns.arvancdn.ir` / `b.ns.arvancdn.ir` تغییر کرد — رجیستری پذیرفت، اعمال تا ۲۴ ساعت
 - نکته پلن رایگان آروان: چند رکورد A همنام (load balancing) مجاز نیست → به‌جایش ANAME استفاده شد که همه IPهای GitHub Pages را پوشش می‌دهد؛ ابر (پروکسی) هر رکورد باید خاموش بماند
-- **کار باقی‌مانده دامنه (سشن بعد):** ① چک delegation با `Resolve-DnsName artvoid.ir -Type NS` ② در پنل آروان (cdn/artvoid.ir/dashboard) دکمه Check Again ③ بعد از صدور گواهی: `gh api -X PUT repos/simiyari/artvoid-site/pages -f https_enforced=true` ④ تست نهایی https://artvoid.ir
+- **کار باقی‌مانده دامنه (فقط وقتی سپهر اعلام کرد — خودسر انجام نده):** ① چک delegation با `Resolve-DnsName artvoid.ir -Type NS` ② در پنل آروان (cdn/artvoid.ir/dashboard) دکمه Check Again ③ بعد از صدور گواهی: `gh api -X PUT repos/simiyari/artvoid-site/pages -f https_enforced=true` ④ تست نهایی https://artvoid.ir
 - اکشن‌های v4 گیت‌هاب هشدار deprecation نود ۲۰ می‌دهند (کار می‌کنند) → در فرصت مناسب به checkout@v5 / setup-node@v5 / upload-pages-artifact@v4 ارتقا بده
+- آیکون‌ها: ست اینلاین SVG اختصاصی با stroke 1.5 در components/ui/icons.tsx — وابستگی lucide اضافه نشد (قانون «کتابخانه جدید بدون تأیید»)
+- فرم‌های کنترل‌نشده + useId در سرور کامپوننت‌ها کار می‌کند؛ خطای فرم با role="alert" اعلام می‌شود
+- در تست خودکار React: خواندن aria-expanded بلافاصله بعد از click() مقدار قدیمی می‌دهد (آپدیت async است) → بعد از ~300ms بخوان
 - gh CLI با اکانت simiyari لاگین است (اسکوپ repo + workflow) → ساخت ریپوی ریموت و تنظیم Pages از ترمینال ممکن است (فقط با تأیید سپهر)
 - محیط: Node 24 / Python 3.14 / git 2.54 — همه آماده
