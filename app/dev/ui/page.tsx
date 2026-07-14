@@ -11,7 +11,7 @@ import Textarea from "@/components/ui/Textarea";
 import { devUi } from "@/content/dev-ui";
 
 export const metadata: Metadata = {
-  title: "کتابخانه اجزا | Artvoid",
+  title: "کتابخانه اجزا",
   robots: { index: false, follow: false },
 };
 

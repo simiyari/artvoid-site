@@ -39,14 +39,22 @@ export const home = {
         category: "پلتفرم جواهرات و طلا",
         result: "فروشگاه اختصاصی با قیمت لحظه‌ای طلا و تجربه خریدی که اعتماد می‌سازد.",
         href: "/work",
+        preview: "ganjriz",
       },
       {
         name: "IDI Center",
         category: "وب‌سایت سازمانی",
         result: "بازطراحی کامل با تمرکز بر سرعت و اعتبار — استاتیک، سبک و بدون وابستگی خارجی.",
         href: "/work",
+        preview: "idi",
       },
-    ],
+    ] as Array<{
+      name: string;
+      category: string;
+      result: string;
+      href: string;
+      preview: "ganjriz" | "idi";
+    }>,
     all: "همه نمونه‌کارها",
     view: "دیدن پروژه",
   },

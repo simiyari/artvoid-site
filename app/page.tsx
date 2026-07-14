@@ -6,6 +6,7 @@ import Card from "@/components/ui/Card";
 import Container from "@/components/ui/Container";
 import Reveal from "@/components/ui/Reveal";
 import Section from "@/components/ui/Section";
+import SitePreview from "@/components/ui/SitePreview";
 import { ArrowForwardIcon } from "@/components/ui/icons";
 import { home } from "@/content/home";
 
@@ -80,17 +81,24 @@ export default function HomePage() {
               <Reveal key={project.name} delay={index * 0.12}>
                 <Link
                   href={project.href}
-                  className="group flex min-h-72 flex-col justify-between gap-10 rounded-md border border-gray-soft bg-mist p-8 transition-all duration-200 hover:-translate-y-1 hover:border-gray-strong md:p-10"
+                  className="group flex h-full flex-col overflow-hidden rounded-md border border-gray-soft bg-white transition-all duration-200 hover:-translate-y-1 hover:border-gray-strong"
                 >
-                  <div className="flex items-center justify-between gap-4">
-                    <Badge variant="outline">{project.category}</Badge>
-                    <ArrowForwardIcon
-                      size={20}
-                      className="text-gray-strong transition-transform duration-200 group-hover:-translate-x-1"
+                  {/* صحنه پیش‌نمایش — قاب مرورگر از پایین کارت بیرون می‌زند و در hover بالا می‌آید */}
+                  <div className="overflow-hidden bg-mist px-6 pt-8 transition-colors duration-200 md:px-10 md:pt-10">
+                    <SitePreview
+                      variant={project.preview}
+                      className="translate-y-2 transition-transform duration-300 ease-out group-hover:translate-y-0"
                     />
                   </div>
-                  <div className="flex flex-col gap-4">
-                    <span lang="en" dir="ltr" className="block text-start font-display text-h1 text-ink">
+                  <div className="flex flex-1 flex-col gap-3 border-t border-gray-soft p-6 md:p-8">
+                    <div className="flex items-center justify-between gap-4">
+                      <Badge variant="outline">{project.category}</Badge>
+                      <ArrowForwardIcon
+                        size={20}
+                        className="text-gray-strong transition-transform duration-200 group-hover:-translate-x-1"
+                      />
+                    </div>
+                    <span lang="en" dir="ltr" className="block text-start font-display text-h2 text-ink">
                       {project.name}
                     </span>
                     <p className="max-w-md text-body text-gray-strong">{project.result}</p>
