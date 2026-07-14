@@ -68,7 +68,9 @@
 - دستور ساخت گراف در graphify 0.7.x «graphify update .» است (نه «graphify .»)؛ استخراج سمانتیک LLM اختیاری است (کلید GEMINI_API_KEY) و فعلاً AST-only کافی است
 - بدنه ترنزیشن رنگ ۲۰۰ms دارد → در تست خودکار، رنگ‌ها را بعد از ~۴۰۰ms بخوان وگرنه مقدار میانی می‌گیری
 - graphify-out/cache/ در .gitignore است (hook بعد از هر کامیت بازش می‌سازد و churn می‌شد)؛ خود graph.json/report/html کامیت می‌شوند و همیشه «یک کامیت عقب»اند — طبیعی است
-- **DNS دامنه (کار سپهر):** چهار رکورد A برای @ → 185.199.108.153 / 185.199.109.153 / 185.199.110.153 / 185.199.111.153؛ بعد از propagate، در Settings → Pages گزینه Enforce HTTPS روشن شود
+- **DNS دامنه — پیکربندی کامل شد (۱۴۰۵/۰۴/۲۳):** میزبانی DNS روی **ArvanCloud** پلن رایگان Basic (اکانت سپهر). رکوردها: `ANAME @ → simiyari.github.io` و `CNAME www → simiyari.github.io` (هر دو با ابر/پروکسی **خاموش** — لازمه صدور گواهی SSL گیت‌هاب). NSهای دامنه در «کنترل پنل دامنه» ایران‌سرور (domainpanel.reseller.world) به `a.ns.arvancdn.ir` / `b.ns.arvancdn.ir` تغییر کرد — رجیستری پذیرفت، اعمال تا ۲۴ ساعت
+- نکته پلن رایگان آروان: چند رکورد A همنام (load balancing) مجاز نیست → به‌جایش ANAME استفاده شد که همه IPهای GitHub Pages را پوشش می‌دهد؛ ابر (پروکسی) هر رکورد باید خاموش بماند
+- **کار باقی‌مانده دامنه (سشن بعد):** ① چک delegation با `Resolve-DnsName artvoid.ir -Type NS` ② در پنل آروان (cdn/artvoid.ir/dashboard) دکمه Check Again ③ بعد از صدور گواهی: `gh api -X PUT repos/simiyari/artvoid-site/pages -f https_enforced=true` ④ تست نهایی https://artvoid.ir
 - اکشن‌های v4 گیت‌هاب هشدار deprecation نود ۲۰ می‌دهند (کار می‌کنند) → در فرصت مناسب به checkout@v5 / setup-node@v5 / upload-pages-artifact@v4 ارتقا بده
 - gh CLI با اکانت simiyari لاگین است (اسکوپ repo + workflow) → ساخت ریپوی ریموت و تنظیم Pages از ترمینال ممکن است (فقط با تأیید سپهر)
 - محیط: Node 24 / Python 3.14 / git 2.54 — همه آماده
