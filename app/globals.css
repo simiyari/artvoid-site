@@ -40,6 +40,10 @@
   --color-danger: #dc2626;
   --color-warning: #d97706;
 
+  /* رنگ‌های ثابت روی تصویر — با تم فلیپ نمی‌شوند (متن روی عکس همیشه روشن، اسکریم همیشه تیره) */
+  --color-on-image: #fafafa;
+  --color-image-scrim: #0a0a0a;
+
   /* تایپوگرافی — مقیاس DESIGN.md بر پایه 16px */
   --text-display: clamp(3.5rem, 2.8rem + 3.5vw, 4.5rem);
   --text-display--line-height: 1.15;

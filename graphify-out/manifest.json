@@ -25,8 +25,8 @@
     "semantic_hash": ""
   },
   "app/page.tsx": {
-    "mtime": 1784058057.1203039,
-    "ast_hash": "4afc0c229e560ef16cff469f7880d467",
+    "mtime": 1784059344.1857665,
+    "ast_hash": "fd2d0dbd6d6810476b2fd56a87862e0b",
     "semantic_hash": ""
   },
   "components/ui/ThemeToggle.tsx": {
@@ -45,8 +45,8 @@
     "semantic_hash": ""
   },
   "PROGRESS.md": {
-    "mtime": 1784058060.5961435,
-    "ast_hash": "8352e01cb09584d4645f4e948e3df67f",
+    "mtime": 1784059653.7085595,
+    "ast_hash": "f3e39bf55dcc438dce6b71234e336fcd",
     "semantic_hash": ""
   },
   "README.md": {
@@ -55,8 +55,8 @@
     "semantic_hash": ""
   },
   "docs/DESIGN.md": {
-    "mtime": 1784057966.0400753,
-    "ast_hash": "e64ee3614f5c8aa25d1436e061c438fa",
+    "mtime": 1784059561.2838988,
+    "ast_hash": "f4e0714ad2d0f589316a91c0523b530e",
     "semantic_hash": ""
   },
   "docs/ROADMAP.md": {
@@ -577,6 +577,11 @@
   "components/ui/SitePreview.tsx": {
     "mtime": 1784058014.4105587,
     "ast_hash": "d209daff763da078716d6e2b903d00b7",
+    "semantic_hash": ""
+  },
+  "components/sections/ProcessScroll.tsx": {
+    "mtime": 1784059313.3947766,
+    "ast_hash": "fc15be15e05c97649adda47d8784acf7",
     "semantic_hash": ""
   }
 }

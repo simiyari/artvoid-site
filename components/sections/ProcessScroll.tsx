@@ -99,23 +99,48 @@ export default function ProcessScroll() {
                 </div>
               </div>
 
-              {/* صحنه نمایش قدم فعال */}
-              <div className="relative">
+              {/* صحنه نمایش قدم فعال — تصویر تمام‌قاب + متن روی اسکریم */}
+              <div className="relative overflow-hidden rounded-md border border-gray-soft">
+                {/* لایه‌های تصویر: همه mount می‌مانند و با opacity/scale سواپ می‌شوند (بدون فلش لود) */}
+                {steps.map((item, index) => (
+                  <motion.img
+                    key={item.number}
+                    src={item.image}
+                    alt=""
+                    loading="lazy"
+                    initial={false}
+                    animate={{
+                      opacity: index === active ? 1 : 0,
+                      scale: index === active ? 1 : 1.06,
+                    }}
+                    transition={{ duration: 0.6, ease: EASE }}
+                    className="absolute inset-0 h-full w-full object-cover"
+                  />
+                ))}
+
+                {/* اسکریم ثابت برای خوانایی متن روی عکس (توکن‌های فلیپ‌نشونده) */}
+                <div aria-hidden="true" className="absolute inset-0 bg-image-scrim/45" />
+                <div
+                  aria-hidden="true"
+                  className="absolute inset-x-0 bottom-0 h-1/2 bg-linear-to-t from-image-scrim/85 to-transparent"
+                />
+
+                {/* متن روی تصویر */}
                 <AnimatePresence mode="wait" initial={false}>
                   <motion.div
                     key={step.number}
-                    initial={{ opacity: 0, y: 32 }}
+                    initial={{ opacity: 0, y: 28 }}
                     animate={{ opacity: 1, y: 0 }}
-                    exit={{ opacity: 0, y: -24 }}
+                    exit={{ opacity: 0, y: -20 }}
                     transition={{ duration: 0.4, ease: EASE }}
-                    className="flex min-h-72 flex-col justify-between gap-8 rounded-md border border-gray-soft bg-white p-8 md:min-h-80 md:p-12"
+                    className="relative flex min-h-80 flex-col justify-between p-8 md:min-h-[28rem] md:p-12"
                   >
-                    <span aria-hidden="true" className="text-display font-bold text-gray-soft">
+                    <span aria-hidden="true" className="text-display font-bold text-on-image/30">
                       {step.number}
                     </span>
-                    <div className="flex flex-col gap-3">
-                      <h3 className="text-h1 text-ink">{step.title}</h3>
-                      <p className="max-w-md text-body text-gray-strong">{step.body}</p>
+                    <div className="flex max-w-md flex-col gap-3">
+                      <h3 className="text-h1 text-on-image">{step.title}</h3>
+                      <p className="text-body text-on-image/85">{step.body}</p>
                     </div>
                   </motion.div>
                 </AnimatePresence>

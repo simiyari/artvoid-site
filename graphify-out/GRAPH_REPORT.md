@@ -1,16 +1,16 @@
 # Graph Report - Artvoid Design  (2026-07-14)
 
 ## Corpus Check
-- 110 files · ~80,913 words
+- 111 files · ~81,368 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 191 nodes · 257 edges · 15 communities (12 shown, 3 thin omitted)
+- 194 nodes · 262 edges · 16 communities (13 shown, 3 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `ce4b19b0`
+- Built from commit: `52f30fc8`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -29,9 +29,10 @@
 - [[_COMMUNITY_Community 12|Community 12]]
 - [[_COMMUNITY_Community 13|Community 13]]
 - [[_COMMUNITY_Community 14|Community 14]]
+- [[_COMMUNITY_Community 15|Community 15]]
 
 ## God Nodes (most connected - your core abstractions)
-1. `cn()` - 20 edges
+1. `cn()` - 21 edges
 2. `compilerOptions` - 16 edges
 3. `CLAUDE.md — مغز فرمانده پروژه Artvoid` - 10 edges
 4. `ROADMAP.md — مسیر ساخت سایت Artvoid با Claude Code` - 9 edges
@@ -57,7 +58,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (15 total, 3 thin omitted)
+## Communities (16 total, 3 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.13
@@ -76,8 +77,8 @@ Cohesion: 0.18
 Nodes (10): code:block1 (بخون و ادامه بده.), ROADMAP.md — مسیر ساخت سایت Artvoid با Claude Code, الگوی شروع هر سشن Claude Code, مرحله ۰ — بوت‌استرپ (Claude Code خودکار انجام می‌دهد — پروتکل در CLAUDE.md), مرحله ۱ — اسکلت پروژه, مرحله ۲ — کتابخانه کامپوننت‌های پایه, مرحله ۳ — صفحات اصلی (به ترتیب), مرحله ۴ — بخش Showcase (تمایز اصلی!) (+2 more)
 
 ### Community 4 - "Community 4"
-Cohesion: 0.27
-Nodes (6): inter, switzer, yekan, metadata, site, Footer()
+Cohesion: 0.43
+Nodes (4): inter, switzer, yekan, metadata
 
 ### Community 5 - "Community 5"
 Cohesion: 0.29
@@ -88,8 +89,8 @@ Cohesion: 0.10
 Nodes (19): dependencies, motion, next, react, react-dom, devDependencies, tailwindcss, @tailwindcss/postcss (+11 more)
 
 ### Community 7 - "Community 7"
-Cohesion: 0.09
-Nodes (18): home, container, EASE, item, Button(), ButtonProps, ButtonSize, ButtonVariant (+10 more)
+Cohesion: 0.11
+Nodes (12): home, container, EASE, item, EASE, Button(), ButtonProps, ButtonSize (+4 more)
 
 ### Community 8 - "Community 8"
 Cohesion: 0.17
@@ -101,22 +102,26 @@ Nodes (4): Artvoid — artvoid.ir, استک, اسناد پروژه, توسعه
 
 ### Community 13 - "Community 13"
 Cohesion: 0.12
-Nodes (21): devUi, cn(), Badge(), BadgeVariant, styles, Card(), Container(), ChevronDownIcon() (+13 more)
+Nodes (21): devUi, cn(), Footer(), Badge(), BadgeVariant, styles, Card(), Container() (+13 more)
+
+### Community 15 - "Community 15"
+Cohesion: 0.20
+Nodes (9): site, ChevronDownIcon(), CloseIcon(), IconProps, MenuIcon(), MoonIcon(), SunIcon(), sizes (+1 more)
 
 ## Knowledge Gaps
-- **100 isolated node(s):** `وضعیت فعلی`, `تصمیمات قطعی‌شده`, `تصمیمات باز (از کاربر بپرس وقتی به آن رسیدی)`, `مرحله ۰ — بوت‌استرپ (خودکار توسط Claude Code)`, `مرحله ۱ — اسکلت پروژه` (+95 more)
+- **101 isolated node(s):** `وضعیت فعلی`, `تصمیمات قطعی‌شده`, `تصمیمات باز (از کاربر بپرس وقتی به آن رسیدی)`, `مرحله ۰ — بوت‌استرپ (خودکار توسط Claude Code)`, `مرحله ۱ — اسکلت پروژه` (+96 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **3 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `cn()` connect `Community 13` to `Community 14`, `Community 7`?**
-  _High betweenness centrality (0.040) - this node is a cross-community bridge._
-- **Why does `Button()` connect `Community 7` to `Community 13`?**
+- **Why does `cn()` connect `Community 13` to `Community 15`, `Community 14`, `Community 7`?**
+  _High betweenness centrality (0.048) - this node is a cross-community bridge._
+- **Why does `Button()` connect `Community 7` to `Community 13`, `Community 15`?**
   _High betweenness centrality (0.012) - this node is a cross-community bridge._
 - **What connects `وضعیت فعلی`, `تصمیمات قطعی‌شده`, `تصمیمات باز (از کاربر بپرس وقتی به آن رسیدی)` to the rest of the system?**
-  _100 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _101 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.13333333333333333 - nodes in this community are weakly interconnected._
 - **Should `Community 2` be split into smaller, more focused modules?**
@@ -124,4 +129,4 @@ _Questions this graph is uniquely positioned to answer:_
 - **Should `Community 6` be split into smaller, more focused modules?**
   _Cohesion score 0.1 - nodes in this community are weakly interconnected._
 - **Should `Community 7` be split into smaller, more focused modules?**
-  _Cohesion score 0.0946969696969697 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.11462450592885376 - nodes in this community are weakly interconnected._
