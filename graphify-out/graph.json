@@ -124,14 +124,204 @@
       "norm_label": "\u0646\u06a9\u0627\u062a \u0648 \u062f\u0631\u0633\u200c\u0627\u0645\u0648\u062e\u062a\u0647\u200c\u0647\u0627"
     },
     {
+      "label": "ProcessScroll.tsx",
+      "file_type": "code",
+      "source_file": "components/sections/ProcessScroll.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "sections_processscroll",
+      "community": 7,
+      "norm_label": "processscroll.tsx"
+    },
+    {
+      "label": "Step",
+      "file_type": "code",
+      "source_file": "components/sections/ProcessScroll.tsx",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "sections_processscroll_step",
+      "community": 7,
+      "norm_label": "step"
+    },
+    {
+      "label": "LayerProps",
+      "file_type": "code",
+      "source_file": "components/sections/ProcessScroll.tsx",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "sections_processscroll_layerprops",
+      "community": 7,
+      "norm_label": "layerprops"
+    },
+    {
+      "label": "ImageLayer()",
+      "file_type": "code",
+      "source_file": "components/sections/ProcessScroll.tsx",
+      "source_location": "L32",
+      "_origin": "ast",
+      "id": "sections_processscroll_imagelayer",
+      "community": 7,
+      "norm_label": "imagelayer()"
+    },
+    {
+      "label": "TextLayer()",
+      "file_type": "code",
+      "source_file": "components/sections/ProcessScroll.tsx",
+      "source_location": "L63",
+      "_origin": "ast",
+      "id": "sections_processscroll_textlayer",
+      "community": 7,
+      "norm_label": "textlayer()"
+    },
+    {
+      "label": "ProcessScroll()",
+      "file_type": "code",
+      "source_file": "components/sections/ProcessScroll.tsx",
+      "source_location": "L122",
+      "_origin": "ast",
+      "id": "sections_processscroll_processscroll",
+      "community": 7,
+      "norm_label": "processscroll()"
+    },
+    {
+      "label": "DESIGN.md",
+      "file_type": "document",
+      "source_file": "docs/DESIGN.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_design",
+      "community": 1,
+      "norm_label": "design.md"
+    },
+    {
+      "label": "DESIGN.md \u2014 \u0633\u06cc\u0633\u062a\u0645 \u0637\u0631\u0627\u062d\u06cc Artvoid",
+      "file_type": "document",
+      "source_file": "docs/DESIGN.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_design_design_md_\u0633\u06cc\u0633\u062a\u0645_\u0637\u0631\u0627\u062d\u06cc_artvoid",
+      "community": 1,
+      "norm_label": "design.md \u2014 \u0633\u06cc\u0633\u062a\u0645 \u0637\u0631\u0627\u062d\u06cc artvoid"
+    },
+    {
+      "label": "\u06f1. \u0631\u0646\u06af\u200c\u0647\u0627",
+      "file_type": "document",
+      "source_file": "docs/DESIGN.md",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "docs_design_\u06f1_\u0631\u0646\u06af_\u0647\u0627",
+      "community": 1,
+      "norm_label": "\u06f1. \u0631\u0646\u06af\u200c\u0647\u0627"
+    },
+    {
+      "label": "\u067e\u0627\u0644\u062a \u0645\u0648\u0646\u0648\u06a9\u0631\u0648\u0645 (\u062a\u0646\u0647\u0627 \u067e\u0627\u0644\u062a \u0645\u062c\u0627\u0632 \u0628\u0631\u0627\u06cc UI)",
+      "file_type": "document",
+      "source_file": "docs/DESIGN.md",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "docs_design_\u067e\u0627\u0644\u062a_\u0645\u0648\u0646\u0648\u06a9\u0631\u0648\u0645_\u062a\u0646\u0647\u0627_\u067e\u0627\u0644\u062a_\u0645\u062c\u0627\u0632_\u0628\u0631\u0627\u06cc_ui",
+      "community": 1,
+      "norm_label": "\u067e\u0627\u0644\u062a \u0645\u0648\u0646\u0648\u06a9\u0631\u0648\u0645 (\u062a\u0646\u0647\u0627 \u067e\u0627\u0644\u062a \u0645\u062c\u0627\u0632 \u0628\u0631\u0627\u06cc ui)"
+    },
+    {
+      "label": "\u0631\u0646\u06af\u200c\u0647\u0627\u06cc \u0633\u0645\u0627\u0646\u062a\u06cc\u06a9 (\u0641\u0642\u0637 \u0628\u0631\u0627\u06cc \u0648\u0636\u0639\u06cc\u062a\u200c\u0647\u0627\u06cc \u0633\u06cc\u0633\u062a\u0645\u06cc \u2014 \u0646\u0647 \u062f\u06a9\u0648\u0631\u0627\u0633\u06cc\u0648\u0646)",
+      "file_type": "document",
+      "source_file": "docs/DESIGN.md",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "docs_design_\u0631\u0646\u06af_\u0647\u0627\u06cc_\u0633\u0645\u0627\u0646\u062a\u06cc\u06a9_\u0641\u0642\u0637_\u0628\u0631\u0627\u06cc_\u0648\u0636\u0639\u06cc\u062a_\u0647\u0627\u06cc_\u0633\u06cc\u0633\u062a\u0645\u06cc_\u0646\u0647_\u062f\u06a9\u0648\u0631\u0627\u0633\u06cc\u0648\u0646",
+      "community": 1,
+      "norm_label": "\u0631\u0646\u06af\u200c\u0647\u0627\u06cc \u0633\u0645\u0627\u0646\u062a\u06cc\u06a9 (\u0641\u0642\u0637 \u0628\u0631\u0627\u06cc \u0648\u0636\u0639\u06cc\u062a\u200c\u0647\u0627\u06cc \u0633\u06cc\u0633\u062a\u0645\u06cc \u2014 \u0646\u0647 \u062f\u06a9\u0648\u0631\u0627\u0633\u06cc\u0648\u0646)"
+    },
+    {
+      "label": "\u0631\u0646\u06af\u200c\u0647\u0627\u06cc \u0631\u0648\u06cc \u062a\u0635\u0648\u06cc\u0631 (\u062b\u0627\u0628\u062a \u2014 \u0628\u0627 \u062a\u0645 \u0641\u0644\u06cc\u067e \u0646\u0645\u06cc\u200c\u0634\u0648\u0646\u062f)",
+      "file_type": "document",
+      "source_file": "docs/DESIGN.md",
+      "source_location": "L27",
+      "_origin": "ast",
+      "id": "docs_design_\u0631\u0646\u06af_\u0647\u0627\u06cc_\u0631\u0648\u06cc_\u062a\u0635\u0648\u06cc\u0631_\u062b\u0627\u0628\u062a_\u0628\u0627_\u062a\u0645_\u0641\u0644\u06cc\u067e_\u0646\u0645\u06cc_\u0634\u0648\u0646\u062f",
+      "community": 1,
+      "norm_label": "\u0631\u0646\u06af\u200c\u0647\u0627\u06cc \u0631\u0648\u06cc \u062a\u0635\u0648\u06cc\u0631 (\u062b\u0627\u0628\u062a \u2014 \u0628\u0627 \u062a\u0645 \u0641\u0644\u06cc\u067e \u0646\u0645\u06cc\u200c\u0634\u0648\u0646\u062f)"
+    },
+    {
+      "label": "\u062d\u0627\u0644\u062a \u062a\u06cc\u0631\u0647 (Dark mode)",
+      "file_type": "document",
+      "source_file": "docs/DESIGN.md",
+      "source_location": "L35",
+      "_origin": "ast",
+      "id": "docs_design_\u062d\u0627\u0644\u062a_\u062a\u06cc\u0631\u0647_dark_mode",
+      "community": 1,
+      "norm_label": "\u062d\u0627\u0644\u062a \u062a\u06cc\u0631\u0647 (dark mode)"
+    },
+    {
+      "label": "\u06f2. \u062a\u0627\u06cc\u067e\u0648\u06af\u0631\u0627\u0641\u06cc",
+      "file_type": "document",
+      "source_file": "docs/DESIGN.md",
+      "source_location": "L51",
+      "_origin": "ast",
+      "id": "docs_design_\u06f2_\u062a\u0627\u06cc\u067e\u0648\u06af\u0631\u0627\u0641\u06cc",
+      "community": 1,
+      "norm_label": "\u06f2. \u062a\u0627\u06cc\u067e\u0648\u06af\u0631\u0627\u0641\u06cc"
+    },
+    {
+      "label": "\u06f3. \u0641\u0627\u0635\u0644\u0647\u200c\u06af\u0630\u0627\u0631\u06cc \u0648 \u0634\u0628\u06a9\u0647",
+      "file_type": "document",
+      "source_file": "docs/DESIGN.md",
+      "source_location": "L67",
+      "_origin": "ast",
+      "id": "docs_design_\u06f3_\u0641\u0627\u0635\u0644\u0647_\u06af\u0630\u0627\u0631\u06cc_\u0648_\u0634\u0628\u06a9\u0647",
+      "community": 1,
+      "norm_label": "\u06f3. \u0641\u0627\u0635\u0644\u0647\u200c\u06af\u0630\u0627\u0631\u06cc \u0648 \u0634\u0628\u06a9\u0647"
+    },
+    {
+      "label": "\u06f4. \u0627\u062c\u0632\u0627 (Primitives)",
+      "file_type": "document",
+      "source_file": "docs/DESIGN.md",
+      "source_location": "L75",
+      "_origin": "ast",
+      "id": "docs_design_\u06f4_\u0627\u062c\u0632\u0627_primitives",
+      "community": 1,
+      "norm_label": "\u06f4. \u0627\u062c\u0632\u0627 (primitives)"
+    },
+    {
+      "label": "\u06f5. \u062d\u0631\u06a9\u062a (Motion)",
+      "file_type": "document",
+      "source_file": "docs/DESIGN.md",
+      "source_location": "L82",
+      "_origin": "ast",
+      "id": "docs_design_\u06f5_\u062d\u0631\u06a9\u062a_motion",
+      "community": 1,
+      "norm_label": "\u06f5. \u062d\u0631\u06a9\u062a (motion)"
+    },
+    {
+      "label": "\u06f6. \u0632\u0628\u0627\u0646 \u0628\u0635\u0631\u06cc \u0628\u0631\u0646\u062f",
+      "file_type": "document",
+      "source_file": "docs/DESIGN.md",
+      "source_location": "L92",
+      "_origin": "ast",
+      "id": "docs_design_\u06f6_\u0632\u0628\u0627\u0646_\u0628\u0635\u0631\u06cc_\u0628\u0631\u0646\u062f",
+      "community": 1,
+      "norm_label": "\u06f6. \u0632\u0628\u0627\u0646 \u0628\u0635\u0631\u06cc \u0628\u0631\u0646\u062f"
+    },
+    {
+      "label": "\u06f7. \u062f\u0633\u062a\u0631\u0633\u06cc\u200c\u067e\u0630\u06cc\u0631\u06cc (\u062d\u062f\u0627\u0642\u0644\u200c\u0647\u0627\u06cc \u0627\u0644\u0632\u0627\u0645\u06cc)",
+      "file_type": "document",
+      "source_file": "docs/DESIGN.md",
+      "source_location": "L100",
+      "_origin": "ast",
+      "id": "docs_design_\u06f7_\u062f\u0633\u062a\u0631\u0633\u06cc_\u067e\u0630\u06cc\u0631\u06cc_\u062d\u062f\u0627\u0642\u0644_\u0647\u0627\u06cc_\u0627\u0644\u0632\u0627\u0645\u06cc",
+      "community": 1,
+      "norm_label": "\u06f7. \u062f\u0633\u062a\u0631\u0633\u06cc\u200c\u067e\u0630\u06cc\u0631\u06cc (\u062d\u062f\u0627\u0642\u0644\u200c\u0647\u0627\u06cc \u0627\u0644\u0632\u0627\u0645\u06cc)"
+    },
+    {
       "label": "preview-server.py",
       "file_type": "code",
       "source_file": "scripts/preview-server.py",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "scripts_preview_server",
       "community": 14,
-      "norm_label": "preview-server.py"
+      "norm_label": "preview-server.py",
+      "id": "scripts_preview_server"
     },
     {
       "label": "NoCacheHandler",
@@ -139,9 +329,9 @@
       "source_file": "scripts/preview-server.py",
       "source_location": "L8",
       "_origin": "ast",
-      "id": "scripts_preview_server_nocachehandler",
       "community": 14,
-      "norm_label": "nocachehandler"
+      "norm_label": "nocachehandler",
+      "id": "scripts_preview_server_nocachehandler"
     },
     {
       "label": ".end_headers()",
@@ -149,39 +339,9 @@
       "source_file": "scripts/preview-server.py",
       "source_location": "L9",
       "_origin": "ast",
-      "id": "scripts_preview_server_nocachehandler_end_headers",
       "community": 14,
-      "norm_label": ".end_headers()"
-    },
-    {
-      "label": "ProcessScroll.tsx",
-      "file_type": "code",
-      "source_file": "components/sections/ProcessScroll.tsx",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 7,
-      "norm_label": "processscroll.tsx",
-      "id": "sections_processscroll"
-    },
-    {
-      "label": "EASE",
-      "file_type": "code",
-      "source_file": "components/sections/ProcessScroll.tsx",
-      "source_location": "L16",
-      "_origin": "ast",
-      "community": 7,
-      "norm_label": "ease",
-      "id": "sections_processscroll_ease"
-    },
-    {
-      "label": "ProcessScroll()",
-      "file_type": "code",
-      "source_file": "components/sections/ProcessScroll.tsx",
-      "source_location": "L23",
-      "_origin": "ast",
-      "community": 7,
-      "norm_label": "processscroll()",
-      "id": "sections_processscroll_processscroll"
+      "norm_label": ".end_headers()",
+      "id": "scripts_preview_server_nocachehandler_end_headers"
     },
     {
       "label": "home.ts",
@@ -202,136 +362,6 @@
       "community": 7,
       "norm_label": "home",
       "id": "content_home_home"
-    },
-    {
-      "label": "DESIGN.md",
-      "file_type": "document",
-      "source_file": "docs/DESIGN.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 1,
-      "norm_label": "design.md",
-      "id": "docs_design"
-    },
-    {
-      "label": "DESIGN.md \u2014 \u0633\u06cc\u0633\u062a\u0645 \u0637\u0631\u0627\u062d\u06cc Artvoid",
-      "file_type": "document",
-      "source_file": "docs/DESIGN.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 1,
-      "norm_label": "design.md \u2014 \u0633\u06cc\u0633\u062a\u0645 \u0637\u0631\u0627\u062d\u06cc artvoid",
-      "id": "docs_design_design_md_\u0633\u06cc\u0633\u062a\u0645_\u0637\u0631\u0627\u062d\u06cc_artvoid"
-    },
-    {
-      "label": "\u06f1. \u0631\u0646\u06af\u200c\u0647\u0627",
-      "file_type": "document",
-      "source_file": "docs/DESIGN.md",
-      "source_location": "L6",
-      "_origin": "ast",
-      "community": 1,
-      "norm_label": "\u06f1. \u0631\u0646\u06af\u200c\u0647\u0627",
-      "id": "docs_design_\u06f1_\u0631\u0646\u06af_\u0647\u0627"
-    },
-    {
-      "label": "\u067e\u0627\u0644\u062a \u0645\u0648\u0646\u0648\u06a9\u0631\u0648\u0645 (\u062a\u0646\u0647\u0627 \u067e\u0627\u0644\u062a \u0645\u062c\u0627\u0632 \u0628\u0631\u0627\u06cc UI)",
-      "file_type": "document",
-      "source_file": "docs/DESIGN.md",
-      "source_location": "L8",
-      "_origin": "ast",
-      "community": 1,
-      "norm_label": "\u067e\u0627\u0644\u062a \u0645\u0648\u0646\u0648\u06a9\u0631\u0648\u0645 (\u062a\u0646\u0647\u0627 \u067e\u0627\u0644\u062a \u0645\u062c\u0627\u0632 \u0628\u0631\u0627\u06cc ui)",
-      "id": "docs_design_\u067e\u0627\u0644\u062a_\u0645\u0648\u0646\u0648\u06a9\u0631\u0648\u0645_\u062a\u0646\u0647\u0627_\u067e\u0627\u0644\u062a_\u0645\u062c\u0627\u0632_\u0628\u0631\u0627\u06cc_ui"
-    },
-    {
-      "label": "\u0631\u0646\u06af\u200c\u0647\u0627\u06cc \u0633\u0645\u0627\u0646\u062a\u06cc\u06a9 (\u0641\u0642\u0637 \u0628\u0631\u0627\u06cc \u0648\u0636\u0639\u06cc\u062a\u200c\u0647\u0627\u06cc \u0633\u06cc\u0633\u062a\u0645\u06cc \u2014 \u0646\u0647 \u062f\u06a9\u0648\u0631\u0627\u0633\u06cc\u0648\u0646)",
-      "file_type": "document",
-      "source_file": "docs/DESIGN.md",
-      "source_location": "L20",
-      "_origin": "ast",
-      "community": 1,
-      "norm_label": "\u0631\u0646\u06af\u200c\u0647\u0627\u06cc \u0633\u0645\u0627\u0646\u062a\u06cc\u06a9 (\u0641\u0642\u0637 \u0628\u0631\u0627\u06cc \u0648\u0636\u0639\u06cc\u062a\u200c\u0647\u0627\u06cc \u0633\u06cc\u0633\u062a\u0645\u06cc \u2014 \u0646\u0647 \u062f\u06a9\u0648\u0631\u0627\u0633\u06cc\u0648\u0646)",
-      "id": "docs_design_\u0631\u0646\u06af_\u0647\u0627\u06cc_\u0633\u0645\u0627\u0646\u062a\u06cc\u06a9_\u0641\u0642\u0637_\u0628\u0631\u0627\u06cc_\u0648\u0636\u0639\u06cc\u062a_\u0647\u0627\u06cc_\u0633\u06cc\u0633\u062a\u0645\u06cc_\u0646\u0647_\u062f\u06a9\u0648\u0631\u0627\u0633\u06cc\u0648\u0646"
-    },
-    {
-      "label": "\u0631\u0646\u06af\u200c\u0647\u0627\u06cc \u0631\u0648\u06cc \u062a\u0635\u0648\u06cc\u0631 (\u062b\u0627\u0628\u062a \u2014 \u0628\u0627 \u062a\u0645 \u0641\u0644\u06cc\u067e \u0646\u0645\u06cc\u200c\u0634\u0648\u0646\u062f)",
-      "file_type": "document",
-      "source_file": "docs/DESIGN.md",
-      "source_location": "L27",
-      "_origin": "ast",
-      "community": 1,
-      "norm_label": "\u0631\u0646\u06af\u200c\u0647\u0627\u06cc \u0631\u0648\u06cc \u062a\u0635\u0648\u06cc\u0631 (\u062b\u0627\u0628\u062a \u2014 \u0628\u0627 \u062a\u0645 \u0641\u0644\u06cc\u067e \u0646\u0645\u06cc\u200c\u0634\u0648\u0646\u062f)",
-      "id": "docs_design_\u0631\u0646\u06af_\u0647\u0627\u06cc_\u0631\u0648\u06cc_\u062a\u0635\u0648\u06cc\u0631_\u062b\u0627\u0628\u062a_\u0628\u0627_\u062a\u0645_\u0641\u0644\u06cc\u067e_\u0646\u0645\u06cc_\u0634\u0648\u0646\u062f"
-    },
-    {
-      "label": "\u062d\u0627\u0644\u062a \u062a\u06cc\u0631\u0647 (Dark mode)",
-      "file_type": "document",
-      "source_file": "docs/DESIGN.md",
-      "source_location": "L35",
-      "_origin": "ast",
-      "community": 1,
-      "norm_label": "\u062d\u0627\u0644\u062a \u062a\u06cc\u0631\u0647 (dark mode)",
-      "id": "docs_design_\u062d\u0627\u0644\u062a_\u062a\u06cc\u0631\u0647_dark_mode"
-    },
-    {
-      "label": "\u06f2. \u062a\u0627\u06cc\u067e\u0648\u06af\u0631\u0627\u0641\u06cc",
-      "file_type": "document",
-      "source_file": "docs/DESIGN.md",
-      "source_location": "L51",
-      "_origin": "ast",
-      "community": 1,
-      "norm_label": "\u06f2. \u062a\u0627\u06cc\u067e\u0648\u06af\u0631\u0627\u0641\u06cc",
-      "id": "docs_design_\u06f2_\u062a\u0627\u06cc\u067e\u0648\u06af\u0631\u0627\u0641\u06cc"
-    },
-    {
-      "label": "\u06f3. \u0641\u0627\u0635\u0644\u0647\u200c\u06af\u0630\u0627\u0631\u06cc \u0648 \u0634\u0628\u06a9\u0647",
-      "file_type": "document",
-      "source_file": "docs/DESIGN.md",
-      "source_location": "L67",
-      "_origin": "ast",
-      "community": 1,
-      "norm_label": "\u06f3. \u0641\u0627\u0635\u0644\u0647\u200c\u06af\u0630\u0627\u0631\u06cc \u0648 \u0634\u0628\u06a9\u0647",
-      "id": "docs_design_\u06f3_\u0641\u0627\u0635\u0644\u0647_\u06af\u0630\u0627\u0631\u06cc_\u0648_\u0634\u0628\u06a9\u0647"
-    },
-    {
-      "label": "\u06f4. \u0627\u062c\u0632\u0627 (Primitives)",
-      "file_type": "document",
-      "source_file": "docs/DESIGN.md",
-      "source_location": "L75",
-      "_origin": "ast",
-      "community": 1,
-      "norm_label": "\u06f4. \u0627\u062c\u0632\u0627 (primitives)",
-      "id": "docs_design_\u06f4_\u0627\u062c\u0632\u0627_primitives"
-    },
-    {
-      "label": "\u06f5. \u062d\u0631\u06a9\u062a (Motion)",
-      "file_type": "document",
-      "source_file": "docs/DESIGN.md",
-      "source_location": "L82",
-      "_origin": "ast",
-      "community": 1,
-      "norm_label": "\u06f5. \u062d\u0631\u06a9\u062a (motion)",
-      "id": "docs_design_\u06f5_\u062d\u0631\u06a9\u062a_motion"
-    },
-    {
-      "label": "\u06f6. \u0632\u0628\u0627\u0646 \u0628\u0635\u0631\u06cc \u0628\u0631\u0646\u062f",
-      "file_type": "document",
-      "source_file": "docs/DESIGN.md",
-      "source_location": "L92",
-      "_origin": "ast",
-      "community": 1,
-      "norm_label": "\u06f6. \u0632\u0628\u0627\u0646 \u0628\u0635\u0631\u06cc \u0628\u0631\u0646\u062f",
-      "id": "docs_design_\u06f6_\u0632\u0628\u0627\u0646_\u0628\u0635\u0631\u06cc_\u0628\u0631\u0646\u062f"
-    },
-    {
-      "label": "\u06f7. \u062f\u0633\u062a\u0631\u0633\u06cc\u200c\u067e\u0630\u06cc\u0631\u06cc (\u062d\u062f\u0627\u0642\u0644\u200c\u0647\u0627\u06cc \u0627\u0644\u0632\u0627\u0645\u06cc)",
-      "file_type": "document",
-      "source_file": "docs/DESIGN.md",
-      "source_location": "L100",
-      "_origin": "ast",
-      "community": 1,
-      "norm_label": "\u06f7. \u062f\u0633\u062a\u0631\u0633\u06cc\u200c\u067e\u0630\u06cc\u0631\u06cc (\u062d\u062f\u0627\u0642\u0644\u200c\u0647\u0627\u06cc \u0627\u0644\u0632\u0627\u0645\u06cc)",
-      "id": "docs_design_\u06f7_\u062f\u0633\u062a\u0631\u0633\u06cc_\u067e\u0630\u06cc\u0631\u06cc_\u062d\u062f\u0627\u0642\u0644_\u0647\u0627\u06cc_\u0627\u0644\u0632\u0627\u0645\u06cc"
     },
     {
       "label": "page.tsx",
@@ -439,7 +469,7 @@
       "source_file": "components/sections/Footer.tsx",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 13,
+      "community": 15,
       "norm_label": "footer.tsx",
       "id": "sections_footer"
     },
@@ -449,7 +479,7 @@
       "source_file": "components/sections/Footer.tsx",
       "source_location": "L4",
       "_origin": "ast",
-      "community": 13,
+      "community": 15,
       "norm_label": "footer()",
       "id": "sections_footer_footer"
     },
@@ -459,7 +489,7 @@
       "source_file": "components/ui/SitePreview.tsx",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 7,
+      "community": 16,
       "norm_label": "sitepreview.tsx",
       "id": "ui_sitepreview"
     },
@@ -469,7 +499,7 @@
       "source_file": "components/ui/SitePreview.tsx",
       "source_location": "L7",
       "_origin": "ast",
-      "community": 7,
+      "community": 16,
       "norm_label": "sitepreviewvariant",
       "id": "ui_sitepreview_sitepreviewvariant"
     },
@@ -479,7 +509,7 @@
       "source_file": "components/ui/SitePreview.tsx",
       "source_location": "L9",
       "_origin": "ast",
-      "community": 7,
+      "community": 16,
       "norm_label": "browserchrome()",
       "id": "ui_sitepreview_browserchrome"
     },
@@ -489,7 +519,7 @@
       "source_file": "components/ui/SitePreview.tsx",
       "source_location": "L29",
       "_origin": "ast",
-      "community": 7,
+      "community": 16,
       "norm_label": "ganjrizbody()",
       "id": "ui_sitepreview_ganjrizbody"
     },
@@ -499,7 +529,7 @@
       "source_file": "components/ui/SitePreview.tsx",
       "source_location": "L69",
       "_origin": "ast",
-      "community": 7,
+      "community": 16,
       "norm_label": "idibody()",
       "id": "ui_sitepreview_idibody"
     },
@@ -509,7 +539,7 @@
       "source_file": "components/ui/SitePreview.tsx",
       "source_location": "L104",
       "_origin": "ast",
-      "community": 7,
+      "community": 16,
       "norm_label": "sitepreview()",
       "id": "ui_sitepreview_sitepreview"
     },
@@ -729,7 +759,7 @@
       "source_file": "components/ui/ThemeToggle.tsx",
       "source_location": "L14",
       "_origin": "ast",
-      "community": 15,
+      "community": 7,
       "norm_label": "themetoggle()",
       "id": "ui_themetoggle_themetoggle"
     },
@@ -819,7 +849,7 @@
       "source_file": "components/ui/Container.tsx",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 13,
+      "community": 15,
       "norm_label": "container.tsx",
       "id": "ui_container"
     },
@@ -829,7 +859,7 @@
       "source_file": "components/ui/Container.tsx",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 13,
+      "community": 15,
       "norm_label": "container()",
       "id": "ui_container_container"
     },
@@ -1039,7 +1069,7 @@
       "source_file": "components/ui/icons.tsx",
       "source_location": "L42",
       "_origin": "ast",
-      "community": 15,
+      "community": 13,
       "norm_label": "chevrondownicon()",
       "id": "ui_icons_chevrondownicon"
     },
@@ -2062,26 +2092,6 @@
       "target": "progress_\u0645\u0631\u062d\u0644\u0647_\u06f4_\u0628\u0647_\u0628\u0639\u062f"
     },
     {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/preview-server.py",
-      "source_location": "L8",
-      "weight": 1.0,
-      "source": "scripts_preview_server",
-      "target": "scripts_preview_server_nocachehandler",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/preview-server.py",
-      "source_location": "L9",
-      "weight": 1.0,
-      "source": "scripts_preview_server_nocachehandler",
-      "target": "scripts_preview_server_nocachehandler_end_headers",
-      "confidence_score": 1.0
-    },
-    {
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -2129,11 +2139,21 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "components/sections/ProcessScroll.tsx",
-      "source_location": "L16",
+      "source_location": "L32",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "sections_processscroll",
-      "target": "sections_processscroll_ease"
+      "target": "sections_processscroll_imagelayer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/sections/ProcessScroll.tsx",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "sections_processscroll",
+      "target": "sections_processscroll_layerprops",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2146,80 +2166,24 @@
       "target": "sections_processscroll_processscroll"
     },
     {
-      "relation": "imports_from",
-      "context": "import",
+      "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "app/page.tsx",
-      "source_location": "L2",
+      "source_file": "components/sections/ProcessScroll.tsx",
+      "source_location": "L17",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_page",
-      "target": "content_home"
+      "source": "sections_processscroll",
+      "target": "sections_processscroll_step",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "content/home.ts",
-      "source_location": "L2",
+      "source_file": "components/sections/ProcessScroll.tsx",
+      "source_location": "L63",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "content_home",
-      "target": "content_home_home"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "components/sections/Hero.tsx",
-      "source_location": "L6",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "sections_hero",
-      "target": "content_home"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "components/ui/ThemeToggle.tsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "ui_themetoggle",
-      "target": "content_home"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/page.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_page",
-      "target": "content_home_home"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "components/sections/Hero.tsx",
-      "source_location": "L6",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "sections_hero",
-      "target": "content_home_home"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "components/ui/ThemeToggle.tsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "ui_themetoggle",
-      "target": "content_home_home"
+      "source": "sections_processscroll",
+      "target": "sections_processscroll_textlayer",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2340,6 +2304,102 @@
       "confidence_score": 1.0,
       "source": "docs_design_\u06f1_\u0631\u0646\u06af_\u0647\u0627",
       "target": "docs_design_\u067e\u0627\u0644\u062a_\u0645\u0648\u0646\u0648\u06a9\u0631\u0648\u0645_\u062a\u0646\u0647\u0627_\u067e\u0627\u0644\u062a_\u0645\u062c\u0627\u0632_\u0628\u0631\u0627\u06cc_ui"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/preview-server.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_preview_server",
+      "target": "scripts_preview_server_nocachehandler"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/preview-server.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_preview_server_nocachehandler",
+      "target": "scripts_preview_server_nocachehandler_end_headers"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/page.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_page",
+      "target": "content_home"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "content/home.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "content_home",
+      "target": "content_home_home"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/sections/Hero.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sections_hero",
+      "target": "content_home"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/ThemeToggle.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_themetoggle",
+      "target": "content_home"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/page.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_page",
+      "target": "content_home_home"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/sections/Hero.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sections_hero",
+      "target": "content_home_home"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/ThemeToggle.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_themetoggle",
+      "target": "content_home_home"
     },
     {
       "relation": "contains",
@@ -4717,5 +4777,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "96612f3a02dbbf9ba72a99130621ef8ee346fba2"
+  "built_at_commit": "aa2642a08a9cf8909e4c4b6b98c26d354364e889"
 }

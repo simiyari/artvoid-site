@@ -45,8 +45,8 @@
     "semantic_hash": ""
   },
   "PROGRESS.md": {
-    "mtime": 1784092961.2705986,
-    "ast_hash": "19ea1ac054f0b64af24abd3a2cf2fd05",
+    "mtime": 1784093727.8194087,
+    "ast_hash": "f1c0cf0f8c2a5b790891d5796e1ad7b6",
     "semantic_hash": ""
   },
   "README.md": {
@@ -55,8 +55,8 @@
     "semantic_hash": ""
   },
   "docs/DESIGN.md": {
-    "mtime": 1784092027.5273201,
-    "ast_hash": "2c17296310a09c4aff55e8aa6381351b",
+    "mtime": 1784093727.284835,
+    "ast_hash": "5bd92bf4a25441e6e11fb63bc6ffba7c",
     "semantic_hash": ""
   },
   "docs/ROADMAP.md": {
@@ -580,8 +580,8 @@
     "semantic_hash": ""
   },
   "components/sections/ProcessScroll.tsx": {
-    "mtime": 1784091581.031456,
-    "ast_hash": "f7ffeb1f797e7d87c1db8ee34ef9b9e3",
+    "mtime": 1784093363.4505749,
+    "ast_hash": "0727e09a8e32918a24f6690cd6a3145a",
     "semantic_hash": ""
   },
   ".claude/launch.json": {

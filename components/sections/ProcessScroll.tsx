@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef, useState } from "react";
+import { memo, useRef, useState } from "react";
 import {
   MotionConfig,
   motion,
@@ -21,15 +21,14 @@ type LayerProps = {
   index: number;
   total: number;
   progress: MotionValue<number>;
-  active: number;
-  reduce: boolean;
 };
 
 /**
- * لایه تصویر تمام‌صفحه — opacity و scale مستقیماً به پیشروی اسکرول بسته‌اند (scrubbed).
- * هر تصویر در پنجره [i/n, (i+1)/n] زنده است و با crossfade کوتاه به بعدی می‌رسد.
+ * ⚠️ لایه‌های scrubbed حتماً memo باشند و prop متغیر (مثل active) نگیرند:
+ * ری‌رندر وسط اسکرول، subscription های useTransform را بازسازی می‌کند و
+ * اتصال DOM به MotionValue قبلی می‌میرد → لایه در همان opacity فریز می‌شود.
  */
-function ImageLayer({ step, index, total, progress, active, reduce }: LayerProps) {
+const ImageLayer = memo(function ImageLayer({ step, index, total, progress }: LayerProps) {
   const start = index / total;
   const end = (index + 1) / total;
   const fade = 0.05;
@@ -53,14 +52,14 @@ function ImageLayer({ step, index, total, progress, active, reduce }: LayerProps
     <motion.img
       src={step.image}
       alt=""
-      style={reduce ? { opacity: index === active ? 1 : 0 } : { opacity, scale }}
+      style={{ opacity, scale }}
       className="absolute inset-0 h-full w-full object-cover"
     />
   );
-}
+});
 
 /** متن روی تصویر — با اسکرول بالا می‌آید، می‌ماند و به‌نرمی خارج می‌شود (scrubbed) */
-function TextLayer({ step, index, total, progress, active, reduce }: LayerProps) {
+const TextLayer = memo(function TextLayer({ step, index, total, progress }: LayerProps) {
   const start = index / total;
   const end = (index + 1) / total;
   const span = end - start;
@@ -80,26 +79,34 @@ function TextLayer({ step, index, total, progress, active, reduce }: LayerProps)
 
   const y = useTransform(
     progress,
-    first ? [end - span * 0.35, end] : last ? [start, start + span * 0.4] : [start, start + span * 0.4, end - span * 0.35, end],
+    first
+      ? [end - span * 0.35, end]
+      : last
+        ? [start, start + span * 0.4]
+        : [start, start + span * 0.4, end - span * 0.35, end],
     first ? [0, -64] : last ? [64, 0] : [64, 0, 0, -64],
   );
 
   // عدد غول‌پیکر با ضریب حرکت بیشتر — عمق پارالاکسی
   const ghostY = useTransform(
     progress,
-    first ? [end - span * 0.35, end] : last ? [start, start + span * 0.4] : [start, start + span * 0.4, end - span * 0.35, end],
+    first
+      ? [end - span * 0.35, end]
+      : last
+        ? [start, start + span * 0.4]
+        : [start, start + span * 0.4, end - span * 0.35, end],
     first ? [0, -120] : last ? [120, 0] : [120, 0, 0, -120],
   );
 
   return (
     <motion.div
-      style={reduce ? { opacity: index === active ? 1 : 0 } : { opacity }}
+      style={{ opacity }}
       className="pointer-events-none absolute inset-0 flex items-end pb-36 md:pb-44"
     >
       <Container>
-        <motion.div style={reduce ? undefined : { y }} className="flex max-w-2xl flex-col gap-2">
+        <motion.div style={{ y }} className="flex max-w-2xl flex-col gap-2">
           <motion.span
-            style={reduce ? undefined : { y: ghostY }}
+            style={{ y: ghostY }}
             aria-hidden="true"
             className="text-giant select-none text-on-image/20"
           >
@@ -113,11 +120,22 @@ function TextLayer({ step, index, total, progress, active, reduce }: LayerProps)
       </Container>
     </motion.div>
   );
-}
+});
+
+/** ریل پیشرفت — memo تا ری‌رندر والد اتصال MV را نبُرد */
+const Rail = memo(function Rail({ progress }: { progress: MotionValue<number> }) {
+  const scaleX = useTransform(progress, [0, 1], [0, 1]);
+  return (
+    <div aria-hidden="true" className="h-px w-full bg-on-image/25">
+      <motion.div style={{ scaleX }} className="h-px origin-right bg-on-image" />
+    </div>
+  );
+});
 
 /**
  * فرآیند کار — Scrollytelling تمام‌صفحه: تصاویر فول‌بلید که با اسکرول crossfade+زوم می‌شوند،
  * متن‌های scrubbed روی اسکریم، شماره‌ها و ریل پیشرفت پایین صحنه.
+ * با prefers-reduced-motion نسخه ساده (سواپ opacity با ترنزیشن CSS) رندر می‌شود.
  */
 export default function ProcessScroll() {
   const t = home.process;
@@ -137,23 +155,33 @@ export default function ProcessScroll() {
     setActive(Math.min(total - 1, Math.max(0, Math.floor(v * total))));
   });
 
-  const rail = useTransform(scrollYProgress, [0, 1], [0, 1]);
+  const activeStep = steps[active];
 
   return (
     <MotionConfig reducedMotion="user">
       <section ref={ref} className="relative h-[400svh]">
         <div className="sticky top-0 h-svh overflow-hidden bg-image-scrim">
-          {steps.map((step, index) => (
-            <ImageLayer
-              key={step.number}
-              step={step}
-              index={index}
-              total={total}
-              progress={scrollYProgress}
-              active={active}
-              reduce={reduce}
-            />
-          ))}
+          {reduce
+            ? steps.map((step, index) => (
+                <img
+                  key={step.number}
+                  src={step.image}
+                  alt=""
+                  className={cn(
+                    "absolute inset-0 h-full w-full object-cover transition-opacity duration-500",
+                    index === active ? "opacity-100" : "opacity-0",
+                  )}
+                />
+              ))
+            : steps.map((step, index) => (
+                <ImageLayer
+                  key={step.number}
+                  step={step}
+                  index={index}
+                  total={total}
+                  progress={scrollYProgress}
+                />
+              ))}
 
           {/* اسکریم‌های ثابت برای خوانایی (توکن‌های فلیپ‌نشونده) */}
           <div aria-hidden="true" className="absolute inset-0 bg-image-scrim/40" />
@@ -166,17 +194,31 @@ export default function ProcessScroll() {
             className="absolute inset-x-0 top-0 h-32 bg-linear-to-b from-image-scrim/70 to-transparent"
           />
 
-          {steps.map((step, index) => (
-            <TextLayer
-              key={step.number}
-              step={step}
-              index={index}
-              total={total}
-              progress={scrollYProgress}
-              active={active}
-              reduce={reduce}
-            />
-          ))}
+          {reduce ? (
+            <div className="pointer-events-none absolute inset-0 flex items-end pb-36 md:pb-44">
+              <Container>
+                <div className="flex max-w-2xl flex-col gap-2 transition-opacity duration-500">
+                  <span aria-hidden="true" className="text-giant select-none text-on-image/20">
+                    {activeStep.number}
+                  </span>
+                  <h3 className="text-h1 text-on-image md:text-display">{activeStep.title}</h3>
+                  <p className="max-w-md text-body text-on-image/85 md:text-h3 md:font-normal md:leading-relaxed">
+                    {activeStep.body}
+                  </p>
+                </div>
+              </Container>
+            </div>
+          ) : (
+            steps.map((step, index) => (
+              <TextLayer
+                key={step.number}
+                step={step}
+                index={index}
+                total={total}
+                progress={scrollYProgress}
+              />
+            ))
+          )}
 
           {/* هدر بخش — بالای صحنه */}
           <div className="absolute inset-x-0 top-0 pt-24">
@@ -203,9 +245,7 @@ export default function ProcessScroll() {
                   </span>
                 ))}
               </div>
-              <div aria-hidden="true" className="h-px w-full bg-on-image/25">
-                <motion.div style={{ scaleX: rail }} className="h-px origin-right bg-on-image" />
-              </div>
+              <Rail progress={scrollYProgress} />
             </Container>
           </div>
         </div>

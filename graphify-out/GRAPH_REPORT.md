@@ -1,16 +1,16 @@
 # Graph Report - Artvoid Design  (2026-07-15)
 
 ## Corpus Check
-- 113 files · ~93,332 words
+- 113 files · ~93,704 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 198 nodes · 266 edges · 16 communities (13 shown, 3 thin omitted)
+- 201 nodes · 269 edges · 17 communities (13 shown, 4 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `96612f3a`
+- Built from commit: `aa2642a0`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -30,6 +30,7 @@
 - [[_COMMUNITY_Community 13|Community 13]]
 - [[_COMMUNITY_Community 14|Community 14]]
 - [[_COMMUNITY_Community 15|Community 15]]
+- [[_COMMUNITY_Community 16|Community 16]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `cn()` - 21 edges
@@ -48,17 +49,17 @@
   components/ui/Button.tsx → lib/cn.ts
 - `ThemeToggle()` --calls--> `cn()`  [EXTRACTED]
   components/ui/ThemeToggle.tsx → lib/cn.ts
+- `Container()` --calls--> `cn()`  [EXTRACTED]
+  components/ui/Container.tsx → lib/cn.ts
 - `Badge()` --calls--> `cn()`  [EXTRACTED]
   components/ui/Badge.tsx → lib/cn.ts
 - `Card()` --calls--> `cn()`  [EXTRACTED]
   components/ui/Card.tsx → lib/cn.ts
-- `Container()` --calls--> `cn()`  [EXTRACTED]
-  components/ui/Container.tsx → lib/cn.ts
 
 ## Import Cycles
 - None detected.
 
-## Communities (16 total, 3 thin omitted)
+## Communities (17 total, 4 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.13
@@ -89,8 +90,8 @@ Cohesion: 0.10
 Nodes (19): dependencies, motion, next, react, react-dom, devDependencies, tailwindcss, @tailwindcss/postcss (+11 more)
 
 ### Community 7 - "Community 7"
-Cohesion: 0.09
-Nodes (13): home, container, EASE, item, EASE, Button(), ButtonProps, ButtonSize (+5 more)
+Cohesion: 0.10
+Nodes (14): home, container, EASE, item, LayerProps, Step, Button(), ButtonProps (+6 more)
 
 ### Community 8 - "Community 8"
 Cohesion: 0.17
@@ -102,26 +103,26 @@ Nodes (4): Artvoid — artvoid.ir, استک, اسناد پروژه, توسعه
 
 ### Community 13 - "Community 13"
 Cohesion: 0.12
-Nodes (21): devUi, cn(), Footer(), Badge(), BadgeVariant, styles, Card(), Container() (+13 more)
+Nodes (20): devUi, cn(), Badge(), BadgeVariant, styles, Card(), ChevronDownIcon(), fieldBorder() (+12 more)
 
 ### Community 15 - "Community 15"
-Cohesion: 0.20
-Nodes (9): site, ChevronDownIcon(), CloseIcon(), IconProps, MenuIcon(), MoonIcon(), SunIcon(), sizes (+1 more)
+Cohesion: 0.19
+Nodes (9): site, Footer(), Container(), CloseIcon(), IconProps, MenuIcon(), MoonIcon(), SunIcon() (+1 more)
 
 ## Knowledge Gaps
-- **102 isolated node(s):** `وضعیت فعلی`, `تصمیمات قطعی‌شده`, `تصمیمات باز (از کاربر بپرس وقتی به آن رسیدی)`, `مرحله ۰ — بوت‌استرپ (خودکار توسط Claude Code)`, `مرحله ۱ — اسکلت پروژه` (+97 more)
+- **103 isolated node(s):** `وضعیت فعلی`, `تصمیمات قطعی‌شده`, `تصمیمات باز (از کاربر بپرس وقتی به آن رسیدی)`, `مرحله ۰ — بوت‌استرپ (خودکار توسط Claude Code)`, `مرحله ۱ — اسکلت پروژه` (+98 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **3 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **4 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `cn()` connect `Community 13` to `Community 15`, `Community 7`?**
-  _High betweenness centrality (0.046) - this node is a cross-community bridge._
+- **Why does `cn()` connect `Community 13` to `Community 16`, `Community 15`, `Community 7`?**
+  _High betweenness centrality (0.052) - this node is a cross-community bridge._
 - **Why does `Button()` connect `Community 7` to `Community 13`, `Community 15`?**
   _High betweenness centrality (0.011) - this node is a cross-community bridge._
 - **What connects `وضعیت فعلی`, `تصمیمات قطعی‌شده`, `تصمیمات باز (از کاربر بپرس وقتی به آن رسیدی)` to the rest of the system?**
-  _102 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _103 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.13333333333333333 - nodes in this community are weakly interconnected._
 - **Should `Community 2` be split into smaller, more focused modules?**
@@ -129,4 +130,4 @@ _Questions this graph is uniquely positioned to answer:_
 - **Should `Community 6` be split into smaller, more focused modules?**
   _Cohesion score 0.1 - nodes in this community are weakly interconnected._
 - **Should `Community 7` be split into smaller, more focused modules?**
-  _Cohesion score 0.08866995073891626 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.09686609686609686 - nodes in this community are weakly interconnected._
