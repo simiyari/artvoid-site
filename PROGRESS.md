@@ -87,6 +87,7 @@
 - فرم‌های کنترل‌نشده + useId در سرور کامپوننت‌ها کار می‌کند؛ خطای فرم با role="alert" اعلام می‌شود
 - در تست خودکار React: خواندن aria-expanded بلافاصله بعد از click() مقدار قدیمی می‌دهد (آپدیت async است) → بعد از ~300ms بخوان
 - پنل مرورگر Claude وقتی hidden است rAF نمی‌زند → همه انیمیشن‌های motion (whileInView، useScroll) فریز می‌شوند؛ فیچرهای اسکرولی را فقط در مرورگر فوکوس‌دار (کروم سپهر) می‌شود دید — DOM/استایل را جدا verify کن
+- **قانون طلایی موشن scrubbed:** کامپوننتی که style آن به MotionValue بسته است (useTransform) باید memo باشد و هیچ prop متغیری (مثل active) نگیرد — ری‌رندر وسط اسکرول subscription را بازسازی می‌کند و DOM به MV مرده گوش می‌دهد → فریز وسط کراس‌فید (باگ واقعی ProcessScroll بود، کامیت 85cff6a)
 - لینک‌ها با trailingSlash به‌صورت «/path/» رندر می‌شوند → در سلکتورهای تست href="/work/" بنویس نه "/work"
 - **هرگز فایل فارسی را با Get-Content/Set-Content پاورشل ۵.۱ دستکاری نکن** — پیش‌فرضش ANSI است و UTF-8 را mojibake می‌کند؛ همیشه از ابزار Edit/Write استفاده کن
 - **پیش‌نمایش لوکال حتماً با scripts/preview-server.py** (هدر no-store) — «python -m http.server» ساده Cache-Control نمی‌فرستد و مرورگر نسخه کهنه HTML/JS را نگه می‌دارد و تغییرات دیده نمی‌شوند (یک بار Ctrl+F5 برای پاک‌شدن کش قدیمی لازم است)
