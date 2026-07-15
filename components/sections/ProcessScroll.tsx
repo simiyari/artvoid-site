@@ -1,255 +1,208 @@
 "use client";
 
-import { memo, useRef, useState } from "react";
-import {
-  MotionConfig,
-  motion,
-  useMotionValueEvent,
-  useReducedMotion,
-  useScroll,
-  useTransform,
-  type MotionValue,
-} from "motion/react";
+import { useRef, useState } from "react";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { useGSAP } from "@gsap/react";
 import Container from "@/components/ui/Container";
 import { cn } from "@/lib/cn";
 import { home } from "@/content/home";
 
-type Step = (typeof home.process.steps)[number];
-
-type LayerProps = {
-  step: Step;
-  index: number;
-  total: number;
-  progress: MotionValue<number>;
-};
+gsap.registerPlugin(ScrollTrigger, useGSAP);
 
 /**
- * ⚠️ لایه‌های scrubbed حتماً memo باشند و prop متغیر (مثل active) نگیرند:
- * ری‌رندر وسط اسکرول، subscription های useTransform را بازسازی می‌کند و
- * اتصال DOM به MotionValue قبلی می‌میرد → لایه در همان opacity فریز می‌شود.
- */
-const ImageLayer = memo(function ImageLayer({ step, index, total, progress }: LayerProps) {
-  const start = index / total;
-  const end = (index + 1) / total;
-  const fade = 0.05;
-
-  const first = index === 0;
-  const last = index === total - 1;
-
-  const opacity = useTransform(
-    progress,
-    first
-      ? [end - fade, end + fade]
-      : last
-        ? [start - fade, start + fade]
-        : [start - fade, start + fade, end - fade, end + fade],
-    first ? [1, 0] : last ? [0, 1] : [0, 1, 1, 0],
-  );
-  // زوم آهسته پیوسته در طول پنجره — حس سینمایی
-  const scale = useTransform(progress, [start - fade, end + fade], [1.12, 1]);
-
-  return (
-    <motion.img
-      src={step.image}
-      alt=""
-      style={{ opacity, scale }}
-      className="absolute inset-0 h-full w-full object-cover"
-    />
-  );
-});
-
-/** متن روی تصویر — با اسکرول بالا می‌آید، می‌ماند و به‌نرمی خارج می‌شود (scrubbed) */
-const TextLayer = memo(function TextLayer({ step, index, total, progress }: LayerProps) {
-  const start = index / total;
-  const end = (index + 1) / total;
-  const span = end - start;
-
-  const first = index === 0;
-  const last = index === total - 1;
-
-  const opacity = useTransform(
-    progress,
-    first
-      ? [end - span * 0.35, end - span * 0.08]
-      : last
-        ? [start + span * 0.08, start + span * 0.4]
-        : [start + span * 0.08, start + span * 0.4, end - span * 0.35, end - span * 0.08],
-    first ? [1, 0] : last ? [0, 1] : [0, 1, 1, 0],
-  );
-
-  const y = useTransform(
-    progress,
-    first
-      ? [end - span * 0.35, end]
-      : last
-        ? [start, start + span * 0.4]
-        : [start, start + span * 0.4, end - span * 0.35, end],
-    first ? [0, -64] : last ? [64, 0] : [64, 0, 0, -64],
-  );
-
-  // عدد غول‌پیکر با ضریب حرکت بیشتر — عمق پارالاکسی
-  const ghostY = useTransform(
-    progress,
-    first
-      ? [end - span * 0.35, end]
-      : last
-        ? [start, start + span * 0.4]
-        : [start, start + span * 0.4, end - span * 0.35, end],
-    first ? [0, -120] : last ? [120, 0] : [120, 0, 0, -120],
-  );
-
-  return (
-    <motion.div
-      style={{ opacity }}
-      className="pointer-events-none absolute inset-0 flex items-end pb-36 md:pb-44"
-    >
-      <Container>
-        <motion.div style={{ y }} className="flex max-w-2xl flex-col gap-2">
-          <motion.span
-            style={{ y: ghostY }}
-            aria-hidden="true"
-            className="text-giant select-none text-on-image/20"
-          >
-            {step.number}
-          </motion.span>
-          <h3 className="text-h1 text-on-image md:text-display">{step.title}</h3>
-          <p className="max-w-md text-body text-on-image/85 md:text-h3 md:font-normal md:leading-relaxed">
-            {step.body}
-          </p>
-        </motion.div>
-      </Container>
-    </motion.div>
-  );
-});
-
-/** ریل پیشرفت — memo تا ری‌رندر والد اتصال MV را نبُرد */
-const Rail = memo(function Rail({ progress }: { progress: MotionValue<number> }) {
-  const scaleX = useTransform(progress, [0, 1], [0, 1]);
-  return (
-    <div aria-hidden="true" className="h-px w-full bg-on-image/25">
-      <motion.div style={{ scaleX }} className="h-px origin-right bg-on-image" />
-    </div>
-  );
-});
-
-/**
- * فرآیند کار — Scrollytelling تمام‌صفحه: تصاویر فول‌بلید که با اسکرول crossfade+زوم می‌شوند،
- * متن‌های scrubbed روی اسکریم، شماره‌ها و ریل پیشرفت پایین صحنه.
- * با prefers-reduced-motion نسخه ساده (سواپ opacity با ترنزیشن CSS) رندر می‌شود.
+ * فرآیند کار — Scrollytelling تمام‌صفحه با GSAP ScrollTrigger (scrub).
+ * تایم‌لاین هر فریم وضعیت همه لایه‌ها را به‌صورت قطعی از progress ست می‌کند؛
+ * برخلاف بایندینگ‌های per-layer، فریز/پرش ساختاراً ممکن نیست.
+ * هر قدم ۱ واحد تایم‌لاین است (مجموع ۴): کراس‌فید ±۰٫۱۵ حول مرزها،
+ * زوم پیوسته ۱٫۱۲→۱ در طول پنجره، متن‌ها ورود/خروج scrubbed + پارالاکس عدد.
  */
 export default function ProcessScroll() {
   const t = home.process;
   const steps = t.steps;
   const total = steps.length;
 
-  const ref = useRef<HTMLElement>(null);
+  const sectionRef = useRef<HTMLElement>(null);
+  const railRef = useRef<HTMLDivElement>(null);
   const [active, setActive] = useState(0);
-  const reduce = useReducedMotion() ?? false;
 
-  const { scrollYProgress } = useScroll({
-    target: ref,
-    offset: ["start start", "end end"],
-  });
+  useGSAP(
+    () => {
+      const root = sectionRef.current;
+      if (!root) return;
 
-  useMotionValueEvent(scrollYProgress, "change", (v) => {
-    setActive(Math.min(total - 1, Math.max(0, Math.floor(v * total))));
-  });
+      const imgs = gsap.utils.toArray<HTMLElement>("[data-process-image]", root);
+      const texts = gsap.utils.toArray<HTMLElement>("[data-process-text]", root);
+      const ghosts = gsap.utils.toArray<HTMLElement>("[data-process-ghost]", root);
 
-  const activeStep = steps[active];
+      const trigger = {
+        trigger: root,
+        start: "top top",
+        end: "bottom bottom",
+        onUpdate: (self: ScrollTrigger) => {
+          setActive(Math.min(total - 1, Math.max(0, Math.floor(self.progress * total))));
+        },
+      };
+
+      const mm = gsap.matchMedia();
+
+      // بعد از آماده‌شدن فونت‌ها، اندازه‌گیری‌ها تازه شود (جابه‌جایی ارتفاع متن‌های بالای سکشن)
+      document.fonts?.ready.then(() => ScrollTrigger.refresh()).catch(() => {});
+
+      // حالت عادی: کراس‌فید + زوم + حرکت متن، همه scrubbed
+      mm.add("(prefers-reduced-motion: no-preference)", () => {
+        gsap.set(imgs, { autoAlpha: 0, scale: 1.12 });
+        gsap.set(imgs[0], { autoAlpha: 1 });
+        gsap.set(texts, { autoAlpha: 0, y: 64 });
+        gsap.set(texts[0], { autoAlpha: 1, y: 0 });
+
+        const tl = gsap.timeline({
+          defaults: { ease: "none" },
+          scrollTrigger: { ...trigger, scrub: true },
+        });
+
+        imgs.forEach((img, i) => {
+          // زوم آهسته پیوسته در پنجره خودِ قدم
+          tl.fromTo(img, { scale: 1.12 }, { scale: 1, duration: 1 }, i);
+          if (i > 0) {
+            // کراس‌فید حول مرز قدم قبلی → این قدم
+            tl.to(imgs[i - 1], { autoAlpha: 0, duration: 0.3 }, i - 0.15);
+            tl.to(img, { autoAlpha: 1, duration: 0.3 }, i - 0.15);
+          }
+        });
+
+        texts.forEach((text, i) => {
+          if (i > 0) {
+            tl.fromTo(
+              text,
+              { autoAlpha: 0, y: 64 },
+              { autoAlpha: 1, y: 0, duration: 0.35 },
+              i + 0.05,
+            );
+          }
+          if (i < total - 1) {
+            tl.to(text, { autoAlpha: 0, y: -64, duration: 0.3 }, i + 1 - 0.3);
+          }
+          // پارالاکس عدد غول‌پیکر — سریع‌تر از متن حرکت می‌کند
+          tl.fromTo(ghosts[i], { y: 80 }, { y: -80, duration: 1 }, i);
+        });
+
+        if (railRef.current) {
+          tl.fromTo(railRef.current, { scaleX: 0 }, { scaleX: 1, duration: total }, 0);
+        }
+      });
+
+      // reduced-motion: فقط کاتِ لحظه‌ای در مرزها — بدون هیچ حرکتی
+      mm.add("(prefers-reduced-motion: reduce)", () => {
+        gsap.set(imgs, { autoAlpha: 0, scale: 1, y: 0 });
+        gsap.set(imgs[0], { autoAlpha: 1 });
+        gsap.set(texts, { autoAlpha: 0, y: 0 });
+        gsap.set(texts[0], { autoAlpha: 1 });
+        if (railRef.current) gsap.set(railRef.current, { scaleX: 1 });
+
+        const tl = gsap.timeline({
+          scrollTrigger: { ...trigger, scrub: true },
+        });
+        for (let i = 1; i < total; i++) {
+          tl.set(imgs[i - 1], { autoAlpha: 0 }, i);
+          tl.set(imgs[i], { autoAlpha: 1 }, i);
+          tl.set(texts[i - 1], { autoAlpha: 0 }, i);
+          tl.set(texts[i], { autoAlpha: 1 }, i);
+        }
+        // طول تایم‌لاین را به اندازه کل پنجره‌ها نگه می‌داریم
+        tl.set({}, {}, total);
+      });
+    },
+    { scope: sectionRef },
+  );
 
   return (
-    <MotionConfig reducedMotion="user">
-      <section ref={ref} className="relative h-[400svh]">
-        <div className="sticky top-0 h-svh overflow-hidden bg-image-scrim">
-          {reduce
-            ? steps.map((step, index) => (
-                <img
-                  key={step.number}
-                  src={step.image}
-                  alt=""
-                  className={cn(
-                    "absolute inset-0 h-full w-full object-cover transition-opacity duration-500",
-                    index === active ? "opacity-100" : "opacity-0",
-                  )}
-                />
-              ))
-            : steps.map((step, index) => (
-                <ImageLayer
-                  key={step.number}
-                  step={step}
-                  index={index}
-                  total={total}
-                  progress={scrollYProgress}
-                />
-              ))}
-
-          {/* اسکریم‌های ثابت برای خوانایی (توکن‌های فلیپ‌نشونده) */}
-          <div aria-hidden="true" className="absolute inset-0 bg-image-scrim/40" />
-          <div
-            aria-hidden="true"
-            className="absolute inset-x-0 bottom-0 h-2/3 bg-linear-to-t from-image-scrim/90 via-image-scrim/40 to-transparent"
+    <section ref={sectionRef} className="relative h-[400svh]">
+      <div className="sticky top-0 h-svh overflow-hidden bg-image-scrim">
+        {/* لایه‌های تصویر تمام‌صفحه — کنترل کامل با تایم‌لاین GSAP */}
+        {steps.map((step, index) => (
+          <img
+            key={step.number}
+            data-process-image
+            src={step.image}
+            alt=""
+            className={cn(
+              "absolute inset-0 h-full w-full object-cover",
+              index > 0 && "opacity-0",
+            )}
           />
+        ))}
+
+        {/* اسکریم‌های ثابت برای خوانایی (توکن‌های فلیپ‌نشونده) */}
+        <div aria-hidden="true" className="absolute inset-0 bg-image-scrim/40" />
+        <div
+          aria-hidden="true"
+          className="absolute inset-x-0 bottom-0 h-2/3 bg-linear-to-t from-image-scrim/90 via-image-scrim/40 to-transparent"
+        />
+        <div
+          aria-hidden="true"
+          className="absolute inset-x-0 top-0 h-32 bg-linear-to-b from-image-scrim/70 to-transparent"
+        />
+
+        {/* متن‌های روی تصویر */}
+        {steps.map((step, index) => (
           <div
-            aria-hidden="true"
-            className="absolute inset-x-0 top-0 h-32 bg-linear-to-b from-image-scrim/70 to-transparent"
-          />
-
-          {reduce ? (
-            <div className="pointer-events-none absolute inset-0 flex items-end pb-36 md:pb-44">
-              <Container>
-                <div className="flex max-w-2xl flex-col gap-2 transition-opacity duration-500">
-                  <span aria-hidden="true" className="text-giant select-none text-on-image/20">
-                    {activeStep.number}
-                  </span>
-                  <h3 className="text-h1 text-on-image md:text-display">{activeStep.title}</h3>
-                  <p className="max-w-md text-body text-on-image/85 md:text-h3 md:font-normal md:leading-relaxed">
-                    {activeStep.body}
-                  </p>
-                </div>
-              </Container>
-            </div>
-          ) : (
-            steps.map((step, index) => (
-              <TextLayer
-                key={step.number}
-                step={step}
-                index={index}
-                total={total}
-                progress={scrollYProgress}
-              />
-            ))
-          )}
-
-          {/* هدر بخش — بالای صحنه */}
-          <div className="absolute inset-x-0 top-0 pt-24">
-            <Container className="flex flex-col gap-1">
-              <h2 className="text-h3 text-on-image">{t.title}</h2>
-              <p className="text-small text-on-image/70">{t.sub}</p>
-            </Container>
-          </div>
-
-          {/* پایین صحنه: شماره قدم‌ها + ریل پیشرفت */}
-          <div className="absolute inset-x-0 bottom-0 pb-8 md:pb-10">
-            <Container className="flex flex-col gap-4">
-              <div className="flex items-center justify-between gap-4">
-                {steps.map((step, index) => (
-                  <span
-                    key={step.number}
-                    className={cn(
-                      "text-small font-medium transition-colors duration-200",
-                      index === active ? "text-on-image" : "text-on-image/40",
-                    )}
-                  >
-                    {step.number}
-                    <span className="hidden md:inline"> — {step.title}</span>
-                  </span>
-                ))}
+            key={step.number}
+            data-process-text
+            className={cn(
+              "pointer-events-none absolute inset-0 flex items-end pb-36 md:pb-44",
+              index > 0 && "opacity-0",
+            )}
+          >
+            <Container>
+              <div className="flex max-w-2xl flex-col gap-2">
+                <span
+                  data-process-ghost
+                  aria-hidden="true"
+                  className="text-giant select-none text-on-image/20"
+                >
+                  {step.number}
+                </span>
+                <h3 className="text-h1 text-on-image md:text-display">{step.title}</h3>
+                <p className="max-w-md text-body text-on-image/85 md:text-h3 md:font-normal md:leading-relaxed">
+                  {step.body}
+                </p>
               </div>
-              <Rail progress={scrollYProgress} />
             </Container>
           </div>
+        ))}
+
+        {/* هدر بخش — بالای صحنه */}
+        <div className="absolute inset-x-0 top-0 pt-24">
+          <Container className="flex flex-col gap-1">
+            <h2 className="text-h3 text-on-image">{t.title}</h2>
+            <p className="text-small text-on-image/70">{t.sub}</p>
+          </Container>
         </div>
-      </section>
-    </MotionConfig>
+
+        {/* پایین صحنه: شماره قدم‌ها + ریل پیشرفت */}
+        <div className="absolute inset-x-0 bottom-0 pb-8 md:pb-10">
+          <Container className="flex flex-col gap-4">
+            <div className="flex items-center justify-between gap-4">
+              {steps.map((step, index) => (
+                <span
+                  key={step.number}
+                  className={cn(
+                    "text-small font-medium transition-colors duration-200",
+                    index === active ? "text-on-image" : "text-on-image/40",
+                  )}
+                >
+                  {step.number}
+                  <span className="hidden md:inline"> — {step.title}</span>
+                </span>
+              ))}
+            </div>
+            <div aria-hidden="true" className="h-px w-full bg-on-image/25">
+              <div ref={railRef} className="h-px origin-right bg-on-image" />
+            </div>
+          </Container>
+        </div>
+      </div>
+    </section>
   );
 }

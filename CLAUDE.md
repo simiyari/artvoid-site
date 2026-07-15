@@ -53,7 +53,7 @@
 - **Next.js 16** (App Router) + **React 19** + **TypeScript** + **Tailwind CSS v4**
 - Tailwind v4 = پیکربندی CSS-first با `@theme` در globals.css — **فایل tailwind.config وجود ندارد**؛ همه توکن‌ها CSS variable هستند
 - `output: 'export'` (static) — دیپلوی: GitHub Pages + GitHub Actions
-- انیمیشن: Framer Motion (پکیج `motion`)
+- انیمیشن: Framer Motion (پکیج `motion`) برای ورود/میکرو + GSAP ScrollTrigger برای موشن‌های scrubbed اسکرولی
 - **ممنوع:** API routes سروری، ISR، middleware، هر چیز ناسازگار با export
 
 ## 🇮🇷 سازگاری کامل با شبکه ایران — قانون سخت

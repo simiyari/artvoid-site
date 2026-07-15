@@ -4,126 +4,6 @@
   "graph": {},
   "nodes": [
     {
-      "label": "PROGRESS.md",
-      "file_type": "document",
-      "source_file": "PROGRESS.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "progress",
-      "community": 8,
-      "norm_label": "progress.md"
-    },
-    {
-      "label": "PROGRESS.md \u2014 \u062d\u0627\u0641\u0638\u0647 \u067e\u06cc\u0634\u0631\u0641\u062a \u067e\u0631\u0648\u0698\u0647 Artvoid",
-      "file_type": "document",
-      "source_file": "PROGRESS.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "progress_progress_md_\u062d\u0627\u0641\u0638\u0647_\u067e\u06cc\u0634\u0631\u0641\u062a_\u067e\u0631\u0648\u0698\u0647_artvoid",
-      "community": 8,
-      "norm_label": "progress.md \u2014 \u062d\u0627\u0641\u0638\u0647 \u067e\u06cc\u0634\u0631\u0641\u062a \u067e\u0631\u0648\u0698\u0647 artvoid"
-    },
-    {
-      "label": "\u0648\u0636\u0639\u06cc\u062a \u0641\u0639\u0644\u06cc",
-      "file_type": "document",
-      "source_file": "PROGRESS.md",
-      "source_location": "L6",
-      "_origin": "ast",
-      "id": "progress_\u0648\u0636\u0639\u06cc\u062a_\u0641\u0639\u0644\u06cc",
-      "community": 8,
-      "norm_label": "\u0648\u0636\u0639\u06cc\u062a \u0641\u0639\u0644\u06cc"
-    },
-    {
-      "label": "\u062a\u0635\u0645\u06cc\u0645\u0627\u062a \u0642\u0637\u0639\u06cc\u200c\u0634\u062f\u0647",
-      "file_type": "document",
-      "source_file": "PROGRESS.md",
-      "source_location": "L12",
-      "_origin": "ast",
-      "id": "progress_\u062a\u0635\u0645\u06cc\u0645\u0627\u062a_\u0642\u0637\u0639\u06cc_\u0634\u062f\u0647",
-      "community": 8,
-      "norm_label": "\u062a\u0635\u0645\u06cc\u0645\u0627\u062a \u0642\u0637\u0639\u06cc\u200c\u0634\u062f\u0647"
-    },
-    {
-      "label": "\u062a\u0635\u0645\u06cc\u0645\u0627\u062a \u0628\u0627\u0632 (\u0627\u0632 \u06a9\u0627\u0631\u0628\u0631 \u0628\u067e\u0631\u0633 \u0648\u0642\u062a\u06cc \u0628\u0647 \u0622\u0646 \u0631\u0633\u06cc\u062f\u06cc)",
-      "file_type": "document",
-      "source_file": "PROGRESS.md",
-      "source_location": "L28",
-      "_origin": "ast",
-      "id": "progress_\u062a\u0635\u0645\u06cc\u0645\u0627\u062a_\u0628\u0627\u0632_\u0627\u0632_\u06a9\u0627\u0631\u0628\u0631_\u0628\u067e\u0631\u0633_\u0648\u0642\u062a\u06cc_\u0628\u0647_\u0622\u0646_\u0631\u0633\u06cc\u062f\u06cc",
-      "community": 8,
-      "norm_label": "\u062a\u0635\u0645\u06cc\u0645\u0627\u062a \u0628\u0627\u0632 (\u0627\u0632 \u06a9\u0627\u0631\u0628\u0631 \u0628\u067e\u0631\u0633 \u0648\u0642\u062a\u06cc \u0628\u0647 \u0627\u0646 \u0631\u0633\u06cc\u062f\u06cc)"
-    },
-    {
-      "label": "\u0633\u0627\u0628\u0642\u0647 \u06a9\u0627\u0631\u0647\u0627\u06cc \u0627\u0646\u062c\u0627\u0645\u200c\u0634\u062f\u0647",
-      "file_type": "document",
-      "source_file": "PROGRESS.md",
-      "source_location": "L35",
-      "_origin": "ast",
-      "id": "progress_\u0633\u0627\u0628\u0642\u0647_\u06a9\u0627\u0631\u0647\u0627\u06cc_\u0627\u0646\u062c\u0627\u0645_\u0634\u062f\u0647",
-      "community": 8,
-      "norm_label": "\u0633\u0627\u0628\u0642\u0647 \u06a9\u0627\u0631\u0647\u0627\u06cc \u0627\u0646\u062c\u0627\u0645\u200c\u0634\u062f\u0647"
-    },
-    {
-      "label": "\u0645\u0631\u062d\u0644\u0647 \u06f0 \u2014 \u0628\u0648\u062a\u200c\u0627\u0633\u062a\u0631\u067e (\u062e\u0648\u062f\u06a9\u0627\u0631 \u062a\u0648\u0633\u0637 Claude Code)",
-      "file_type": "document",
-      "source_file": "PROGRESS.md",
-      "source_location": "L37",
-      "_origin": "ast",
-      "id": "progress_\u0645\u0631\u062d\u0644\u0647_\u06f0_\u0628\u0648\u062a_\u0627\u0633\u062a\u0631\u067e_\u062e\u0648\u062f\u06a9\u0627\u0631_\u062a\u0648\u0633\u0637_claude_code",
-      "community": 8,
-      "norm_label": "\u0645\u0631\u062d\u0644\u0647 \u06f0 \u2014 \u0628\u0648\u062a\u200c\u0627\u0633\u062a\u0631\u067e (\u062e\u0648\u062f\u06a9\u0627\u0631 \u062a\u0648\u0633\u0637 claude code)"
-    },
-    {
-      "label": "\u0645\u0631\u062d\u0644\u0647 \u06f1 \u2014 \u0627\u0633\u06a9\u0644\u062a \u067e\u0631\u0648\u0698\u0647",
-      "file_type": "document",
-      "source_file": "PROGRESS.md",
-      "source_location": "L44",
-      "_origin": "ast",
-      "id": "progress_\u0645\u0631\u062d\u0644\u0647_\u06f1_\u0627\u0633\u06a9\u0644\u062a_\u067e\u0631\u0648\u0698\u0647",
-      "community": 8,
-      "norm_label": "\u0645\u0631\u062d\u0644\u0647 \u06f1 \u2014 \u0627\u0633\u06a9\u0644\u062a \u067e\u0631\u0648\u0698\u0647"
-    },
-    {
-      "label": "\u0645\u0631\u062d\u0644\u0647 \u06f2 \u2014 \u06a9\u062a\u0627\u0628\u062e\u0627\u0646\u0647 \u06a9\u0627\u0645\u067e\u0648\u0646\u0646\u062a\u200c\u0647\u0627\u06cc \u067e\u0627\u06cc\u0647 (\u0646\u0645\u0627\u06cc\u0634 \u062f\u0631 \u0635\u0641\u062d\u0647 \u0645\u062e\u0641\u06cc /dev/ui)",
-      "file_type": "document",
-      "source_file": "PROGRESS.md",
-      "source_location": "L53",
-      "_origin": "ast",
-      "id": "progress_\u0645\u0631\u062d\u0644\u0647_\u06f2_\u06a9\u062a\u0627\u0628\u062e\u0627\u0646\u0647_\u06a9\u0627\u0645\u067e\u0648\u0646\u0646\u062a_\u0647\u0627\u06cc_\u067e\u0627\u06cc\u0647_\u0646\u0645\u0627\u06cc\u0634_\u062f\u0631_\u0635\u0641\u062d\u0647_\u0645\u062e\u0641\u06cc_dev_ui",
-      "community": 8,
-      "norm_label": "\u0645\u0631\u062d\u0644\u0647 \u06f2 \u2014 \u06a9\u062a\u0627\u0628\u062e\u0627\u0646\u0647 \u06a9\u0627\u0645\u067e\u0648\u0646\u0646\u062a\u200c\u0647\u0627\u06cc \u067e\u0627\u06cc\u0647 (\u0646\u0645\u0627\u06cc\u0634 \u062f\u0631 \u0635\u0641\u062d\u0647 \u0645\u062e\u0641\u06cc /dev/ui)"
-    },
-    {
-      "label": "\u0645\u0631\u062d\u0644\u0647 \u06f3 \u2014 \u0635\u0641\u062d\u0627\u062a \u0627\u0635\u0644\u06cc",
-      "file_type": "document",
-      "source_file": "PROGRESS.md",
-      "source_location": "L62",
-      "_origin": "ast",
-      "id": "progress_\u0645\u0631\u062d\u0644\u0647_\u06f3_\u0635\u0641\u062d\u0627\u062a_\u0627\u0635\u0644\u06cc",
-      "community": 8,
-      "norm_label": "\u0645\u0631\u062d\u0644\u0647 \u06f3 \u2014 \u0635\u0641\u062d\u0627\u062a \u0627\u0635\u0644\u06cc"
-    },
-    {
-      "label": "\u0645\u0631\u062d\u0644\u0647 \u06f4 \u0628\u0647 \u0628\u0639\u062f",
-      "file_type": "document",
-      "source_file": "PROGRESS.md",
-      "source_location": "L70",
-      "_origin": "ast",
-      "id": "progress_\u0645\u0631\u062d\u0644\u0647_\u06f4_\u0628\u0647_\u0628\u0639\u062f",
-      "community": 8,
-      "norm_label": "\u0645\u0631\u062d\u0644\u0647 \u06f4 \u0628\u0647 \u0628\u0639\u062f"
-    },
-    {
-      "label": "\u0646\u06a9\u0627\u062a \u0648 \u062f\u0631\u0633\u200c\u0622\u0645\u0648\u062e\u062a\u0647\u200c\u0647\u0627",
-      "file_type": "document",
-      "source_file": "PROGRESS.md",
-      "source_location": "L73",
-      "_origin": "ast",
-      "id": "progress_\u0646\u06a9\u0627\u062a_\u0648_\u062f\u0631\u0633_\u0622\u0645\u0648\u062e\u062a\u0647_\u0647\u0627",
-      "community": 8,
-      "norm_label": "\u0646\u06a9\u0627\u062a \u0648 \u062f\u0631\u0633\u200c\u0627\u0645\u0648\u062e\u062a\u0647\u200c\u0647\u0627"
-    },
-    {
       "label": "ProcessScroll.tsx",
       "file_type": "code",
       "source_file": "components/sections/ProcessScroll.tsx",
@@ -154,34 +34,164 @@
       "norm_label": "layerprops"
     },
     {
-      "label": "ImageLayer()",
+      "label": "ImageLayer",
       "file_type": "code",
       "source_file": "components/sections/ProcessScroll.tsx",
-      "source_location": "L32",
+      "source_location": "L31",
       "_origin": "ast",
       "id": "sections_processscroll_imagelayer",
       "community": 7,
-      "norm_label": "imagelayer()"
+      "norm_label": "imagelayer"
     },
     {
-      "label": "TextLayer()",
+      "label": "TextLayer",
       "file_type": "code",
       "source_file": "components/sections/ProcessScroll.tsx",
-      "source_location": "L63",
+      "source_location": "L62",
       "_origin": "ast",
       "id": "sections_processscroll_textlayer",
       "community": 7,
-      "norm_label": "textlayer()"
+      "norm_label": "textlayer"
+    },
+    {
+      "label": "Rail",
+      "file_type": "code",
+      "source_file": "components/sections/ProcessScroll.tsx",
+      "source_location": "L126",
+      "_origin": "ast",
+      "id": "sections_processscroll_rail",
+      "community": 7,
+      "norm_label": "rail"
     },
     {
       "label": "ProcessScroll()",
       "file_type": "code",
       "source_file": "components/sections/ProcessScroll.tsx",
-      "source_location": "L122",
+      "source_location": "L140",
       "_origin": "ast",
       "id": "sections_processscroll_processscroll",
       "community": 7,
       "norm_label": "processscroll()"
+    },
+    {
+      "label": "PROGRESS.md",
+      "file_type": "document",
+      "source_file": "PROGRESS.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 8,
+      "norm_label": "progress.md",
+      "id": "progress"
+    },
+    {
+      "label": "PROGRESS.md \u2014 \u062d\u0627\u0641\u0638\u0647 \u067e\u06cc\u0634\u0631\u0641\u062a \u067e\u0631\u0648\u0698\u0647 Artvoid",
+      "file_type": "document",
+      "source_file": "PROGRESS.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 8,
+      "norm_label": "progress.md \u2014 \u062d\u0627\u0641\u0638\u0647 \u067e\u06cc\u0634\u0631\u0641\u062a \u067e\u0631\u0648\u0698\u0647 artvoid",
+      "id": "progress_progress_md_\u062d\u0627\u0641\u0638\u0647_\u067e\u06cc\u0634\u0631\u0641\u062a_\u067e\u0631\u0648\u0698\u0647_artvoid"
+    },
+    {
+      "label": "\u0648\u0636\u0639\u06cc\u062a \u0641\u0639\u0644\u06cc",
+      "file_type": "document",
+      "source_file": "PROGRESS.md",
+      "source_location": "L6",
+      "_origin": "ast",
+      "community": 8,
+      "norm_label": "\u0648\u0636\u0639\u06cc\u062a \u0641\u0639\u0644\u06cc",
+      "id": "progress_\u0648\u0636\u0639\u06cc\u062a_\u0641\u0639\u0644\u06cc"
+    },
+    {
+      "label": "\u062a\u0635\u0645\u06cc\u0645\u0627\u062a \u0642\u0637\u0639\u06cc\u200c\u0634\u062f\u0647",
+      "file_type": "document",
+      "source_file": "PROGRESS.md",
+      "source_location": "L12",
+      "_origin": "ast",
+      "community": 8,
+      "norm_label": "\u062a\u0635\u0645\u06cc\u0645\u0627\u062a \u0642\u0637\u0639\u06cc\u200c\u0634\u062f\u0647",
+      "id": "progress_\u062a\u0635\u0645\u06cc\u0645\u0627\u062a_\u0642\u0637\u0639\u06cc_\u0634\u062f\u0647"
+    },
+    {
+      "label": "\u062a\u0635\u0645\u06cc\u0645\u0627\u062a \u0628\u0627\u0632 (\u0627\u0632 \u06a9\u0627\u0631\u0628\u0631 \u0628\u067e\u0631\u0633 \u0648\u0642\u062a\u06cc \u0628\u0647 \u0622\u0646 \u0631\u0633\u06cc\u062f\u06cc)",
+      "file_type": "document",
+      "source_file": "PROGRESS.md",
+      "source_location": "L28",
+      "_origin": "ast",
+      "community": 8,
+      "norm_label": "\u062a\u0635\u0645\u06cc\u0645\u0627\u062a \u0628\u0627\u0632 (\u0627\u0632 \u06a9\u0627\u0631\u0628\u0631 \u0628\u067e\u0631\u0633 \u0648\u0642\u062a\u06cc \u0628\u0647 \u0627\u0646 \u0631\u0633\u06cc\u062f\u06cc)",
+      "id": "progress_\u062a\u0635\u0645\u06cc\u0645\u0627\u062a_\u0628\u0627\u0632_\u0627\u0632_\u06a9\u0627\u0631\u0628\u0631_\u0628\u067e\u0631\u0633_\u0648\u0642\u062a\u06cc_\u0628\u0647_\u0622\u0646_\u0631\u0633\u06cc\u062f\u06cc"
+    },
+    {
+      "label": "\u0633\u0627\u0628\u0642\u0647 \u06a9\u0627\u0631\u0647\u0627\u06cc \u0627\u0646\u062c\u0627\u0645\u200c\u0634\u062f\u0647",
+      "file_type": "document",
+      "source_file": "PROGRESS.md",
+      "source_location": "L35",
+      "_origin": "ast",
+      "community": 8,
+      "norm_label": "\u0633\u0627\u0628\u0642\u0647 \u06a9\u0627\u0631\u0647\u0627\u06cc \u0627\u0646\u062c\u0627\u0645\u200c\u0634\u062f\u0647",
+      "id": "progress_\u0633\u0627\u0628\u0642\u0647_\u06a9\u0627\u0631\u0647\u0627\u06cc_\u0627\u0646\u062c\u0627\u0645_\u0634\u062f\u0647"
+    },
+    {
+      "label": "\u0645\u0631\u062d\u0644\u0647 \u06f0 \u2014 \u0628\u0648\u062a\u200c\u0627\u0633\u062a\u0631\u067e (\u062e\u0648\u062f\u06a9\u0627\u0631 \u062a\u0648\u0633\u0637 Claude Code)",
+      "file_type": "document",
+      "source_file": "PROGRESS.md",
+      "source_location": "L37",
+      "_origin": "ast",
+      "community": 8,
+      "norm_label": "\u0645\u0631\u062d\u0644\u0647 \u06f0 \u2014 \u0628\u0648\u062a\u200c\u0627\u0633\u062a\u0631\u067e (\u062e\u0648\u062f\u06a9\u0627\u0631 \u062a\u0648\u0633\u0637 claude code)",
+      "id": "progress_\u0645\u0631\u062d\u0644\u0647_\u06f0_\u0628\u0648\u062a_\u0627\u0633\u062a\u0631\u067e_\u062e\u0648\u062f\u06a9\u0627\u0631_\u062a\u0648\u0633\u0637_claude_code"
+    },
+    {
+      "label": "\u0645\u0631\u062d\u0644\u0647 \u06f1 \u2014 \u0627\u0633\u06a9\u0644\u062a \u067e\u0631\u0648\u0698\u0647",
+      "file_type": "document",
+      "source_file": "PROGRESS.md",
+      "source_location": "L44",
+      "_origin": "ast",
+      "community": 8,
+      "norm_label": "\u0645\u0631\u062d\u0644\u0647 \u06f1 \u2014 \u0627\u0633\u06a9\u0644\u062a \u067e\u0631\u0648\u0698\u0647",
+      "id": "progress_\u0645\u0631\u062d\u0644\u0647_\u06f1_\u0627\u0633\u06a9\u0644\u062a_\u067e\u0631\u0648\u0698\u0647"
+    },
+    {
+      "label": "\u0645\u0631\u062d\u0644\u0647 \u06f2 \u2014 \u06a9\u062a\u0627\u0628\u062e\u0627\u0646\u0647 \u06a9\u0627\u0645\u067e\u0648\u0646\u0646\u062a\u200c\u0647\u0627\u06cc \u067e\u0627\u06cc\u0647 (\u0646\u0645\u0627\u06cc\u0634 \u062f\u0631 \u0635\u0641\u062d\u0647 \u0645\u062e\u0641\u06cc /dev/ui)",
+      "file_type": "document",
+      "source_file": "PROGRESS.md",
+      "source_location": "L53",
+      "_origin": "ast",
+      "community": 8,
+      "norm_label": "\u0645\u0631\u062d\u0644\u0647 \u06f2 \u2014 \u06a9\u062a\u0627\u0628\u062e\u0627\u0646\u0647 \u06a9\u0627\u0645\u067e\u0648\u0646\u0646\u062a\u200c\u0647\u0627\u06cc \u067e\u0627\u06cc\u0647 (\u0646\u0645\u0627\u06cc\u0634 \u062f\u0631 \u0635\u0641\u062d\u0647 \u0645\u062e\u0641\u06cc /dev/ui)",
+      "id": "progress_\u0645\u0631\u062d\u0644\u0647_\u06f2_\u06a9\u062a\u0627\u0628\u062e\u0627\u0646\u0647_\u06a9\u0627\u0645\u067e\u0648\u0646\u0646\u062a_\u0647\u0627\u06cc_\u067e\u0627\u06cc\u0647_\u0646\u0645\u0627\u06cc\u0634_\u062f\u0631_\u0635\u0641\u062d\u0647_\u0645\u062e\u0641\u06cc_dev_ui"
+    },
+    {
+      "label": "\u0645\u0631\u062d\u0644\u0647 \u06f3 \u2014 \u0635\u0641\u062d\u0627\u062a \u0627\u0635\u0644\u06cc",
+      "file_type": "document",
+      "source_file": "PROGRESS.md",
+      "source_location": "L62",
+      "_origin": "ast",
+      "community": 8,
+      "norm_label": "\u0645\u0631\u062d\u0644\u0647 \u06f3 \u2014 \u0635\u0641\u062d\u0627\u062a \u0627\u0635\u0644\u06cc",
+      "id": "progress_\u0645\u0631\u062d\u0644\u0647_\u06f3_\u0635\u0641\u062d\u0627\u062a_\u0627\u0635\u0644\u06cc"
+    },
+    {
+      "label": "\u0645\u0631\u062d\u0644\u0647 \u06f4 \u0628\u0647 \u0628\u0639\u062f",
+      "file_type": "document",
+      "source_file": "PROGRESS.md",
+      "source_location": "L70",
+      "_origin": "ast",
+      "community": 8,
+      "norm_label": "\u0645\u0631\u062d\u0644\u0647 \u06f4 \u0628\u0647 \u0628\u0639\u062f",
+      "id": "progress_\u0645\u0631\u062d\u0644\u0647_\u06f4_\u0628\u0647_\u0628\u0639\u062f"
+    },
+    {
+      "label": "\u0646\u06a9\u0627\u062a \u0648 \u062f\u0631\u0633\u200c\u0622\u0645\u0648\u062e\u062a\u0647\u200c\u0647\u0627",
+      "file_type": "document",
+      "source_file": "PROGRESS.md",
+      "source_location": "L73",
+      "_origin": "ast",
+      "community": 8,
+      "norm_label": "\u0646\u06a9\u0627\u062a \u0648 \u062f\u0631\u0633\u200c\u0627\u0645\u0648\u062e\u062a\u0647\u200c\u0647\u0627",
+      "id": "progress_\u0646\u06a9\u0627\u062a_\u0648_\u062f\u0631\u0633_\u0622\u0645\u0648\u062e\u062a\u0647_\u0647\u0627"
     },
     {
       "label": "DESIGN.md",
@@ -189,9 +199,9 @@
       "source_file": "docs/DESIGN.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_design",
       "community": 1,
-      "norm_label": "design.md"
+      "norm_label": "design.md",
+      "id": "docs_design"
     },
     {
       "label": "DESIGN.md \u2014 \u0633\u06cc\u0633\u062a\u0645 \u0637\u0631\u0627\u062d\u06cc Artvoid",
@@ -199,9 +209,9 @@
       "source_file": "docs/DESIGN.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_design_design_md_\u0633\u06cc\u0633\u062a\u0645_\u0637\u0631\u0627\u062d\u06cc_artvoid",
       "community": 1,
-      "norm_label": "design.md \u2014 \u0633\u06cc\u0633\u062a\u0645 \u0637\u0631\u0627\u062d\u06cc artvoid"
+      "norm_label": "design.md \u2014 \u0633\u06cc\u0633\u062a\u0645 \u0637\u0631\u0627\u062d\u06cc artvoid",
+      "id": "docs_design_design_md_\u0633\u06cc\u0633\u062a\u0645_\u0637\u0631\u0627\u062d\u06cc_artvoid"
     },
     {
       "label": "\u06f1. \u0631\u0646\u06af\u200c\u0647\u0627",
@@ -209,9 +219,9 @@
       "source_file": "docs/DESIGN.md",
       "source_location": "L6",
       "_origin": "ast",
-      "id": "docs_design_\u06f1_\u0631\u0646\u06af_\u0647\u0627",
       "community": 1,
-      "norm_label": "\u06f1. \u0631\u0646\u06af\u200c\u0647\u0627"
+      "norm_label": "\u06f1. \u0631\u0646\u06af\u200c\u0647\u0627",
+      "id": "docs_design_\u06f1_\u0631\u0646\u06af_\u0647\u0627"
     },
     {
       "label": "\u067e\u0627\u0644\u062a \u0645\u0648\u0646\u0648\u06a9\u0631\u0648\u0645 (\u062a\u0646\u0647\u0627 \u067e\u0627\u0644\u062a \u0645\u062c\u0627\u0632 \u0628\u0631\u0627\u06cc UI)",
@@ -219,9 +229,9 @@
       "source_file": "docs/DESIGN.md",
       "source_location": "L8",
       "_origin": "ast",
-      "id": "docs_design_\u067e\u0627\u0644\u062a_\u0645\u0648\u0646\u0648\u06a9\u0631\u0648\u0645_\u062a\u0646\u0647\u0627_\u067e\u0627\u0644\u062a_\u0645\u062c\u0627\u0632_\u0628\u0631\u0627\u06cc_ui",
       "community": 1,
-      "norm_label": "\u067e\u0627\u0644\u062a \u0645\u0648\u0646\u0648\u06a9\u0631\u0648\u0645 (\u062a\u0646\u0647\u0627 \u067e\u0627\u0644\u062a \u0645\u062c\u0627\u0632 \u0628\u0631\u0627\u06cc ui)"
+      "norm_label": "\u067e\u0627\u0644\u062a \u0645\u0648\u0646\u0648\u06a9\u0631\u0648\u0645 (\u062a\u0646\u0647\u0627 \u067e\u0627\u0644\u062a \u0645\u062c\u0627\u0632 \u0628\u0631\u0627\u06cc ui)",
+      "id": "docs_design_\u067e\u0627\u0644\u062a_\u0645\u0648\u0646\u0648\u06a9\u0631\u0648\u0645_\u062a\u0646\u0647\u0627_\u067e\u0627\u0644\u062a_\u0645\u062c\u0627\u0632_\u0628\u0631\u0627\u06cc_ui"
     },
     {
       "label": "\u0631\u0646\u06af\u200c\u0647\u0627\u06cc \u0633\u0645\u0627\u0646\u062a\u06cc\u06a9 (\u0641\u0642\u0637 \u0628\u0631\u0627\u06cc \u0648\u0636\u0639\u06cc\u062a\u200c\u0647\u0627\u06cc \u0633\u06cc\u0633\u062a\u0645\u06cc \u2014 \u0646\u0647 \u062f\u06a9\u0648\u0631\u0627\u0633\u06cc\u0648\u0646)",
@@ -229,9 +239,9 @@
       "source_file": "docs/DESIGN.md",
       "source_location": "L20",
       "_origin": "ast",
-      "id": "docs_design_\u0631\u0646\u06af_\u0647\u0627\u06cc_\u0633\u0645\u0627\u0646\u062a\u06cc\u06a9_\u0641\u0642\u0637_\u0628\u0631\u0627\u06cc_\u0648\u0636\u0639\u06cc\u062a_\u0647\u0627\u06cc_\u0633\u06cc\u0633\u062a\u0645\u06cc_\u0646\u0647_\u062f\u06a9\u0648\u0631\u0627\u0633\u06cc\u0648\u0646",
       "community": 1,
-      "norm_label": "\u0631\u0646\u06af\u200c\u0647\u0627\u06cc \u0633\u0645\u0627\u0646\u062a\u06cc\u06a9 (\u0641\u0642\u0637 \u0628\u0631\u0627\u06cc \u0648\u0636\u0639\u06cc\u062a\u200c\u0647\u0627\u06cc \u0633\u06cc\u0633\u062a\u0645\u06cc \u2014 \u0646\u0647 \u062f\u06a9\u0648\u0631\u0627\u0633\u06cc\u0648\u0646)"
+      "norm_label": "\u0631\u0646\u06af\u200c\u0647\u0627\u06cc \u0633\u0645\u0627\u0646\u062a\u06cc\u06a9 (\u0641\u0642\u0637 \u0628\u0631\u0627\u06cc \u0648\u0636\u0639\u06cc\u062a\u200c\u0647\u0627\u06cc \u0633\u06cc\u0633\u062a\u0645\u06cc \u2014 \u0646\u0647 \u062f\u06a9\u0648\u0631\u0627\u0633\u06cc\u0648\u0646)",
+      "id": "docs_design_\u0631\u0646\u06af_\u0647\u0627\u06cc_\u0633\u0645\u0627\u0646\u062a\u06cc\u06a9_\u0641\u0642\u0637_\u0628\u0631\u0627\u06cc_\u0648\u0636\u0639\u06cc\u062a_\u0647\u0627\u06cc_\u0633\u06cc\u0633\u062a\u0645\u06cc_\u0646\u0647_\u062f\u06a9\u0648\u0631\u0627\u0633\u06cc\u0648\u0646"
     },
     {
       "label": "\u0631\u0646\u06af\u200c\u0647\u0627\u06cc \u0631\u0648\u06cc \u062a\u0635\u0648\u06cc\u0631 (\u062b\u0627\u0628\u062a \u2014 \u0628\u0627 \u062a\u0645 \u0641\u0644\u06cc\u067e \u0646\u0645\u06cc\u200c\u0634\u0648\u0646\u062f)",
@@ -239,9 +249,9 @@
       "source_file": "docs/DESIGN.md",
       "source_location": "L27",
       "_origin": "ast",
-      "id": "docs_design_\u0631\u0646\u06af_\u0647\u0627\u06cc_\u0631\u0648\u06cc_\u062a\u0635\u0648\u06cc\u0631_\u062b\u0627\u0628\u062a_\u0628\u0627_\u062a\u0645_\u0641\u0644\u06cc\u067e_\u0646\u0645\u06cc_\u0634\u0648\u0646\u062f",
       "community": 1,
-      "norm_label": "\u0631\u0646\u06af\u200c\u0647\u0627\u06cc \u0631\u0648\u06cc \u062a\u0635\u0648\u06cc\u0631 (\u062b\u0627\u0628\u062a \u2014 \u0628\u0627 \u062a\u0645 \u0641\u0644\u06cc\u067e \u0646\u0645\u06cc\u200c\u0634\u0648\u0646\u062f)"
+      "norm_label": "\u0631\u0646\u06af\u200c\u0647\u0627\u06cc \u0631\u0648\u06cc \u062a\u0635\u0648\u06cc\u0631 (\u062b\u0627\u0628\u062a \u2014 \u0628\u0627 \u062a\u0645 \u0641\u0644\u06cc\u067e \u0646\u0645\u06cc\u200c\u0634\u0648\u0646\u062f)",
+      "id": "docs_design_\u0631\u0646\u06af_\u0647\u0627\u06cc_\u0631\u0648\u06cc_\u062a\u0635\u0648\u06cc\u0631_\u062b\u0627\u0628\u062a_\u0628\u0627_\u062a\u0645_\u0641\u0644\u06cc\u067e_\u0646\u0645\u06cc_\u0634\u0648\u0646\u062f"
     },
     {
       "label": "\u062d\u0627\u0644\u062a \u062a\u06cc\u0631\u0647 (Dark mode)",
@@ -249,9 +259,9 @@
       "source_file": "docs/DESIGN.md",
       "source_location": "L35",
       "_origin": "ast",
-      "id": "docs_design_\u062d\u0627\u0644\u062a_\u062a\u06cc\u0631\u0647_dark_mode",
       "community": 1,
-      "norm_label": "\u062d\u0627\u0644\u062a \u062a\u06cc\u0631\u0647 (dark mode)"
+      "norm_label": "\u062d\u0627\u0644\u062a \u062a\u06cc\u0631\u0647 (dark mode)",
+      "id": "docs_design_\u062d\u0627\u0644\u062a_\u062a\u06cc\u0631\u0647_dark_mode"
     },
     {
       "label": "\u06f2. \u062a\u0627\u06cc\u067e\u0648\u06af\u0631\u0627\u0641\u06cc",
@@ -259,9 +269,9 @@
       "source_file": "docs/DESIGN.md",
       "source_location": "L51",
       "_origin": "ast",
-      "id": "docs_design_\u06f2_\u062a\u0627\u06cc\u067e\u0648\u06af\u0631\u0627\u0641\u06cc",
       "community": 1,
-      "norm_label": "\u06f2. \u062a\u0627\u06cc\u067e\u0648\u06af\u0631\u0627\u0641\u06cc"
+      "norm_label": "\u06f2. \u062a\u0627\u06cc\u067e\u0648\u06af\u0631\u0627\u0641\u06cc",
+      "id": "docs_design_\u06f2_\u062a\u0627\u06cc\u067e\u0648\u06af\u0631\u0627\u0641\u06cc"
     },
     {
       "label": "\u06f3. \u0641\u0627\u0635\u0644\u0647\u200c\u06af\u0630\u0627\u0631\u06cc \u0648 \u0634\u0628\u06a9\u0647",
@@ -269,9 +279,9 @@
       "source_file": "docs/DESIGN.md",
       "source_location": "L67",
       "_origin": "ast",
-      "id": "docs_design_\u06f3_\u0641\u0627\u0635\u0644\u0647_\u06af\u0630\u0627\u0631\u06cc_\u0648_\u0634\u0628\u06a9\u0647",
       "community": 1,
-      "norm_label": "\u06f3. \u0641\u0627\u0635\u0644\u0647\u200c\u06af\u0630\u0627\u0631\u06cc \u0648 \u0634\u0628\u06a9\u0647"
+      "norm_label": "\u06f3. \u0641\u0627\u0635\u0644\u0647\u200c\u06af\u0630\u0627\u0631\u06cc \u0648 \u0634\u0628\u06a9\u0647",
+      "id": "docs_design_\u06f3_\u0641\u0627\u0635\u0644\u0647_\u06af\u0630\u0627\u0631\u06cc_\u0648_\u0634\u0628\u06a9\u0647"
     },
     {
       "label": "\u06f4. \u0627\u062c\u0632\u0627 (Primitives)",
@@ -279,9 +289,9 @@
       "source_file": "docs/DESIGN.md",
       "source_location": "L75",
       "_origin": "ast",
-      "id": "docs_design_\u06f4_\u0627\u062c\u0632\u0627_primitives",
       "community": 1,
-      "norm_label": "\u06f4. \u0627\u062c\u0632\u0627 (primitives)"
+      "norm_label": "\u06f4. \u0627\u062c\u0632\u0627 (primitives)",
+      "id": "docs_design_\u06f4_\u0627\u062c\u0632\u0627_primitives"
     },
     {
       "label": "\u06f5. \u062d\u0631\u06a9\u062a (Motion)",
@@ -289,9 +299,9 @@
       "source_file": "docs/DESIGN.md",
       "source_location": "L82",
       "_origin": "ast",
-      "id": "docs_design_\u06f5_\u062d\u0631\u06a9\u062a_motion",
       "community": 1,
-      "norm_label": "\u06f5. \u062d\u0631\u06a9\u062a (motion)"
+      "norm_label": "\u06f5. \u062d\u0631\u06a9\u062a (motion)",
+      "id": "docs_design_\u06f5_\u062d\u0631\u06a9\u062a_motion"
     },
     {
       "label": "\u06f6. \u0632\u0628\u0627\u0646 \u0628\u0635\u0631\u06cc \u0628\u0631\u0646\u062f",
@@ -299,9 +309,9 @@
       "source_file": "docs/DESIGN.md",
       "source_location": "L92",
       "_origin": "ast",
-      "id": "docs_design_\u06f6_\u0632\u0628\u0627\u0646_\u0628\u0635\u0631\u06cc_\u0628\u0631\u0646\u062f",
       "community": 1,
-      "norm_label": "\u06f6. \u0632\u0628\u0627\u0646 \u0628\u0635\u0631\u06cc \u0628\u0631\u0646\u062f"
+      "norm_label": "\u06f6. \u0632\u0628\u0627\u0646 \u0628\u0635\u0631\u06cc \u0628\u0631\u0646\u062f",
+      "id": "docs_design_\u06f6_\u0632\u0628\u0627\u0646_\u0628\u0635\u0631\u06cc_\u0628\u0631\u0646\u062f"
     },
     {
       "label": "\u06f7. \u062f\u0633\u062a\u0631\u0633\u06cc\u200c\u067e\u0630\u06cc\u0631\u06cc (\u062d\u062f\u0627\u0642\u0644\u200c\u0647\u0627\u06cc \u0627\u0644\u0632\u0627\u0645\u06cc)",
@@ -309,9 +319,9 @@
       "source_file": "docs/DESIGN.md",
       "source_location": "L100",
       "_origin": "ast",
-      "id": "docs_design_\u06f7_\u062f\u0633\u062a\u0631\u0633\u06cc_\u067e\u0630\u06cc\u0631\u06cc_\u062d\u062f\u0627\u0642\u0644_\u0647\u0627\u06cc_\u0627\u0644\u0632\u0627\u0645\u06cc",
       "community": 1,
-      "norm_label": "\u06f7. \u062f\u0633\u062a\u0631\u0633\u06cc\u200c\u067e\u0630\u06cc\u0631\u06cc (\u062d\u062f\u0627\u0642\u0644\u200c\u0647\u0627\u06cc \u0627\u0644\u0632\u0627\u0645\u06cc)"
+      "norm_label": "\u06f7. \u062f\u0633\u062a\u0631\u0633\u06cc\u200c\u067e\u0630\u06cc\u0631\u06cc (\u062d\u062f\u0627\u0642\u0644\u200c\u0647\u0627\u06cc \u0627\u0644\u0632\u0627\u0645\u06cc)",
+      "id": "docs_design_\u06f7_\u062f\u0633\u062a\u0631\u0633\u06cc_\u067e\u0630\u06cc\u0631\u06cc_\u062d\u062f\u0627\u0642\u0644_\u0647\u0627\u06cc_\u0627\u0644\u0632\u0627\u0645\u06cc"
     },
     {
       "label": "preview-server.py",
@@ -549,7 +559,7 @@
       "source_file": "app/layout.tsx",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 4,
+      "community": 15,
       "norm_label": "layout.tsx",
       "id": "app_layout"
     },
@@ -559,7 +569,7 @@
       "source_file": "app/layout.tsx",
       "source_location": "L7",
       "_origin": "ast",
-      "community": 4,
+      "community": 15,
       "norm_label": "metadata",
       "id": "app_layout_metadata"
     },
@@ -569,7 +579,7 @@
       "source_file": "app/layout.tsx",
       "source_location": "L19",
       "_origin": "ast",
-      "community": 4,
+      "community": 15,
       "norm_label": "rootlayout()",
       "id": "app_layout_rootlayout"
     },
@@ -1069,7 +1079,7 @@
       "source_file": "components/ui/icons.tsx",
       "source_location": "L42",
       "_origin": "ast",
-      "community": 13,
+      "community": 15,
       "norm_label": "chevrondownicon()",
       "id": "ui_icons_chevrondownicon"
     },
@@ -1099,7 +1109,7 @@
       "source_file": "components/ui/icons.tsx",
       "source_location": "L68",
       "_origin": "ast",
-      "community": 7,
+      "community": 15,
       "norm_label": "arrowforwardicon()",
       "id": "ui_icons_arrowforwardicon"
     },
@@ -1399,7 +1409,7 @@
       "source_file": "app/fonts.ts",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 4,
+      "community": 15,
       "norm_label": "fonts.ts",
       "id": "app_fonts"
     },
@@ -1409,7 +1419,7 @@
       "source_file": "app/fonts.ts",
       "source_location": "L6",
       "_origin": "ast",
-      "community": 4,
+      "community": 15,
       "norm_label": "yekan",
       "id": "app_fonts_yekan"
     },
@@ -1419,7 +1429,7 @@
       "source_file": "app/fonts.ts",
       "source_location": "L14",
       "_origin": "ast",
-      "community": 4,
+      "community": 15,
       "norm_label": "inter",
       "id": "app_fonts_inter"
     },
@@ -1429,7 +1439,7 @@
       "source_file": "app/fonts.ts",
       "source_location": "L25",
       "_origin": "ast",
-      "community": 4,
+      "community": 15,
       "norm_label": "switzer",
       "id": "app_fonts_switzer"
     },
@@ -1982,6 +1992,110 @@
   ],
   "links": [
     {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/page.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_page",
+      "target": "sections_processscroll"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/sections/ProcessScroll.tsx",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sections_processscroll",
+      "target": "content_home"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/sections/ProcessScroll.tsx",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sections_processscroll",
+      "target": "content_home_home"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/sections/ProcessScroll.tsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sections_processscroll",
+      "target": "lib_cn_cn"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/sections/ProcessScroll.tsx",
+      "source_location": "L32",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sections_processscroll",
+      "target": "sections_processscroll_imagelayer"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/sections/ProcessScroll.tsx",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sections_processscroll",
+      "target": "sections_processscroll_layerprops"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/sections/ProcessScroll.tsx",
+      "source_location": "L23",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sections_processscroll",
+      "target": "sections_processscroll_processscroll"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/sections/ProcessScroll.tsx",
+      "source_location": "L126",
+      "weight": 1.0,
+      "source": "sections_processscroll",
+      "target": "sections_processscroll_rail",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/sections/ProcessScroll.tsx",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sections_processscroll",
+      "target": "sections_processscroll_step"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/sections/ProcessScroll.tsx",
+      "source_location": "L63",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sections_processscroll",
+      "target": "sections_processscroll_textlayer"
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "PROGRESS.md",
@@ -2090,100 +2204,6 @@
       "confidence_score": 1.0,
       "source": "progress_\u0633\u0627\u0628\u0642\u0647_\u06a9\u0627\u0631\u0647\u0627\u06cc_\u0627\u0646\u062c\u0627\u0645_\u0634\u062f\u0647",
       "target": "progress_\u0645\u0631\u062d\u0644\u0647_\u06f4_\u0628\u0647_\u0628\u0639\u062f"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/page.tsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_page",
-      "target": "sections_processscroll"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "components/sections/ProcessScroll.tsx",
-      "source_location": "L14",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "sections_processscroll",
-      "target": "content_home"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "components/sections/ProcessScroll.tsx",
-      "source_location": "L14",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "sections_processscroll",
-      "target": "content_home_home"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "components/sections/ProcessScroll.tsx",
-      "source_location": "L13",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "sections_processscroll",
-      "target": "lib_cn_cn"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "components/sections/ProcessScroll.tsx",
-      "source_location": "L32",
-      "weight": 1.0,
-      "source": "sections_processscroll",
-      "target": "sections_processscroll_imagelayer",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "components/sections/ProcessScroll.tsx",
-      "source_location": "L19",
-      "weight": 1.0,
-      "source": "sections_processscroll",
-      "target": "sections_processscroll_layerprops",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "components/sections/ProcessScroll.tsx",
-      "source_location": "L23",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "sections_processscroll",
-      "target": "sections_processscroll_processscroll"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "components/sections/ProcessScroll.tsx",
-      "source_location": "L17",
-      "weight": 1.0,
-      "source": "sections_processscroll",
-      "target": "sections_processscroll_step",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "components/sections/ProcessScroll.tsx",
-      "source_location": "L63",
-      "weight": 1.0,
-      "source": "sections_processscroll",
-      "target": "sections_processscroll_textlayer",
-      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4777,5 +4797,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "aa2642a08a9cf8909e4c4b6b98c26d354364e889"
+  "built_at_commit": "85cff6a08e1b175edb56ce2501a5fe9b048ca860"
 }

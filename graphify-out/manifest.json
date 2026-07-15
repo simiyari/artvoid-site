@@ -45,8 +45,8 @@
     "semantic_hash": ""
   },
   "PROGRESS.md": {
-    "mtime": 1784093727.8194087,
-    "ast_hash": "f1c0cf0f8c2a5b790891d5796e1ad7b6",
+    "mtime": 1784094638.568272,
+    "ast_hash": "4f58af39459cca98ac5a0fc904a0ca01",
     "semantic_hash": ""
   },
   "README.md": {
@@ -580,8 +580,8 @@
     "semantic_hash": ""
   },
   "components/sections/ProcessScroll.tsx": {
-    "mtime": 1784093363.4505749,
-    "ast_hash": "0727e09a8e32918a24f6690cd6a3145a",
+    "mtime": 1784094537.911494,
+    "ast_hash": "3996ea39569b2dce2ed9e2379a716284",
     "semantic_hash": ""
   },
   ".claude/launch.json": {
