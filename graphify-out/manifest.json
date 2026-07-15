@@ -45,8 +45,8 @@
     "semantic_hash": ""
   },
   "PROGRESS.md": {
-    "mtime": 1784092021.2670734,
-    "ast_hash": "f1e5d3d1a11be423a234de11d326b6b9",
+    "mtime": 1784092961.2705986,
+    "ast_hash": "19ea1ac054f0b64af24abd3a2cf2fd05",
     "semantic_hash": ""
   },
   "README.md": {
@@ -585,8 +585,8 @@
     "semantic_hash": ""
   },
   ".claude/launch.json": {
-    "mtime": 1784090747.1770196,
-    "ast_hash": "f5f6ad5783ce14463d3ebd780da5cdb2",
+    "mtime": 1784092685.653049,
+    "ast_hash": "0b6afb7d4ba31f4b2db1d1dccfca2b16",
     "semantic_hash": ""
   },
   "public/images/process/01-discover.webp": {
@@ -607,6 +607,11 @@
   "public/images/process/04-launch.webp": {
     "mtime": 1784091695.7435386,
     "ast_hash": "3e4e3816444cc1870dcc48968352e244",
+    "semantic_hash": ""
+  },
+  "scripts/preview-server.py": {
+    "mtime": 1784092683.5478606,
+    "ast_hash": "0d4b6927fd51caef472cdf43ee8957b2",
     "semantic_hash": ""
   }
 }

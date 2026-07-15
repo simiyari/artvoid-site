@@ -2,31 +2,131 @@
 
 import { useRef, useState } from "react";
 import {
-  AnimatePresence,
   MotionConfig,
   motion,
   useMotionValueEvent,
+  useReducedMotion,
   useScroll,
   useTransform,
+  type MotionValue,
 } from "motion/react";
 import Container from "@/components/ui/Container";
 import { cn } from "@/lib/cn";
 import { home } from "@/content/home";
 
-const EASE = [0.22, 1, 0.36, 1] as const;
+type Step = (typeof home.process.steps)[number];
+
+type LayerProps = {
+  step: Step;
+  index: number;
+  total: number;
+  progress: MotionValue<number>;
+  active: number;
+  reduce: boolean;
+};
 
 /**
- * فرآیند کار به‌صورت Scrollytelling: سکشن ۴۰۰svh است، صحنه sticky می‌ماند و
- * با پیشروی اسکرول، قدم فعال عوض می‌شود و ریل پیشرفت پر می‌شود.
- * با prefers-reduced-motion حرکت‌های transform حذف و فقط crossfade می‌ماند.
+ * لایه تصویر تمام‌صفحه — opacity و scale مستقیماً به پیشروی اسکرول بسته‌اند (scrubbed).
+ * هر تصویر در پنجره [i/n, (i+1)/n] زنده است و با crossfade کوتاه به بعدی می‌رسد.
+ */
+function ImageLayer({ step, index, total, progress, active, reduce }: LayerProps) {
+  const start = index / total;
+  const end = (index + 1) / total;
+  const fade = 0.05;
+
+  const first = index === 0;
+  const last = index === total - 1;
+
+  const opacity = useTransform(
+    progress,
+    first
+      ? [end - fade, end + fade]
+      : last
+        ? [start - fade, start + fade]
+        : [start - fade, start + fade, end - fade, end + fade],
+    first ? [1, 0] : last ? [0, 1] : [0, 1, 1, 0],
+  );
+  // زوم آهسته پیوسته در طول پنجره — حس سینمایی
+  const scale = useTransform(progress, [start - fade, end + fade], [1.12, 1]);
+
+  return (
+    <motion.img
+      src={step.image}
+      alt=""
+      style={reduce ? { opacity: index === active ? 1 : 0 } : { opacity, scale }}
+      className="absolute inset-0 h-full w-full object-cover"
+    />
+  );
+}
+
+/** متن روی تصویر — با اسکرول بالا می‌آید، می‌ماند و به‌نرمی خارج می‌شود (scrubbed) */
+function TextLayer({ step, index, total, progress, active, reduce }: LayerProps) {
+  const start = index / total;
+  const end = (index + 1) / total;
+  const span = end - start;
+
+  const first = index === 0;
+  const last = index === total - 1;
+
+  const opacity = useTransform(
+    progress,
+    first
+      ? [end - span * 0.35, end - span * 0.08]
+      : last
+        ? [start + span * 0.08, start + span * 0.4]
+        : [start + span * 0.08, start + span * 0.4, end - span * 0.35, end - span * 0.08],
+    first ? [1, 0] : last ? [0, 1] : [0, 1, 1, 0],
+  );
+
+  const y = useTransform(
+    progress,
+    first ? [end - span * 0.35, end] : last ? [start, start + span * 0.4] : [start, start + span * 0.4, end - span * 0.35, end],
+    first ? [0, -64] : last ? [64, 0] : [64, 0, 0, -64],
+  );
+
+  // عدد غول‌پیکر با ضریب حرکت بیشتر — عمق پارالاکسی
+  const ghostY = useTransform(
+    progress,
+    first ? [end - span * 0.35, end] : last ? [start, start + span * 0.4] : [start, start + span * 0.4, end - span * 0.35, end],
+    first ? [0, -120] : last ? [120, 0] : [120, 0, 0, -120],
+  );
+
+  return (
+    <motion.div
+      style={reduce ? { opacity: index === active ? 1 : 0 } : { opacity }}
+      className="pointer-events-none absolute inset-0 flex items-end pb-36 md:pb-44"
+    >
+      <Container>
+        <motion.div style={reduce ? undefined : { y }} className="flex max-w-2xl flex-col gap-2">
+          <motion.span
+            style={reduce ? undefined : { y: ghostY }}
+            aria-hidden="true"
+            className="text-giant select-none text-on-image/20"
+          >
+            {step.number}
+          </motion.span>
+          <h3 className="text-h1 text-on-image md:text-display">{step.title}</h3>
+          <p className="max-w-md text-body text-on-image/85 md:text-h3 md:font-normal md:leading-relaxed">
+            {step.body}
+          </p>
+        </motion.div>
+      </Container>
+    </motion.div>
+  );
+}
+
+/**
+ * فرآیند کار — Scrollytelling تمام‌صفحه: تصاویر فول‌بلید که با اسکرول crossfade+زوم می‌شوند،
+ * متن‌های scrubbed روی اسکریم، شماره‌ها و ریل پیشرفت پایین صحنه.
  */
 export default function ProcessScroll() {
   const t = home.process;
   const steps = t.steps;
-  const lastNumber = steps[steps.length - 1].number;
+  const total = steps.length;
 
   const ref = useRef<HTMLElement>(null);
   const [active, setActive] = useState(0);
+  const reduce = useReducedMotion() ?? false;
 
   const { scrollYProgress } = useScroll({
     target: ref,
@@ -34,119 +134,80 @@ export default function ProcessScroll() {
   });
 
   useMotionValueEvent(scrollYProgress, "change", (v) => {
-    setActive(Math.min(steps.length - 1, Math.max(0, Math.floor(v * steps.length))));
+    setActive(Math.min(total - 1, Math.max(0, Math.floor(v * total))));
   });
 
   const rail = useTransform(scrollYProgress, [0, 1], [0, 1]);
-  const step = steps[active];
 
   return (
     <MotionConfig reducedMotion="user">
-      <section ref={ref} className="relative h-[400svh] bg-mist transition-colors duration-200">
-        <div className="sticky top-0 flex h-svh items-center overflow-hidden">
-          <Container className="w-full">
-            <div className="grid items-center gap-10 md:grid-cols-2 md:gap-16">
-              {/* ستون فهرست: تیتر + قدم‌ها + ریل پیشرفت */}
-              <div className="flex flex-col gap-8">
-                <div className="flex flex-col gap-3">
-                  <h2 className="text-h2 text-ink">{t.title}</h2>
-                  <p className="max-w-md text-body text-gray-strong">{t.sub}</p>
-                </div>
+      <section ref={ref} className="relative h-[400svh]">
+        <div className="sticky top-0 h-svh overflow-hidden bg-image-scrim">
+          {steps.map((step, index) => (
+            <ImageLayer
+              key={step.number}
+              step={step}
+              index={index}
+              total={total}
+              progress={scrollYProgress}
+              active={active}
+              reduce={reduce}
+            />
+          ))}
 
-                {/* فهرست عمودی قدم‌ها — فقط دسکتاپ */}
-                <div className="hidden flex-col md:flex">
-                  {steps.map((item, index) => (
-                    <div
-                      key={item.number}
-                      className="flex items-center gap-4 border-b border-gray-soft py-4 first:border-t"
-                    >
-                      <span
-                        className={cn(
-                          "text-small font-medium transition-colors duration-200",
-                          index === active ? "text-ink" : "text-gray",
-                        )}
-                      >
-                        {item.number}
-                      </span>
-                      <span
-                        className={cn(
-                          "text-h3 transition-colors duration-200",
-                          index === active ? "text-ink" : "text-gray",
-                        )}
-                      >
-                        {item.title}
-                      </span>
-                      <span
-                        className={cn(
-                          "ms-auto size-2 rounded-full transition-colors duration-200",
-                          index === active ? "bg-ink" : "bg-gray-soft",
-                        )}
-                      />
-                    </div>
-                  ))}
-                </div>
+          {/* اسکریم‌های ثابت برای خوانایی (توکن‌های فلیپ‌نشونده) */}
+          <div aria-hidden="true" className="absolute inset-0 bg-image-scrim/40" />
+          <div
+            aria-hidden="true"
+            className="absolute inset-x-0 bottom-0 h-2/3 bg-linear-to-t from-image-scrim/90 via-image-scrim/40 to-transparent"
+          />
+          <div
+            aria-hidden="true"
+            className="absolute inset-x-0 top-0 h-32 bg-linear-to-b from-image-scrim/70 to-transparent"
+          />
 
-                {/* شمارنده موبایل */}
-                <p className="text-small font-medium text-gray-strong md:hidden">
-                  {step.number}
-                  <span aria-hidden="true"> / </span>
-                  {lastNumber}
-                </p>
+          {steps.map((step, index) => (
+            <TextLayer
+              key={step.number}
+              step={step}
+              index={index}
+              total={total}
+              progress={scrollYProgress}
+              active={active}
+              reduce={reduce}
+            />
+          ))}
 
-                {/* ریل پیشرفت — از راست پر می‌شود (RTL) */}
-                <div className="h-px w-full bg-gray-soft" aria-hidden="true">
-                  <motion.div style={{ scaleX: rail }} className="h-px origin-right bg-ink" />
-                </div>
-              </div>
+          {/* هدر بخش — بالای صحنه */}
+          <div className="absolute inset-x-0 top-0 pt-24">
+            <Container className="flex flex-col gap-1">
+              <h2 className="text-h3 text-on-image">{t.title}</h2>
+              <p className="text-small text-on-image/70">{t.sub}</p>
+            </Container>
+          </div>
 
-              {/* صحنه نمایش قدم فعال — تصویر تمام‌قاب + متن روی اسکریم */}
-              <div className="relative overflow-hidden rounded-md border border-gray-soft">
-                {/* لایه‌های تصویر: همه mount می‌مانند و با opacity/scale سواپ می‌شوند (بدون فلش لود) */}
-                {steps.map((item, index) => (
-                  <motion.img
-                    key={item.number}
-                    src={item.image}
-                    alt=""
-                    loading="lazy"
-                    initial={false}
-                    animate={{
-                      opacity: index === active ? 1 : 0,
-                      scale: index === active ? 1 : 1.06,
-                    }}
-                    transition={{ duration: 0.6, ease: EASE }}
-                    className="absolute inset-0 h-full w-full object-cover"
-                  />
-                ))}
-
-                {/* اسکریم ثابت برای خوانایی متن روی عکس (توکن‌های فلیپ‌نشونده) */}
-                <div aria-hidden="true" className="absolute inset-0 bg-image-scrim/45" />
-                <div
-                  aria-hidden="true"
-                  className="absolute inset-x-0 bottom-0 h-1/2 bg-linear-to-t from-image-scrim/85 to-transparent"
-                />
-
-                {/* متن روی تصویر */}
-                <AnimatePresence mode="wait" initial={false}>
-                  <motion.div
+          {/* پایین صحنه: شماره قدم‌ها + ریل پیشرفت */}
+          <div className="absolute inset-x-0 bottom-0 pb-8 md:pb-10">
+            <Container className="flex flex-col gap-4">
+              <div className="flex items-center justify-between gap-4">
+                {steps.map((step, index) => (
+                  <span
                     key={step.number}
-                    initial={{ opacity: 0, y: 28 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    exit={{ opacity: 0, y: -20 }}
-                    transition={{ duration: 0.4, ease: EASE }}
-                    className="relative flex min-h-80 flex-col justify-between p-8 md:min-h-[28rem] md:p-12"
+                    className={cn(
+                      "text-small font-medium transition-colors duration-200",
+                      index === active ? "text-on-image" : "text-on-image/40",
+                    )}
                   >
-                    <span aria-hidden="true" className="text-display font-bold text-on-image/30">
-                      {step.number}
-                    </span>
-                    <div className="flex max-w-md flex-col gap-3">
-                      <h3 className="text-h1 text-on-image">{step.title}</h3>
-                      <p className="text-body text-on-image/85">{step.body}</p>
-                    </div>
-                  </motion.div>
-                </AnimatePresence>
+                    {step.number}
+                    <span className="hidden md:inline"> — {step.title}</span>
+                  </span>
+                ))}
               </div>
-            </div>
-          </Container>
+              <div aria-hidden="true" className="h-px w-full bg-on-image/25">
+                <motion.div style={{ scaleX: rail }} className="h-px origin-right bg-on-image" />
+              </div>
+            </Container>
+          </div>
         </div>
       </section>
     </MotionConfig>

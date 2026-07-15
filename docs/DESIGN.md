@@ -62,7 +62,7 @@
   | `body` | 16px / lh 1.8 | متن (فارسی به ارتفاع خط بیشتر نیاز دارد) |
   | `small` | 14px | توضیحات، caption |
 - **قوانین:** حداکثر ۲ وزن در هر صفحه استفاده شود؛ سلسله‌مراتب با اندازه و وزن، نه رنگ
-- **کلاس‌های پیاده‌شده:** اندازه‌ها → `text-display / text-h1 / text-h2 / text-h3 / text-body / text-small` (اندازه‌های پیش‌فرض Tailwind حذف شده‌اند) · فونت‌ها → `font-sans` (یکان، پیش‌فرض بدنه) / `font-latin` (Inter) / `font-display` (Switzer، تیتر لاتین و لوگوتایپ)
+- **کلاس‌های پیاده‌شده:** اندازه‌ها → `text-display / text-h1 / text-h2 / text-h3 / text-body / text-small` + `text-giant` (clamp تا 11rem — فقط اعداد/دکور روی صحنه‌های تصویری تمام‌قد) · فونت‌ها → `font-sans` (یکان، پیش‌فرض بدنه) / `font-latin` (Inter) / `font-display` (Switzer، تیتر لاتین و نام پروژه‌ها)
 
 ## ۳. فاصله‌گذاری و شبکه
 
@@ -83,7 +83,7 @@
 
 - **شخصیت حرکتی:** آرام، دقیق، لوکس — هیچ چیز نپرد و ندرخشد. سایت موشن‌محور است: همه بخش‌ها با انیمیشن نرم وارد می‌شوند ولی حس مینیمال حفظ می‌شود
 - **امضای حرکتی سایت:** ورود پلکانی (stagger ‏100–120ms بین آیتم‌ها)، hover لیفت ظریف (translate-y -4px + تغییر border)، فلش لینک‌ها با حرکت جهت‌دار در hover
-- **الگوی Scrollytelling:** سکشن بلند (‏N×100svh) + صحنه sticky تمام‌قد؛ محتوا با useScroll/useMotionValueEvent عوض می‌شود و ریل پیشرفت با useTransform پر می‌شود (نمونه: «فرآیند کار» خانه). با reduced-motion فقط crossfade می‌ماند
+- **الگوی Scrollytelling تمام‌صفحه (فرآیند کار خانه):** سکشن ‏N×100svh + صحنه sticky h-svh؛ تصاویر فول‌بلید لایه‌به‌لایه که opacity/scale آن‌ها مستقیم به scrollYProgress بسته است (**scrubbed** با useTransform — نه trigger)؛ crossfade در مرز پنجره‌ها (±۵٪) + زوم پیوسته 1.12→1؛ متن‌ها هم scrubbed با y و پارالاکس عدد غول‌پیکر (`text-giant`)؛ اسکریم‌های ثابت + شماره‌ها و ریل پیشرفت پایین. با reduced-motion همه scrub ها حذف و سواپ ساده opacity می‌ماند
 - ترنزیشن پایه: `200ms ease-out` (hover) / `400–600ms cubic-bezier(0.22,1,0.36,1)` (ورود عناصر)
 - الگوهای مجاز: fade + رشد ملایم (scale 0.98→1)، حرکت عمودی کوتاه (8–16px)، reveal متن خط‌به‌خط
 - Scroll animations: با Intersection Observer، فقط یک بار اجرا شوند

@@ -60,7 +60,7 @@
 - [x] ✅ معیار پایان — ۱۴۰۵/۰۴/۲۳ — /dev/ui در دو تم + موبایل 375 (بدون اسکرول افقی، منو تست شد) تأیید شد
 
 ### مرحله ۳ — صفحات اصلی
-- [x] **خانه** — ۱۴۰۵/۰۴/۲۳ — Hero تمام‌قد با ورود پلکانی + نشانه اسکرول انیمیت، خدمات (۳ کارت hover-lift)، نمونه‌کار برجسته با SitePreview (قاب مرورگر CSS اختصاصی + hover رایز)، **فرآیند کار Scrollytelling چسبان** (ProcessScroll: ‏400svh + sticky + ریل پیشرفت + AnimatePresence)، CTA بلوک معکوس (bg-ink) — Navbar/Footer به layout ریشه + title template
+- [x] **خانه** — ۱۴۰۵/۰۴/۲۳ — Hero تمام‌قد با ورود پلکانی + نشانه اسکرول انیمیت، خدمات (۳ کارت hover-lift)، نمونه‌کار برجسته با SitePreview (قاب مرورگر CSS اختصاصی + hover رایز)، **فرآیند کار Scrollytelling تمام‌صفحه** (ProcessScroll: تصاویر فول‌بلید scrubbed با crossfade+زوم، متن‌های اسکرول‌محور با پارالاکس عدد غول‌پیکر، ریل پیشرفت)، CTA بلوک معکوس (bg-ink) — Navbar/Footer به layout ریشه + title template
 - [ ] نمونه‌کارها (/work) + صفحه Case Study برای Ganjriz و IDI Center
 - [ ] خدمات (/services) — سه بخش با فرآیند + بازه قیمت + FAQ
 - [ ] درباره (/about)

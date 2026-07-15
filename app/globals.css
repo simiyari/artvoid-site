@@ -61,6 +61,10 @@
   --text-body--line-height: 1.8;
   --text-small: 0.875rem;
   --text-small--line-height: 1.7;
+  /* فقط برای اعداد/دکور غول‌پیکر روی صحنه‌های تصویری تمام‌قد */
+  --text-giant: clamp(5rem, 16vw, 11rem);
+  --text-giant--line-height: 1;
+  --text-giant--font-weight: 700;
 
   /* گوشه‌ها — فقط دو مقدار مجاز */
   --radius-sm: 6px;
