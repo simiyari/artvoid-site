@@ -35,8 +35,8 @@
     "semantic_hash": ""
   },
   "content/home.ts": {
-    "mtime": 1784058020.7907877,
-    "ast_hash": "cc0229ac52daf3fd701e77c4906efb11",
+    "mtime": 1784091882.9183855,
+    "ast_hash": "7f20338457035078ede109b903bf0e3a",
     "semantic_hash": ""
   },
   "CLAUDE.md": {
@@ -45,8 +45,8 @@
     "semantic_hash": ""
   },
   "PROGRESS.md": {
-    "mtime": 1784059653.7085595,
-    "ast_hash": "f3e39bf55dcc438dce6b71234e336fcd",
+    "mtime": 1784092021.2670734,
+    "ast_hash": "f1e5d3d1a11be423a234de11d326b6b9",
     "semantic_hash": ""
   },
   "README.md": {
@@ -55,8 +55,8 @@
     "semantic_hash": ""
   },
   "docs/DESIGN.md": {
-    "mtime": 1784059561.2838988,
-    "ast_hash": "f4e0714ad2d0f589316a91c0523b530e",
+    "mtime": 1784092027.5273201,
+    "ast_hash": "2c17296310a09c4aff55e8aa6381351b",
     "semantic_hash": ""
   },
   "docs/ROADMAP.md": {
@@ -580,8 +580,33 @@
     "semantic_hash": ""
   },
   "components/sections/ProcessScroll.tsx": {
-    "mtime": 1784059313.3947766,
-    "ast_hash": "fc15be15e05c97649adda47d8784acf7",
+    "mtime": 1784091581.031456,
+    "ast_hash": "f7ffeb1f797e7d87c1db8ee34ef9b9e3",
+    "semantic_hash": ""
+  },
+  ".claude/launch.json": {
+    "mtime": 1784090747.1770196,
+    "ast_hash": "f5f6ad5783ce14463d3ebd780da5cdb2",
+    "semantic_hash": ""
+  },
+  "public/images/process/01-discover.webp": {
+    "mtime": 1784091696.2385294,
+    "ast_hash": "a21c3e1453927c0ecfb2e8d6687133a6",
+    "semantic_hash": ""
+  },
+  "public/images/process/02-design.webp": {
+    "mtime": 1784091697.0000236,
+    "ast_hash": "5e9f362f0dfb99a7f459a97f5d446d9f",
+    "semantic_hash": ""
+  },
+  "public/images/process/03-build.webp": {
+    "mtime": 1784091695.1178448,
+    "ast_hash": "991f867228ce37398da503e70fedf423",
+    "semantic_hash": ""
+  },
+  "public/images/process/04-launch.webp": {
+    "mtime": 1784091695.7435386,
+    "ast_hash": "3e4e3816444cc1870dcc48968352e244",
     "semantic_hash": ""
   }
 }

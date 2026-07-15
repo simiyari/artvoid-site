@@ -10,7 +10,7 @@
     {
       "name": "static-preview",
       "runtimeExecutable": "python",
-      "runtimeArgs": ["-m", "http.server", "8318", "-d", "out"],
+      "runtimeArgs": ["scripts/preview-server.py", "8318"],
       "port": 8318
     }
   ]
