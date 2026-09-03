@@ -33,3 +33,7 @@ next-env.d.ts
 
 # graphify transient cache (post-commit hook churn)
 /graphify-out/cache/
+
+# نقشهٔ تولیدشدهٔ پروژه (_hub/bin/brief.mjs) — وضعیتِ همین ماشین است، نه سورس.
+.claude/PROJECT-MAP.md
+dev.bat
