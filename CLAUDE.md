@@ -3,7 +3,7 @@
 @.claude/PROJECT-MAP.md
 
 <!-- ↑ نقشهٔ **تولیدشدهٔ** پروژه: وضعیتِ گیت و کارهای خودکار.
-     منبعش `../PROJECT.yml` و سازنده‌اش `D:\Work\_hubinrief.mjs`.
+     منبعش `../PROJECT.yml` و سازنده‌اش `D:\Work\_system\hubinrief.mjs`.
      gitignore شده چون وضعیتِ همین ماشین است. -->
 
 <!-- خوانده‌شدن خودکار در ابتدای هر سشن Claude Code -->
