@@ -51,3 +51,6 @@ id_ed25519*
 *.sqlite3
 *.db
 backups/
+
+# graphify knowledge-graph output: regenerated locally by the post-commit hook, not source.
+graphify-out/
