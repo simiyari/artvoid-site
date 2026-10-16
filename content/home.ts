@@ -4,8 +4,7 @@ export const home = {
     eyebrow: "استودیو مستقل طراحی و توسعه دیجیتال",
     titleLines: ["طراحی دیجیتالِ دقیق،", "برای برندهایی که جدی گرفته می‌شوند."],
     sub: "آرت‌وید وب‌سایت اختصاصی، نرم‌افزار سفارشی و محصولات دیجیتال می‌سازد — بدون قالب آماده، با وسواس در جزئیات و سرعتی که حس می‌شود.",
-    primaryCta: { label: "شروع پروژه", href: "/start" },
-    secondaryCta: { label: "دیدن نمونه‌کارها", href: "/work" },
+    cta: { label: "دیدن نمونه‌کارها", href: "/#work" },
     scrollHint: "اسکرول کنید",
   },
   services: {
@@ -15,20 +14,16 @@ export const home = {
       {
         title: "طراحی سایت اختصاصی",
         body: "وب‌سایتی که از صفر برای برند شما طراحی می‌شود؛ سریع، سبک و کاملاً سازگار با شبکه ایران.",
-        href: "/services",
       },
       {
         title: "نرم‌افزار سفارشی",
         body: "پنل مدیریت، اتوماسیون و ابزارهای داخلی — دقیقاً هم‌شکلِ فرآیند کسب‌وکار شما.",
-        href: "/services",
       },
       {
         title: "پشتیبانی و نگهداری",
         body: "به‌روزرسانی، پایش و بهبود مستمر بعد از تحویل؛ سایت شما همیشه سرحال می‌ماند.",
-        href: "/services",
       },
     ],
-    more: "جزئیات خدمت",
   },
   work: {
     title: "نمونه‌کارهای برجسته",
@@ -38,25 +33,20 @@ export const home = {
         name: "Ganjriz",
         category: "پلتفرم جواهرات و طلا",
         result: "فروشگاه اختصاصی با قیمت لحظه‌ای طلا و تجربه خریدی که اعتماد می‌سازد.",
-        href: "/work",
         preview: "ganjriz",
       },
       {
         name: "IDI Center",
         category: "وب‌سایت سازمانی",
         result: "بازطراحی کامل با تمرکز بر سرعت و اعتبار — استاتیک، سبک و بدون وابستگی خارجی.",
-        href: "/work",
         preview: "idi",
       },
     ] as Array<{
       name: string;
       category: string;
       result: string;
-      href: string;
       preview: "ganjriz" | "idi";
     }>,
-    all: "همه نمونه‌کارها",
-    view: "دیدن پروژه",
   },
   process: {
     title: "فرآیند کار",
@@ -87,10 +77,5 @@ export const home = {
         image: "/images/process/04-launch.webp",
       },
     ],
-  },
-  cta: {
-    title: "پروژه‌ای در ذهن دارید؟",
-    body: "چند خط درباره‌اش برای‌مان بنویسید؛ خیلی زود مسیر را با هم روشن می‌کنیم.",
-    button: { label: "شروع پروژه", href: "/start" },
   },
 };

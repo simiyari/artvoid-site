@@ -52,16 +52,8 @@ export default function Hero() {
               variants={item}
               className="mt-4 flex w-full flex-col gap-4 sm:w-auto sm:flex-row sm:items-center"
             >
-              <Button href={t.primaryCta.href} size="lg" className="w-full sm:w-auto">
-                {t.primaryCta.label}
-              </Button>
-              <Button
-                href={t.secondaryCta.href}
-                variant="ghost"
-                size="lg"
-                className="w-full sm:w-auto"
-              >
-                {t.secondaryCta.label}
+              <Button href={t.cta.href} size="lg" className="w-full sm:w-auto">
+                {t.cta.label}
               </Button>
             </motion.div>
           </motion.div>

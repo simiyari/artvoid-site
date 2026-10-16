@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import Button from "@/components/ui/Button";
 import Container from "@/components/ui/Container";
 import ThemeToggle from "@/components/ui/ThemeToggle";
 import { CloseIcon, MenuIcon } from "@/components/ui/icons";
@@ -43,9 +42,6 @@ export default function Navbar() {
         <div className="hidden items-center gap-3 md:flex">
           {/* هم‌قد با دکمه sm کنارش — آیتم‌های کنار هم باید یک اندازه باشند */}
           <ThemeToggle size="sm" />
-          <Button href={site.cta.href} size="sm">
-            {site.cta.label}
-          </Button>
         </div>
 
         {/* موبایل */}
@@ -81,9 +77,6 @@ export default function Navbar() {
                 {item.label}
               </Link>
             ))}
-            <Button href={site.cta.href} className="mt-3 w-full">
-              {site.cta.label}
-            </Button>
           </Container>
         </nav>
       )}
