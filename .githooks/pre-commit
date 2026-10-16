@@ -1,0 +1,31 @@
+#!/bin/sh
+# Secret scan of staged changes with Gitleaks (D:\Work security baseline, 2026-09-15).
+# Blocks the commit when a likely secret is staged. Findings are printed redacted.
+#
+# False positive:   add the printed Fingerprint to .gitleaksignore
+# Emergency bypass: git commit --no-verify
+# Gitleaks missing: warns and lets the commit through; export GITLEAKS_REQUIRED=1 to block instead.
+
+gl=""
+if command -v gitleaks >/dev/null 2>&1; then
+  gl="gitleaks"
+elif [ -n "$LOCALAPPDATA" ]; then
+  base="$LOCALAPPDATA"
+  command -v cygpath >/dev/null 2>&1 && base="$(cygpath -u "$LOCALAPPDATA")"
+  [ -f "$base/Programs/gitleaks/gitleaks.exe" ] && gl="$base/Programs/gitleaks/gitleaks.exe"
+fi
+
+if [ -z "$gl" ]; then
+  echo "WARNING: gitleaks not found - staged changes were NOT scanned for secrets." >&2
+  [ "${GITLEAKS_REQUIRED:-0}" = "1" ] && exit 1
+  exit 0
+fi
+
+if ! "$gl" git --pre-commit --staged --redact --no-banner -v; then
+  echo "" >&2
+  echo "BLOCKED: gitleaks found a possible secret in the staged changes (details above, redacted)." >&2
+  echo "  Remove it, or if it is a false positive add its Fingerprint to .gitleaksignore." >&2
+  echo "  Emergency only: git commit --no-verify" >&2
+  exit 1
+fi
+exit 0

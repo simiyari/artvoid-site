@@ -37,3 +37,17 @@ next-env.d.ts
 # نقشهٔ تولیدشدهٔ پروژه (_hub/bin/brief.mjs) — وضعیتِ همین ماشین است، نه سورس.
 .claude/PROJECT-MAP.md
 dev.bat
+
+# --- security baseline (2026-09-15): secrets, keys, dumps, backups ---
+*.key
+*.p12
+*.pfx
+*.ppk
+id_rsa*
+id_ed25519*
+*.dump
+*.sql.gz
+*.sqlite
+*.sqlite3
+*.db
+backups/
